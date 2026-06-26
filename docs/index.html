@@ -125,9 +125,6 @@
   .contact-copy{flex:1 1 380px}
   .contact-copy h2{font-family:'EB Garamond',serif;font-weight:500;color:var(--blue);font-size:clamp(32px,4vw,46px);line-height:1.12;margin:0 0 22px}
   .contact-copy .lead{font-size:17.5px;line-height:1.75;color:var(--muted);max-width:440px;margin:0 0 38px}
-  .btn-disabled{display:inline-flex;align-items:center;gap:13px;background:#CBC3B4;color:#FBF8F2;font-size:15.5px;font-weight:600;padding:16px 32px;border-radius:5px;cursor:not-allowed;user-select:none}
-  .btn-disabled .badge{font-size:10.5px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;background:rgba(255,255,255,.28);padding:5px 10px;border-radius:999px}
-  .contact-note{font-size:13px;color:var(--muted);margin:16px 0 0;opacity:.85}
   .details{flex:0 1 360px;background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:8px 34px 16px}
   .detail{padding:16px 0;border-bottom:1px solid var(--line);display:flex;flex-direction:column;gap:4px}
   .detail:last-child{border-bottom:none}
@@ -258,12 +255,10 @@
       <div class="contact-copy">
         <div class="eyebrow"><span class="bar"></span><span class="txt">Contact</span></div>
         <h2><span lang="fr">Prendre rendez-vous</span><span lang="en">Book an appointment</span></h2>
-        <p class="lead"><span lang="fr">Les consultations se déroulent à Verdun, à Montréal. La réservation en ligne sera disponible prochainement.</span><span lang="en">Consultations take place in Verdun, Montréal. Online booking will be available soon.</span></p>
-        <span class="btn-disabled" aria-disabled="true">
+        <p class="lead"><span lang="fr">Les consultations se déroulent à Verdun, à Montréal. La réservation se fait en ligne via GOrendezvous.</span><span lang="en">Consultations take place in Verdun, Montréal. Appointments can be booked online via GOrendezvous.</span></p>
+        <a class="btn-primary" href="https://www.gorendezvous.com/BookingWidget/fr?companyId=101639&eids=194282&lids=2849" target="_blank" rel="noopener" style="font-size:15.5px;padding:16px 32px;">
           <span lang="fr">Prendre rendez-vous</span><span lang="en">Book an appointment</span>
-          <span class="badge"><span lang="fr">Bientôt</span><span lang="en">Soon</span></span>
-        </span>
-        <p class="contact-note"><span lang="fr">Réservation en ligne bientôt disponible.</span><span lang="en">Online booking available soon.</span></p>
+        </a>
       </div>
       <div class="details">
         <div class="detail">
