@@ -1,0 +1,32 @@
+{%- assign t = site.data.i18n[page.lang] -%}
+      <section class="faq" aria-labelledby="faq-title">
+        <h2 id="faq-title">{{ t.faq.title }}</h2>
+        {%- for item in page.faq %}
+        <details class="faq-item">
+          <summary>{{ item.q }}</summary>
+          <div class="faq-answer">{{ item.a | markdownify }}</div>
+        </details>
+        {%- endfor %}
+      </section>
+{%- comment -%}
+  Google retired FAQ rich results, so this block is content first. The markup still
+  helps answer engines lift a single question cleanly.
+{%- endcomment -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": {{ page.url | absolute_url | append: "#faq" | jsonify }},
+  "inLanguage": {{ t.hreflang | jsonify }},
+  "isPartOf": { "@id": {{ site.url | append: "/#website" | jsonify }} },
+  "mainEntity": [
+  {%- for item in page.faq %}
+    {
+      "@type": "Question",
+      "name": {{ item.q | jsonify }},
+      "acceptedAnswer": { "@type": "Answer", "text": {{ item.a | markdownify | strip | jsonify }} }
+    }{% unless forloop.last %},{% endunless %}
+  {%- endfor %}
+  ]
+}
+</script>

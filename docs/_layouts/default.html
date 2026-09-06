@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+<head>
+{%- comment -%}
+  The twin page (same `ref`, other language) drives hreflang and the language switcher.
+  Assigned here so every include reached from this layout can read it. Pages without a
+  `ref` (404) simply have no twin.
+{%- endcomment -%}
+{%- if page.lang == "fr" %}{% assign other_lang = "en" %}{% else %}{% assign other_lang = "fr" %}{% endif -%}
+{%- assign twin = false -%}
+{%- if page.ref -%}
+  {%- assign twin = site.pages | where: "ref", page.ref | where: "lang", other_lang | first -%}
+{%- endif -%}
+{%- include head.html -%}
+</head>
+<body>
+  <a class="skiplink" href="#main">{{ site.data.i18n[page.lang].skip_to_content }}</a>
+{%- include header.html -%}
+  <main id="main">
+{{ content }}
+  </main>
+{%- include footer.html -%}
+{%- include schema-business.html -%}
+{%- if page.ref == "about" %}{% include schema-person.html %}{% endif -%}
+{%- if page.schema_condition %}{% include schema-webpage.html %}{% endif -%}
+{%- if page.ref and page.ref != "home" %}{% include schema-breadcrumb.html %}{% endif -%}
+<script>
+  /* Mobile menu: progressive enhancement. Without JS the nav links simply stack. */
+  document.documentElement.classList.add('js');
+  (function () {
+    var b = document.querySelector('.nav-burger'), n = document.getElementById('primary-nav');
+    if (!b || !n) return;
+    b.hidden = false;
+    b.addEventListener('click', function () {
+      var open = n.classList.toggle('open');
+      b.setAttribute('aria-expanded', String(open));
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && n.classList.contains('open')) {
+        n.classList.remove('open'); b.setAttribute('aria-expanded', 'false'); b.focus();
+      }
+    });
+  })();
+</script>
+</body>
+</html>

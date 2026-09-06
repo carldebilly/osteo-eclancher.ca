@@ -1,337 +1,74 @@
-<!DOCTYPE html>
-<html lang="fr" data-lang="fr">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Julien Éclancher · Ostéopathe à Verdun, Montréal</title>
-<meta name="description" content="Julien Éclancher, ostéopathe à Verdun (Montréal). Une approche manuelle douce, fondée sur le consentement et le dialogue tissulaire. Consultations sur rendez-vous.">
-<link rel="canonical" href="https://osteo-eclancher.ca/">
-<meta name="theme-color" content="#F5F0E8">
+---
+layout: home
+ref: home
+lang: fr
+permalink: /
+title: "Ostéopathe à Verdun, Montréal"
+seo_title: "Ostéopathe à Verdun, Montréal · Julien Éclancher"
+description: "Julien Éclancher, interne en ostéopathie à Verdun (Montréal). Approche manuelle douce : fibromyalgie, maladies chroniques, tensions liées à l’anxiété."
+last_modified_at: 2026-09-06
 
-<!-- Open Graph -->
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="Julien Éclancher — Ostéopathe">
-<meta property="og:title" content="Julien Éclancher · Ostéopathe à Verdun, Montréal">
-<meta property="og:description" content="Une approche manuelle douce, fondée sur le consentement et le dialogue tissulaire. Consultations sur rendez-vous à Verdun.">
-<meta property="og:url" content="https://osteo-eclancher.ca/">
-<meta property="og:image" content="https://osteo-eclancher.ca/assets/julien.png">
-<meta property="og:locale" content="fr_CA">
-<meta property="og:locale:alternate" content="en_CA">
-<meta name="twitter:card" content="summary_large_image">
+hero:
+  eyebrow: "Ostéopathie · Verdun, Montréal"
+  title: "Une approche douce, à l’écoute de votre corps."
+  intro: "Julien Éclancher, interne en ostéopathie, reçoit à la clinique Hakini, rue Wellington. Sa pratique s’adresse en particulier aux personnes qui vivent avec une douleur installée depuis longtemps."
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+values:
+  - title: "Approche douce"
+    text: "Des techniques manuelles tout en finesse, adaptées au rythme et au confort de chaque personne."
+  - title: "Consentement"
+    text: "Chaque geste est posé avec votre accord, dans un cadre clair et une pleine confiance."
+  - title: "Dialogue tissulaire"
+    text: "Une écoute attentive des tissus pour accompagner l’équilibre naturel du corps."
 
-<!-- Structured data : référencement local -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "Julien Éclancher — Ostéopathe",
-  "description": "Ostéopathe à Verdun (Montréal). Approche manuelle douce, fondée sur le consentement et le dialogue tissulaire.",
-  "url": "https://osteo-eclancher.ca/",
-  "image": "https://osteo-eclancher.ca/assets/julien.png",
-  "email": "info@osteo-eclancher.ca",
-  "areaServed": "Verdun, Montréal, QC",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Verdun",
-    "addressRegion": "QC",
-    "addressCountry": "CA"
-  },
-  "availableLanguage": ["fr", "en"],
-  "memberOf": {
-    "@type": "Organization",
-    "name": "RITMA",
-    "description": "Regroupement des intervenants et thérapeutes en médecine alternative"
-  },
-  "hasCredential": {
-    "@type": "EducationalOccupationalCredential",
-    "credentialCategory": "Ostéopathe I.O.",
-    "recognizedBy": {
-      "@type": "Organization",
-      "name": "RITMA"
-    },
-    "identifier": "11364"
-  }
-}
-</script>
+audience:
+  eyebrow: "Motifs de consultation"
+  title: "Qu’est-ce que l’ostéopathie ?"
+  lead: "L’ostéopathie est une approche manuelle qui vise à rétablir la mobilité et l’équilibre du corps. Par des techniques douces, elle soutient les capacités naturelles de l’organisme à retrouver son confort. Elle ne pose pas de diagnostic médical et ne remplace pas votre suivi habituel : elle s’y ajoute."
+  cards:
+    - num: "I"
+      title: "Fibromyalgie"
+      text: "Douleurs diffuses, fatigue, sommeil fragmenté, sensibilité au toucher. La séance est calibrée pour ne rien forcer, avec des pauses et des positions choisies avec vous."
+      link_ref: fibromyalgia
+      link_label: "Ostéopathie et fibromyalgie"
+    - num: "II"
+      title: "Maladies chroniques"
+      text: "Douleur qui dure, arthrose, migraines récurrentes, fatigue chronique, inconforts digestifs fonctionnels. Un accompagnement au long cours, en parallèle de votre équipe soignante."
+      link_ref: chronic
+      link_label: "Vivre avec une maladie chronique"
+    - num: "III"
+      title: "Anxiété et tensions"
+      text: "Respiration courte, épaules et mâchoire serrées, nuque raide. Le travail manuel porte sur ces tensions, en complément d’un suivi psychologique ou médical."
+      link_ref: chronic
+      link_anchor: "#anxiete"
+      link_label: "En savoir plus"
 
-<style>
-  :root{
-    --cream:#F5F0E8; --cream2:#ECE4D5; --paper:#FBF8F2; --ink:#33302B;
-    --muted:#6E675C; --blue:#3B5A7D; --blue-deep:#2E4762; --blue-soft:#7B93AE;
-    --terra:#C5875A; --line:#E0D8C8;
-  }
-  *{box-sizing:border-box}
-  html{scroll-behavior:smooth}
-  body{margin:0;font-family:'Hanken Grotesk',system-ui,sans-serif;background:var(--cream);color:var(--ink);-webkit-font-smoothing:antialiased;overflow-x:hidden}
-  ::selection{background:rgba(197,135,90,.24)}
-  a{color:inherit}
-  img{max-width:100%}
+session:
+  eyebrow: "Le déroulement"
+  title: "Ce qui se passe pendant une séance"
+  lead: "Une consultation dure environ une heure. Voici comment elle se déroule, du premier échange aux repères que vous emportez."
+  steps:
+    - title: "On parle"
+      text: "Votre histoire, vos douleurs, ce que vous avez déjà essayé, vos examens et vos traitements en cours. C’est la partie la plus longue de la première rencontre."
+    - title: "Évaluation"
+      text: "Tests de mobilité et palpation, pour voir comment les régions du corps se répondent entre elles et repérer ce qui bouge mal."
+    - title: "Travail manuel"
+      text: "Des techniques douces, sans manipulation brusque. Chez les personnes très sensibles, le contact reste léger et la séance plus courte."
+    - title: "Repères pour la suite"
+      text: "Quelques pistes concrètes pour la semaine, et une discussion sur l’intérêt d’un suivi ou non."
 
-  /* Bilinguisme : les deux langues sont dans le markup, l'inactive est masquée */
-  [data-lang="fr"] [lang="en"], [data-lang="en"] [lang="fr"]{display:none}
+about:
+  eyebrow: "Qui je suis"
+  title: "Julien Éclancher"
+  text: "Interne en ostéopathie, formé à l’Institut d’enseignement de l’ostéopathie du Québec, membre du RITMA. Je viens des arts, de la philosophie et des mathématiques, et je pratique une ostéopathie douce et respectueuse."
+  link_label: "Mon parcours et mon titre"
 
-  .wrap{max-width:1200px;margin:0 auto;padding-left:40px;padding-right:40px}
-  .eyebrow{display:flex;align-items:center;gap:10px;margin-bottom:22px}
-  .eyebrow span.bar{width:26px;height:1px;background:var(--terra);flex:none}
-  .eyebrow span.txt{font-size:12px;font-weight:600;letter-spacing:.24em;text-transform:uppercase;color:var(--terra)}
+insurance:
+  title: "Reçus et assurances"
+  text: "Je suis membre du RITMA sous le numéro 11364 et j’émets des reçus. Mon titre actuel est celui d’interne en ostéopathie : tous les assureurs ne remboursent pas ce statut. Vérifiez auprès du vôtre avant votre première visite."
+  link_label: "Tarifs et assurances"
 
-  /* Header */
-  header.site{position:sticky;top:0;z-index:50;background:rgba(245,240,232,.86);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
-  header.site .wrap{display:flex;align-items:center;gap:32px;padding-top:14px;padding-bottom:14px}
-  .brand{display:flex;align-items:center;gap:13px;text-decoration:none;color:inherit}
-  .brand img{width:42px;height:42px;object-fit:cover;border-radius:50%;flex:none}
-  .brand .name{font-family:'EB Garamond',serif;font-size:21px;font-weight:600;color:var(--blue);letter-spacing:.01em;line-height:1}
-  .brand .role{font-size:9.5px;font-weight:600;letter-spacing:.26em;text-transform:uppercase;color:var(--terra);margin-top:4px;line-height:1}
-  nav.main{margin-left:auto;display:flex;align-items:center;gap:30px}
-  nav.main a.lnk{text-decoration:none;color:var(--ink);font-size:14.5px;font-weight:500;letter-spacing:.01em;transition:color .15s}
-  nav.main a.lnk:hover{color:var(--blue)}
-  .langtoggle{display:flex;align-items:center;border:1px solid var(--line);border-radius:999px;padding:3px;background:var(--cream);gap:2px}
-  .langbtn{border:none;cursor:pointer;font-family:inherit;font-size:12.5px;font-weight:600;letter-spacing:.08em;padding:6px 13px;border-radius:999px;background:transparent;color:var(--muted)}
-  [data-lang="fr"] .langbtn[data-set="fr"], [data-lang="en"] .langbtn[data-set="en"]{background:var(--blue);color:var(--cream);font-weight:700}
-  .btn-primary{text-decoration:none;background:var(--blue);color:var(--cream);font-weight:600;border-radius:5px;display:inline-flex;align-items:center;justify-content:center;transition:background .15s}
-  .btn-primary:hover{background:var(--blue-deep)}
-  nav.main .btn-primary{font-size:14px;padding:11px 22px;white-space:nowrap}
-
-  /* Hero */
-  .hero{position:relative;overflow:hidden}
-  .hero .ring1{position:absolute;top:-160px;right:-180px;width:620px;height:620px;border:1.5px solid var(--blue-soft);border-radius:50%;opacity:.22;pointer-events:none}
-  .hero .ring2{position:absolute;top:-90px;right:-110px;width:480px;height:480px;border:1px solid var(--terra);border-radius:50%;opacity:.18;pointer-events:none}
-  .hero .wrap{position:relative;padding-top:90px;padding-bottom:100px;display:flex;align-items:center;gap:56px;flex-wrap:wrap}
-  .hero-copy{flex:1 1 380px;min-width:300px}
-  .hero h1{font-family:'EB Garamond',serif;font-weight:500;color:var(--blue);font-size:clamp(40px,5.2vw,66px);line-height:1.08;letter-spacing:-.01em;margin:0 0 26px}
-  .hero .intro{font-size:18px;line-height:1.72;color:var(--muted);max-width:480px;margin:0 0 38px}
-  .hero-cta{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
-  .hero-cta .btn-primary{font-size:15px;padding:15px 30px}
-  .btn-ghost{text-decoration:none;color:var(--blue);font-size:15px;font-weight:600;padding:15px 26px;border:1px solid var(--blue);border-radius:5px;background:transparent;transition:background .15s}
-  .btn-ghost:hover{background:rgba(59,90,125,.06)}
-  .hero-photo{flex:0 1 360px;position:relative}
-  .hero-photo .frame{position:absolute;inset:0;transform:translate(20px,20px);border:1px solid var(--blue-soft);border-radius:8px;pointer-events:none}
-  .hero-photo .ph{position:relative;border-radius:8px;overflow:hidden;background:var(--cream2);box-shadow:0 30px 64px -32px rgba(46,71,98,.55)}
-  .hero-photo .ph img{display:block;width:100%;height:auto}
-  .hero-photo .dot{position:absolute;bottom:-14px;left:-14px;width:30px;height:30px;border-radius:50%;background:var(--terra)}
-
-  /* Approche */
-  section.approche{background:var(--cream2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-  section.approche .wrap{padding-top:74px;padding-bottom:74px}
-  .values{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:48px}
-  .value .vdot{display:block;width:9px;height:9px;border-radius:50%;background:var(--terra);margin-bottom:14px}
-  .value h3{font-family:'EB Garamond',serif;font-style:italic;font-weight:500;font-size:25px;color:var(--blue);margin:0 0 12px}
-  .value p{font-size:15.5px;line-height:1.7;color:var(--muted);margin:0}
-
-  /* Services */
-  section.services .wrap{padding-top:96px;padding-bottom:96px}
-  .sec-head{max-width:680px;margin-bottom:52px}
-  .sec-head h2{font-family:'EB Garamond',serif;font-weight:500;color:var(--blue);font-size:clamp(32px,4vw,46px);line-height:1.12;margin:0 0 22px}
-  .sec-head p{font-size:17.5px;line-height:1.75;color:var(--muted);margin:0}
-  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px}
-  .card{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:36px 34px}
-  .card .num{display:block;font-family:'EB Garamond',serif;font-size:20px;color:var(--terra);font-style:italic;margin-bottom:14px}
-  .card h3{font-family:'EB Garamond',serif;font-weight:600;font-size:25px;color:var(--blue);margin:0 0 12px}
-  .card p{font-size:15.5px;line-height:1.72;color:var(--muted);margin:0}
-
-  /* Contact */
-  section.contact{background:var(--cream2);border-top:1px solid var(--line)}
-  section.contact .wrap{padding-top:92px;padding-bottom:92px;display:flex;gap:72px;flex-wrap:wrap;align-items:flex-start}
-  .contact-copy{flex:1 1 380px}
-  .contact-copy h2{font-family:'EB Garamond',serif;font-weight:500;color:var(--blue);font-size:clamp(32px,4vw,46px);line-height:1.12;margin:0 0 22px}
-  .contact-copy .lead{font-size:17.5px;line-height:1.75;color:var(--muted);max-width:440px;margin:0 0 38px}
-  .details{flex:0 1 360px;background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:8px 34px 16px}
-  .detail{padding:16px 0;border-bottom:1px solid var(--line);display:flex;flex-direction:column;gap:4px}
-  .detail:last-child{border-bottom:none}
-  .detail .lbl{font-size:11px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--terra)}
-  .detail .val{font-size:16px;color:var(--ink);font-weight:500}
-
-  /* Footer */
-  footer.site{background:var(--blue-deep);color:var(--cream)}
-  footer.site .wrap{padding-top:54px;padding-bottom:54px;display:flex;justify-content:space-between;align-items:center;gap:28px;flex-wrap:wrap}
-  footer.site .fname{font-family:'EB Garamond',serif;font-size:24px;font-weight:600}
-  footer.site .frole{font-size:10px;font-weight:600;letter-spacing:.26em;text-transform:uppercase;color:var(--terra);margin-top:6px;display:block}
-  footer.site .fright{display:flex;flex-direction:column;align-items:flex-end;gap:6px;text-align:right}
-  footer.site .fdomain{font-size:14px;color:rgba(245,240,232,.82)}
-  footer.site .fcopy{font-size:12.5px;color:rgba(245,240,232,.55)}
-
-  @media (max-width:720px){
-    .wrap{padding-left:24px;padding-right:24px}
-    nav.main{gap:18px}
-    nav.main a.lnk{display:none}
-    footer.site .wrap{flex-direction:column;align-items:flex-start}
-    footer.site .fright{align-items:flex-start;text-align:left}
-  }
-</style>
-</head>
-
-<body>
-
-  <!-- ============ HEADER ============ -->
-  <header class="site">
-    <div class="wrap">
-      <a class="brand" href="#top" aria-label="Julien Éclancher, ostéopathe">
-        <img src="assets/logo-mark.png" alt="">
-        <span style="display:flex;flex-direction:column;line-height:1">
-          <span class="name">Julien Éclancher</span>
-          <span class="role">Ostéopathe I.O.</span>
-        </span>
-      </a>
-      <nav class="main">
-        <a class="lnk" href="#approche"><span lang="fr">Approche</span><span lang="en">Approach</span></a>
-        <a class="lnk" href="#services">Services</a>
-        <a class="lnk" href="#contact">Contact</a>
-        <div class="langtoggle" role="group" aria-label="Choisir la langue">
-          <button class="langbtn" data-set="fr" type="button">FR</button>
-          <button class="langbtn" data-set="en" type="button">EN</button>
-        </div>
-        <a class="btn-primary" href="#contact"><span lang="fr">Prendre rendez-vous</span><span lang="en">Book an appointment</span></a>
-      </nav>
-    </div>
-  </header>
-
-  <main>
-  <!-- ============ HERO ============ -->
-  <section class="hero" id="top">
-    <div class="ring1" aria-hidden="true"></div>
-    <div class="ring2" aria-hidden="true"></div>
-    <div class="wrap">
-      <div class="hero-copy">
-        <div class="eyebrow"><span class="bar"></span><span class="txt"><span lang="fr">Ostéopathie · Verdun, Montréal</span><span lang="en">Osteopathy · Verdun, Montréal</span></span></div>
-        <h1><span lang="fr">Une approche douce, à l'écoute de votre corps.</span><span lang="en">A gentle approach, attuned to your body.</span></h1>
-        <p class="intro"><span lang="fr">Julien Éclancher, ostéopathe I.O., vous accompagne par une pratique manuelle respectueuse, fondée sur le consentement et le dialogue tissulaire.</span><span lang="en">Julien Éclancher, I.O. osteopath, supports you through a respectful manual practice rooted in consent and tissue dialogue.</span></p>
-        <div class="hero-cta">
-          <a class="btn-primary" href="#contact"><span lang="fr">Prendre rendez-vous</span><span lang="en">Book an appointment</span></a>
-          <a class="btn-ghost" href="#approche"><span lang="fr">Découvrir l'approche</span><span lang="en">Discover the approach</span></a>
-        </div>
-      </div>
-      <div class="hero-photo">
-        <div class="frame" aria-hidden="true"></div>
-        <div class="ph"><img src="assets/julien.png" alt="Julien Éclancher, ostéopathe I.O. à Verdun, Montréal" width="370" height="421"></div>
-        <div class="dot" aria-hidden="true"></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============ APPROCHE / VALEURS ============ -->
-  <section class="approche" id="approche">
-    <div class="wrap">
-      <div class="values">
-        <div class="value">
-          <span class="vdot" aria-hidden="true"></span>
-          <h3><span lang="fr">Approche douce</span><span lang="en">Gentle approach</span></h3>
-          <p><span lang="fr">Des techniques manuelles tout en finesse, adaptées au rythme et au confort de chaque personne.</span><span lang="en">Refined manual techniques, adapted to the pace and comfort of each person.</span></p>
-        </div>
-        <div class="value">
-          <span class="vdot" aria-hidden="true"></span>
-          <h3><span lang="fr">Consentement</span><span lang="en">Consent</span></h3>
-          <p><span lang="fr">Chaque geste est posé avec votre accord, dans un cadre clair et une pleine confiance.</span><span lang="en">Every movement is made with your agreement, within a clear framework and full trust.</span></p>
-        </div>
-        <div class="value">
-          <span class="vdot" aria-hidden="true"></span>
-          <h3><span lang="fr">Dialogue tissulaire</span><span lang="en">Tissue dialogue</span></h3>
-          <p><span lang="fr">Une écoute attentive des tissus pour accompagner l'équilibre naturel du corps.</span><span lang="en">Careful listening to the tissues to support the body's natural balance.</span></p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============ SERVICES ============ -->
-  <section class="services" id="services">
-    <div class="wrap">
-      <div class="sec-head">
-        <div class="eyebrow"><span class="bar"></span><span class="txt">Services</span></div>
-        <h2><span lang="fr">Qu'est-ce que l'ostéopathie&nbsp;?</span><span lang="en">What is osteopathy?</span></h2>
-        <p><span lang="fr">L'ostéopathie est une approche manuelle qui vise à rétablir la mobilité et l'équilibre du corps. Par des techniques douces, elle soutient les capacités naturelles de l'organisme à retrouver son confort.</span><span lang="en">Osteopathy is a manual approach that seeks to restore the body's mobility and balance. Through gentle techniques, it supports the body's natural ability to regain comfort.</span></p>
-      </div>
-      <div class="cards">
-        <article class="card">
-          <span class="num">I</span>
-          <h3><span lang="fr">Première consultation</span><span lang="en">First consultation</span></h3>
-          <p><span lang="fr">Évaluation complète, anamnèse et premier traitement adapté à votre situation et à vos objectifs.</span><span lang="en">A full assessment, case history and a first treatment tailored to your situation and goals.</span></p>
-        </article>
-        <article class="card">
-          <span class="num">II</span>
-          <h3><span lang="fr">Suivi ostéopathique</span><span lang="en">Osteopathic follow-up</span></h3>
-          <p><span lang="fr">Des séances de suivi pour accompagner votre progression dans la durée, à votre rythme.</span><span lang="en">Follow-up sessions to support your progress over time, at your own pace.</span></p>
-        </article>
-        <article class="card">
-          <span class="num">III</span>
-          <h3><span lang="fr">Approche globale</span><span lang="en">Whole-person approach</span></h3>
-          <p><span lang="fr">Une prise en charge qui considère le corps dans son ensemble, sans précipitation.</span><span lang="en">Care that considers the body as a whole, without rushing.</span></p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============ CONTACT ============ -->
-  <section class="contact" id="contact">
-    <div class="wrap">
-      <div class="contact-copy">
-        <div class="eyebrow"><span class="bar"></span><span class="txt">Contact</span></div>
-        <h2><span lang="fr">Prendre rendez-vous</span><span lang="en">Book an appointment</span></h2>
-        <p class="lead"><span lang="fr">Les consultations se déroulent à Verdun, à Montréal. La réservation se fait en ligne via GOrendezvous.</span><span lang="en">Consultations take place in Verdun, Montréal. Appointments can be booked online via GOrendezvous.</span></p>
-        <a class="btn-primary" href="https://www.gorendezvous.com/BookingWidget/fr?companyId=101639&eids=194282&lids=2849" target="_blank" rel="noopener" style="font-size:15.5px;padding:16px 32px;">
-          <span lang="fr">Prendre rendez-vous</span><span lang="en">Book an appointment</span>
-        </a>
-      </div>
-      <div class="details">
-        <div class="detail">
-          <span class="lbl"><span lang="fr">Adresse</span><span lang="en">Address</span></span>
-          <span class="val"><span lang="fr">Verdun, Montréal (QC) — à confirmer</span><span lang="en">Verdun, Montréal (QC) — to confirm</span></span>
-        </div>
-        <div class="detail">
-          <span class="lbl"><span lang="fr">Courriel</span><span lang="en">Email</span></span>
-          <span class="val"><a href="/cdn-cgi/l/email-protection#e68f888089a68995928389cb83858a8788858e8394c88587" style="text-decoration:none;color:inherit"><span class="__cf_email__" data-cfemail="046d6a626b446b7770616b29616768656a676c61762a6765">[email&#160;protected]</span></a></span>
-        </div>
-        <div class="detail">
-          <span class="lbl"><span lang="fr">Horaires</span><span lang="en">Hours</span></span>
-          <span class="val"><span lang="fr">Sur rendez-vous</span><span lang="en">By appointment</span></span>
-        </div>
-        <div class="detail">
-          <span class="lbl">RITMA</span>
-          <span class="val">I.O. · 11364</span>
-        </div>
-      </div>
-    </div>
-  </section>
-  </main>
-
-  <!-- ============ FOOTER ============ -->
-  <footer class="site">
-    <div class="wrap">
-      <div>
-        <span class="fname">Julien Éclancher</span>
-        <span class="frole">Ostéopathe I.O. &nbsp;·&nbsp; Verdun, Montréal</span>
-      </div>
-      <div class="fright">
-        <span class="fdomain">osteo-eclancher.ca</span>
-        <span class="fcopy">© 2026 · Verdun, Montréal</span>
-      </div>
-    </div>
-  </footer>
-
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
-  (function(){
-    var FR = {title:"Julien Éclancher · Ostéopathe à Verdun, Montréal", desc:"Julien Éclancher, ostéopathe à Verdun (Montréal). Une approche manuelle douce, fondée sur le consentement et le dialogue tissulaire. Consultations sur rendez-vous."};
-    var EN = {title:"Julien Éclancher · Osteopath in Verdun, Montréal", desc:"Julien Éclancher, osteopath in Verdun (Montréal). A gentle manual approach rooted in consent and tissue dialogue. Consultations by appointment."};
-    var meta = document.querySelector('meta[name="description"]');
-    function setLang(l){
-      if(l!=='en') l='fr';
-      document.documentElement.dataset.lang = l;
-      document.documentElement.lang = l;
-      var t = (l==='en'?EN:FR);
-      document.title = t.title;
-      if(meta) meta.setAttribute('content', t.desc);
-      try{ localStorage.setItem('oe_lang', l); }catch(e){}
-    }
-    var saved = 'fr';
-    try{ saved = localStorage.getItem('oe_lang') || 'fr'; }catch(e){}
-    setLang(saved);
-    document.querySelectorAll('.langbtn').forEach(function(b){
-      b.addEventListener('click', function(){ setLang(b.getAttribute('data-set')); });
-    });
-  })();
-</script>
-
-</body>
-</html>
+contact:
+  title: "Prendre rendez-vous à Verdun"
+  lead: "Les consultations ont lieu à la clinique Hakini, au 4255 rue Wellington, à quelques pas du métro De l’Église. La réservation se fait en ligne, y compris en soirée."
+---

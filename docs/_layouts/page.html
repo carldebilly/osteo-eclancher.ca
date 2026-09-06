@@ -1,0 +1,38 @@
+---
+layout: default
+---
+{%- assign t = site.data.i18n[page.lang] -%}
+  <article class="page">
+    <header class="page-head">
+      <div class="wrap">
+        <div class="eyebrow"><span class="bar"></span><span class="txt">{{ page.eyebrow | default: t.role }}</span></div>
+        <h1>{{ page.title }}</h1>
+        {%- if page.lead %}
+        <p class="lead">{{ page.lead }}</p>
+        {%- endif %}
+      </div>
+    </header>
+
+    <div class="wrap">
+      <div class="prose">
+{{ content }}
+      </div>
+
+      {%- if page.faq %}
+{% include faq.html %}
+      {%- endif %}
+    </div>
+
+    <div class="cta-band">
+      <div class="wrap">
+        <div>
+          <h2>{{ t.contact.title }}</h2>
+          <p>{{ t.contact.at_clinic }}</p>
+        </div>
+        <div class="cta-band-actions">
+          {%- include cta-booking.html class="btn-primary btn-lg" -%}
+          <p class="cta-note">{{ t.cta.book_note }}</p>
+        </div>
+      </div>
+    </div>
+  </article>

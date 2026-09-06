@@ -1,0 +1,4 @@
+{%- comment -%}Plain link to the twin page: no JS, no localStorage, one indexable URL per language.{%- endcomment -%}
+{%- if twin -%}
+<a class="langswitch" href="{{ twin.url | relative_url }}" lang="{{ twin.lang }}" hreflang="{{ site.data.i18n[twin.lang].hreflang }}" aria-label="{{ site.data.i18n[page.lang].switch.aria | escape }}">{{ site.data.i18n[page.lang].switch.code }}</a>
+{%- endif -%}

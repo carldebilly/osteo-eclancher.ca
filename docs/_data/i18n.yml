@@ -1,0 +1,79 @@
+# UI strings. The `fr` and `en` key trees must stay identical (enforced by a test).
+fr:
+  hreflang: fr-CA
+  og_locale: fr_CA
+  site_name: "Julien Éclancher — Ostéopathe"
+  role: "Ostéopathe I.O."
+  skip_to_content: "Aller au contenu"
+  portrait_alt: "Julien Éclancher, interne en ostéopathie à Verdun, Montréal"
+  logo_alt: ""
+  brand_aria: "Julien Éclancher, ostéopathe à Verdun — accueil"
+  nav:
+    aria: "Navigation principale"
+    menu: "Ouvrir le menu"
+  cta:
+    book: "Prendre rendez-vous"
+    book_aria: "Prendre rendez-vous en ligne sur GOrendezvous (nouvelle fenêtre)"
+    book_note: "Réservation en ligne · GOrendezvous"
+    discover: "Découvrir l’approche"
+  switch:
+    code: "EN"
+    aria: "Switch to the English version of this page"
+  contact:
+    title: "Prendre rendez-vous"
+    address: "Adresse"
+    phone: "Téléphone"
+    hours: "Horaires"
+    by_appointment: "Sur rendez-vous"
+    map: "Voir sur la carte"
+    at_clinic: "Les consultations ont lieu à la clinique Hakini, à Verdun."
+  faq:
+    title: "Questions fréquentes"
+  footer:
+    location: "Verdun, Montréal"
+    privacy: "Politique de confidentialité"
+    clinic: "Clinique Hakini"
+    rights: "Tous droits réservés."
+  schema:
+    reservation_name: "Consultation en ostéopathie"
+  breadcrumb:
+    home: "Accueil"
+en:
+  hreflang: en-CA
+  og_locale: en_CA
+  site_name: "Julien Éclancher — Osteopath"
+  role: "Osteopath I.O."
+  skip_to_content: "Skip to content"
+  portrait_alt: "Julien Éclancher, osteopathy intern in Verdun, Montréal"
+  logo_alt: ""
+  brand_aria: "Julien Éclancher, osteopath in Verdun — home"
+  nav:
+    aria: "Main navigation"
+    menu: "Open menu"
+  cta:
+    book: "Book an appointment"
+    book_aria: "Book an appointment online on GOrendezvous (opens in a new window)"
+    book_note: "Online booking · GOrendezvous"
+    discover: "Discover the approach"
+  switch:
+    code: "FR"
+    aria: "Afficher la version française de cette page"
+  contact:
+    title: "Book an appointment"
+    address: "Address"
+    phone: "Phone"
+    hours: "Hours"
+    by_appointment: "By appointment"
+    map: "View on the map"
+    at_clinic: "Consultations take place at the Hakini clinic, in Verdun."
+  faq:
+    title: "Frequently asked questions"
+  footer:
+    location: "Verdun, Montréal"
+    privacy: "Privacy policy"
+    clinic: "Hakini clinic"
+    rights: "All rights reserved."
+  schema:
+    reservation_name: "Osteopathy consultation"
+  breadcrumb:
+    home: "Home"
