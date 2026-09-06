@@ -1,7 +1,7 @@
 ---
 ref: about
 permalink: /en/about/
-nav_order: 3
+nav_order: 2
 nav_label: "About"
 title: "Julien Éclancher, osteopathy intern"
 seo_title: "Julien Éclancher, osteopath in Verdun · Background"
@@ -41,7 +41,7 @@ One detail with practical consequences: not every insurer reimburses receipts is
 
 ## A thesis about fibromyalgia
 
-My graduating work is about osteopathy and fibromyalgia. It is what points my practice towards people living with pain that has settled in: [fibromyalgia](/en/fibromyalgia/), [chronic conditions](/en/chronic-conditions/), the tension that comes with anxiety.
+My graduating work is about osteopathy and fibromyalgia. It is what points my practice towards people living with pain that has settled in: [fibromyalgia](/en/chronic-conditions/fibromyalgia/), [chronic conditions](/en/chronic-conditions/), the tension that comes with anxiety.
 
 The work is in progress. I draw no promise of results from it, and you will find no conclusions on this site until it is finished.
 

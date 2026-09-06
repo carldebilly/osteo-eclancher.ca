@@ -1,7 +1,7 @@
 ---
 ref: fees
 permalink: /en/fees-and-insurance/
-nav_order: 4
+nav_order: 3
 nav_label: "Fees and insurance"
 title: "Fees, receipts and insurance"
 seo_title: "Fees and insurance · Osteopath in Verdun"

@@ -1,11 +1,11 @@
 ---
 ref: chronic
 permalink: /en/chronic-conditions/
-nav_order: 2
+nav_order: 1
 nav_label: "Chronic conditions"
 title: "Living with a chronic condition"
 seo_title: "Osteopathy for chronic conditions in Verdun"
-description: "Osteopathy in Verdun for lasting pain, osteoarthritis, migraines, chronic fatigue and the tension that comes with anxiety, alongside your medical care."
+description: "Osteopathy in Verdun for pain that lasts: osteoarthritis, migraines, fibromyalgia, chronic fatigue, the tension that comes with anxiety. Alongside your medical care."
 eyebrow: "Reasons for consulting"
 lead: "Pain that has been there for years is not approached like a stiff neck from last week. The goal shifts: gaining comfort and room to move, session after session."
 last_modified_at: 2026-09-06
@@ -52,6 +52,12 @@ What occupies the session is rarely the painful area itself but the compensation
 Joint wear does not reverse, and I will not pretend otherwise.
 
 The stiffness around it does depend on muscles, fascia and how neighbouring joints take part in the movement. There is room on that side, and that is where my time goes, with slow, small-amplitude mobilisation.
+
+## Fibromyalgia
+
+Widespread pain, fatigue, sleep that no longer restores, sensitivity to touch. The session is then calibrated differently: lighter, shorter, with breaks.
+
+It is the subject of my graduating thesis, and it needed a page of its own: [osteopathy and fibromyalgia](/en/chronic-conditions/fibromyalgia/).
 
 ## Headaches and recurring migraines
 

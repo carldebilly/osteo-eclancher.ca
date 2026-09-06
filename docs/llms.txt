@@ -7,8 +7,8 @@ sitemap: false
 # Julien Éclancher — ostéopathe à Verdun (Montréal)
 
 > {{ business.person.job_title.fr }}, membre du RITMA sous le numéro {{ business.ritma.credential.identifier }}.
-> Pratique manuelle douce, orientée vers les personnes vivant avec la fibromyalgie, une maladie
-> chronique ou des tensions liées à l’anxiété. Consultations en français et en anglais à
+> Pratique manuelle douce, des motifs courants aux maladies chroniques, à la douleur installée
+> et aux tensions liées à l’anxiété. Consultations en français et en anglais à
 > {{ business.clinic_name }}, à {{ business.address.addressLocality }}.
 
 L’ostéopathie ne pose pas de diagnostic médical et ne remplace pas un suivi médical. Ce site ne

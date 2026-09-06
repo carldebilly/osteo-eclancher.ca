@@ -108,8 +108,23 @@ public sealed class JsonLdTests
 			? SiteOutput.Origin + "/en/"
 			: SiteOutput.Origin + "/";
 
-		Assert.Equal(2, items.Length);
+		Assert.InRange(items.Length, 2, 3);
 		Assert.Equal(expectedHome, items[0].GetProperty("item").GetString());
-		Assert.Equal(SiteOutput.Origin + url, items[1].GetProperty("item").GetString());
+		Assert.Equal(SiteOutput.Origin + url, items[^1].GetProperty("item").GetString());
+
+		// Positions must run 1..n without a gap, or the trail is ignored.
+		for (var index = 0; index < items.Length; index++)
+		{
+			Assert.Equal(index + 1, items[index].GetProperty("position").GetInt32());
+		}
+
+		// A page nested under another must sit below it in the trail, not beside it.
+		if (items.Length == 3)
+		{
+			var parent = items[1].GetProperty("item").GetString()!;
+
+			Assert.StartsWith(parent, SiteOutput.Origin + url, StringComparison.Ordinal);
+			Assert.NotEqual(parent, SiteOutput.Origin + url);
+		}
 	}
 }

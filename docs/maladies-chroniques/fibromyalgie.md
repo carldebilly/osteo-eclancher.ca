@@ -1,8 +1,7 @@
 ---
 ref: fibromyalgia
-permalink: /fibromyalgie/
-nav_order: 1
-nav_label: "Fibromyalgie"
+permalink: /maladies-chroniques/fibromyalgie/
+parent_ref: chronic
 title: "Ostéopathie et fibromyalgie"
 seo_title: "Ostéopathe fibromyalgie à Verdun · Julien Éclancher"
 description: "Accompagnement ostéopathique des personnes vivant avec la fibromyalgie, à Verdun (Montréal). Séances douces, adaptées à l’hypersensibilité au toucher."
@@ -80,4 +79,4 @@ Le contact reste léger et la durée s’ajuste à ce que vous pouvez recevoir c
 
 La fibromyalgie est le sujet de mon mémoire de finissant, en cours de rédaction. C’est aussi ce qui explique le temps que je passe à écouter avant de poser les mains : ce que les personnes décrivent de leur propre expérience est la matière la plus utile dont je dispose.
 
-Si cela vous intéresse, parlons-en en séance. Mon parcours est détaillé sur la page [à propos](/a-propos/).
+Si cela vous intéresse, parlons-en en séance. Mon parcours est détaillé sur la page [à propos](/a-propos/), et les autres motifs de consultation sur la page [maladies chroniques](/maladies-chroniques/).

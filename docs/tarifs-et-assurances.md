@@ -1,7 +1,7 @@
 ---
 ref: fees
 permalink: /tarifs-et-assurances/
-nav_order: 4
+nav_order: 3
 nav_label: "Tarifs et assurances"
 title: "Tarifs, reçus et assurances"
 seo_title: "Tarifs et assurances · Ostéopathe à Verdun"

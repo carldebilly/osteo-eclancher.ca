@@ -1,7 +1,7 @@
 ---
 ref: about
 permalink: /a-propos/
-nav_order: 3
+nav_order: 2
 nav_label: "À propos"
 title: "Julien Éclancher, interne en ostéopathie"
 seo_title: "Julien Éclancher, ostéopathe à Verdun · Parcours"
@@ -41,7 +41,7 @@ Une précision qui a des conséquences concrètes : tous les assureurs ne rembo
 
 ## Un mémoire consacré à la fibromyalgie
 
-Mon travail de fin d’études porte sur l’ostéopathie et la fibromyalgie. C’est ce qui oriente ma pratique vers les personnes qui vivent avec une douleur installée : [fibromyalgie](/fibromyalgie/), [maladies chroniques](/maladies-chroniques/), tensions liées à l’anxiété.
+Mon travail de fin d’études porte sur l’ostéopathie et la fibromyalgie. C’est ce qui oriente ma pratique vers les personnes qui vivent avec une douleur installée : [fibromyalgie](/maladies-chroniques/fibromyalgie/), [maladies chroniques](/maladies-chroniques/), tensions liées à l’anxiété.
 
 Ce travail est en cours. Je n’en tire aucune promesse de résultat, et vous ne trouverez pas de conclusions sur ce site tant qu’il n’est pas terminé.
 

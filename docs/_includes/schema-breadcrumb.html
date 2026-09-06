@@ -1,5 +1,14 @@
+{%- comment -%}
+  Two or three levels, depending on whether the page names a `parent_ref`. The trail is
+  what tells a search engine that the fibromyalgia page sits under chronic conditions
+  rather than beside it, which is also what the URL says.
+{%- endcomment -%}
 {%- assign t = site.data.i18n[page.lang] -%}
 {%- assign home = site.pages | where: "ref", "home" | where: "lang", page.lang | first -%}
+{%- assign parent = false -%}
+{%- if page.parent_ref -%}
+  {%- assign parent = site.pages | where: "ref", page.parent_ref | where: "lang", page.lang | first -%}
+{%- endif -%}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -11,9 +20,17 @@
       "name": {{ t.breadcrumb.home | jsonify }},
       "item": {{ home.url | absolute_url | jsonify }}
     },
+    {%- if parent %}
     {
       "@type": "ListItem",
       "position": 2,
+      "name": {{ parent.nav_label | default: parent.title | jsonify }},
+      "item": {{ parent.url | absolute_url | jsonify }}
+    },
+    {%- endif %}
+    {
+      "@type": "ListItem",
+      "position": {% if parent %}3{% else %}2{% endif %},
       "name": {{ page.title | jsonify }},
       "item": {{ page.url | absolute_url | jsonify }}
     }

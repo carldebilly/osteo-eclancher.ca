@@ -81,7 +81,7 @@ internal static class Rules
 		new Dictionary<string, (string, string)>
 		{
 			["home"] = ("/", "/en/"),
-			["fibromyalgia"] = ("/fibromyalgie/", "/en/fibromyalgia/"),
+			["fibromyalgia"] = ("/maladies-chroniques/fibromyalgie/", "/en/chronic-conditions/fibromyalgia/"),
 			["chronic"] = ("/maladies-chroniques/", "/en/chronic-conditions/"),
 			["about"] = ("/a-propos/", "/en/about/"),
 			["fees"] = ("/tarifs-et-assurances/", "/en/fees-and-insurance/"),

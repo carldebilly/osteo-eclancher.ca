@@ -63,13 +63,13 @@ person:
   knows_about:
     fr:
       - "Ostéopathie"
-      - "Fibromyalgie"
       - "Maladies chroniques"
       - "Douleur chronique"
+      - "Fibromyalgie"
       - "Anxiété"
     en:
       - "Osteopathy"
-      - "Fibromyalgia"
       - "Chronic conditions"
       - "Chronic pain"
+      - "Fibromyalgia"
       - "Anxiety"

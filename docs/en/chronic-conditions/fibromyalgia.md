@@ -1,8 +1,7 @@
 ---
 ref: fibromyalgia
-permalink: /en/fibromyalgia/
-nav_order: 1
-nav_label: "Fibromyalgia"
+permalink: /en/chronic-conditions/fibromyalgia/
+parent_ref: chronic
 title: "Osteopathy and fibromyalgia"
 seo_title: "Fibromyalgia osteopath in Verdun · Julien Éclancher"
 description: "Osteopathic support for people living with fibromyalgia, in Verdun (Montréal). Gentle sessions adapted to sensitivity to touch, in English or French."
@@ -80,4 +79,4 @@ At the end, a few pointers for the week, matched to your energy rather than to a
 
 Fibromyalgia is the subject of my graduating thesis, currently being written. It also explains the time I spend listening before I put my hands anywhere: what people describe of their own experience is the most useful material I have.
 
-If that interests you, let us talk about it in session. My background is set out on the [about](/en/about/) page.
+If that interests you, let us talk about it in session. My background is set out on the [about](/en/about/) page, and the other reasons for consulting on the [chronic conditions](/en/chronic-conditions/) page.
