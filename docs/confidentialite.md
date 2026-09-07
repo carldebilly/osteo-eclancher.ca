@@ -11,7 +11,7 @@ last_modified_at: 2026-09-06
 
 ## Responsable de la protection des renseignements personnels
 
-Julien Éclancher, interne en ostéopathie, membre du RITMA (11364), exerçant à la clinique Hakini, 4255 rue Wellington, bureau 202, Verdun (Québec) H4G 1V9. Téléphone : 514 824 5854.
+Le responsable de la protection des renseignements personnels, c’est moi : Julien Éclancher, interne en ostéopathie, membre du RITMA (11364). Je reçois à la clinique Hakini, 4255 rue Wellington, bureau 202, Verdun (Québec) H4G 1V9. Téléphone : 514 824 5854.
 
 ## Ce que ce site collecte
 

@@ -11,7 +11,7 @@ last_modified_at: 2026-09-06
 
 ## Person responsible for personal information
 
-Julien Éclancher, osteopathy intern, RITMA member 11364, practising at the Hakini clinic, 4255 Wellington Street, suite 202, Verdun, Québec H4G 1V9. Telephone: 514 824 5854.
+I am the person responsible for the protection of personal information: Julien Éclancher, osteopathy intern, RITMA member 11364. I practise at the Hakini clinic, 4255 Wellington Street, suite 202, Verdun, Québec H4G 1V9. Telephone: 514 824 5854.
 
 ## What this site collects
 
