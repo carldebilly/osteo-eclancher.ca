@@ -21,7 +21,7 @@
   </main>
 {%- include footer.html -%}
 {%- include schema-business.html -%}
-{%- if page.ref == "about" %}{% include schema-person.html %}{% endif -%}
+{%- include schema-person.html -%}
 {%- if page.schema_condition %}{% include schema-webpage.html %}{% endif -%}
 {%- if page.ref and page.ref != "home" %}{% include schema-breadcrumb.html %}{% endif -%}
 <script>

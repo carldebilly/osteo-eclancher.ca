@@ -27,7 +27,7 @@ Le paiement se fait à la fin de la séance, à la clinique.
 
 J’émets un reçu au nom du **RITMA, numéro de membre 11364**, utilisable auprès des assureurs qui reconnaissent cette association. Je ne fais pas de facturation directe : vous payez, vous recevez votre reçu, vous le soumettez vous-même.
 
-Un point important, et c’est la raison d’être de cette page : mon titre actuel est celui d’**interne en ostéopathie**. Certains assureurs remboursent les reçus émis à ce titre, d’autres non, et cela ne dépend ni de moi ni de la clinique. Avant votre première visite, appelez votre assureur et posez ces trois questions :
+Un point important : mon titre actuel est celui d’**interne en ostéopathie**. Certains assureurs remboursent les reçus émis à ce titre, d’autres non, et cela ne dépend ni de moi ni de la clinique. Avant votre première visite, appelez votre assureur et posez ces trois questions :
 
 1. Est-ce que mon régime couvre l’ostéopathie ?
 2. Acceptez-vous les reçus d’un membre du RITMA ?

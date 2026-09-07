@@ -5,10 +5,12 @@ nav_order: 1
 nav_label: "Maladies chroniques"
 title: "Vivre avec une maladie chronique"
 seo_title: "Ostéopathie et maladies chroniques à Verdun"
-description: "Ostéopathie à Verdun pour les douleurs qui durent : arthrose, migraines, fibromyalgie, fatigue chronique, tensions liées à l’anxiété. En complément du suivi médical."
+description: "Ostéopathie à Verdun pour les douleurs qui durent : arthrose, migraines, fibromyalgie, fatigue chronique, tensions liées à l’anxiété. En complément du suivi médical."
 eyebrow: "Motifs de consultation"
 lead: "Une douleur installée depuis des années ne se travaille pas comme un torticolis de la semaine dernière. L’objectif change : gagner du confort et de la marge de manœuvre, séance après séance."
+date: 2026-09-06
 last_modified_at: 2026-09-06
+byline: true
 schema_condition:
   name: "Douleur chronique"
   same_as:
@@ -56,9 +58,9 @@ La raideur qui l’accompagne, en revanche, dépend aussi des muscles, des fasci
 
 ## Fibromyalgie
 
-Douleurs diffuses, fatigue, sommeil qui ne répare plus, sensibilité au toucher. La séance se calibre alors autrement : plus légère, plus courte, avec des pauses.
+Douleurs diffuses, fatigue, sommeil qui ne répare plus, sensibilité au toucher. La séance se calibre alors autrement : plus légère, plus courte, avec des pauses.
 
-C’est le sujet de mon mémoire de finissant, et cela demandait sa propre page : [ostéopathie et fibromyalgie](/maladies-chroniques/fibromyalgie/).
+C’est le sujet de mon mémoire de finissant, et cela demandait sa propre page : [ostéopathie et fibromyalgie](/maladies-chroniques/fibromyalgie/).
 
 ## Maux de tête et migraines récurrentes
 

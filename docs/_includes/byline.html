@@ -1,0 +1,20 @@
+{%- comment -%}
+  A visible byline and date on the health pages. Google's quality guidance asks whether a page
+  carries a byline where one might be expected, and on a page about a health condition one is.
+  The credential comes from the data file so it cannot drift from the schema or the footer.
+
+  The month name comes from i18n rather than Liquid's `date` filter, which only speaks English.
+{%- endcomment -%}
+{%- assign b = site.data.business -%}
+{%- assign t = site.data.i18n[page.lang] -%}
+{%- assign about = site.pages | where: "ref", "about" | where: "lang", page.lang | first -%}
+        <p class="byline">
+          <a href="{{ about.url | relative_url }}">{{ b.person.name }}</a>,
+          {{ t.byline_credential }} {{ b.ritma.credential.identifier }}
+          {%- if page.last_modified_at %}
+          {%- assign month_index = page.last_modified_at | date: "%m" | plus: 0 | minus: 1 %}
+          <span class="byline-sep" aria-hidden="true">·</span>
+          {{ t.updated_on }}
+          <time datetime="{{ page.last_modified_at | date: '%Y-%m-%d' }}">{{ page.last_modified_at | date: "%d" | plus: 0 }} {{ t.months[month_index] }} {{ page.last_modified_at | date: "%Y" }}</time>
+          {%- endif %}
+        </p>

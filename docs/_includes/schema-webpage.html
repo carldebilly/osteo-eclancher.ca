@@ -1,3 +1,11 @@
+{%- comment -%}
+  Emitted on pages that name a condition. `datePublished` and `dateModified` are the one
+  addition here that is documented as consumed: Google reads both to estimate a page's date,
+  alongside the visible date the byline renders. Neither is a ranking signal.
+
+  `author` points at the Person node rather than repeating it, which is why that node is now
+  emitted on every page.
+{%- endcomment -%}
 {%- assign t = site.data.i18n[page.lang] -%}
 {%- assign c = page.schema_condition -%}
 <script type="application/ld+json">
@@ -9,6 +17,13 @@
   "name": {{ page.title | jsonify }},
   "description": {{ page.description | jsonify }},
   "inLanguage": {{ t.hreflang | jsonify }},
+  {%- if page.date %}
+  "datePublished": {{ page.date | date: "%Y-%m-%d" | jsonify }},
+  {%- endif %}
+  {%- if page.last_modified_at %}
+  "dateModified": {{ page.last_modified_at | date: "%Y-%m-%d" | jsonify }},
+  {%- endif %}
+  "author": { "@id": {{ site.url | append: "/#person" | jsonify }} },
   "isPartOf": { "@id": {{ site.url | append: "/#website" | jsonify }} },
   "publisher": { "@id": {{ site.url | append: "/#business" | jsonify }} },
   "about": {

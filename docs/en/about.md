@@ -39,11 +39,17 @@ I am a member of **RITMA under number 11364**, which binds me to its code of eth
 
 One detail with practical consequences: not every insurer reimburses receipts issued by an osteopathy intern. The [fees and insurance](/en/fees-and-insurance/) page explains what to ask your insurer before you come.
 
+## Where the profession is going
+
+On 25 March 2026 the Québec government announced that osteopathy would become the province’s 57th regulated profession. On 16 June it specified that osteopaths would be integrated into the [Ordre des chiropraticiens du Québec](https://www.ordredeschiropraticiens.ca/) rather than forming a separate order.
+
+What that will change for me is not settled yet. The transition rules, the timeline and the fate of the osteopathy intern title are still to be determined by the work under way. Until then it is the RITMA code of ethics that governs my practice.
+
 ## A thesis about fibromyalgia
 
 My graduating work is about osteopathy and fibromyalgia. It is what points my practice towards people living with pain that has settled in: [fibromyalgia](/en/chronic-conditions/fibromyalgia/), [chronic conditions](/en/chronic-conditions/), the tension that comes with anxiety.
 
-The work is in progress. I draw no promise of results from it, and you will find no conclusions on this site until it is finished.
+The work is in progress, and I draw no promise of results from it.
 
 ## How I work
 

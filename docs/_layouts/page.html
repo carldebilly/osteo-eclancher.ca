@@ -10,6 +10,9 @@ layout: default
         {%- if page.lead %}
         <p class="lead">{{ page.lead }}</p>
         {%- endif %}
+        {%- if page.byline %}
+{% include byline.html %}
+        {%- endif %}
       </div>
     </header>
 
@@ -23,6 +26,11 @@ layout: default
       {%- endif %}
     </div>
 
+    {%- comment -%}
+      The booking band is suppressed on the resource pages. A page whose argument is "most of
+      the answers are not here" cannot end with a call to book, or the argument is a pretext.
+    {%- endcomment -%}
+    {%- if page.cta != false %}
     <div class="cta-band">
       <div class="wrap">
         <div>
@@ -35,4 +43,5 @@ layout: default
         </div>
       </div>
     </div>
+    {%- endif %}
   </article>

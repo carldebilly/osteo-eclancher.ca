@@ -27,7 +27,7 @@ Payment is made at the end of the session, at the clinic.
 
 I issue a receipt under **RITMA membership number 11364**, usable with insurers who recognise that association. I do not bill insurers directly: you pay, you get your receipt, you submit it yourself.
 
-One point matters enough to be the reason this page exists: my current title is **osteopathy intern**. Some insurers reimburse receipts issued under that title, others do not, and this depends neither on me nor on the clinic. Before your first visit, call your insurer and ask these three questions:
+One point matters here: my current title is **osteopathy intern**. Some insurers reimburse receipts issued under that title, others do not, and this depends neither on me nor on the clinic. Before your first visit, call your insurer and ask these three questions:
 
 1. Does my plan cover osteopathy?
 2. Do you accept receipts from a RITMA member?

@@ -61,6 +61,31 @@ internal static class Rules
 			"RITMA II.12 forbids making a medical diagnosis"),
 	];
 
+	/// <summary>
+	/// Sentences and headings allowed to contain an otherwise-forbidden phrase, because they
+	/// deny the claim rather than make it.
+	/// </summary>
+	/// <remarks>
+	/// "L'ostéopathie n'est pas un traitement de la fibromyalgie" is the most trust-bearing
+	/// sentence the site can carry, and it is exactly what RITMA II.11 asks for. It also matches
+	/// the claim pattern above, because a regular expression cannot tell a denial from an
+	/// assertion.
+	///
+	/// The exemption is a list of exact strings, not a negative lookbehind on the pattern. A
+	/// lookbehind would silently permit every future negation shape, including "je ne peux pas
+	/// garantir un traitement de la fibromyalgie, mais…" — a claim wearing a denial. Adding a
+	/// sentence here is a deliberate act, and two tests guard the list: every entry must be
+	/// interrogative or negative in form, and every entry must actually appear in the site.
+	/// </remarks>
+	public static readonly IReadOnlyList<string> AllowedDisclaimers =
+	[
+		"l’ostéopathie n’est pas un traitement de la fibromyalgie",
+		// The narrow no-break space before the question mark is French typography, enforced elsewhere.
+		"L’ostéopathie est-elle un traitement de la fibromyalgie ?",
+		"osteopathy is not a treatment for fibromyalgia",
+		"Is osteopathy a treatment for fibromyalgia?",
+	];
+
 	/// <summary>Text that must never reach the published site.</summary>
 	public static readonly IReadOnlyList<(Regex Pattern, string Why)> ForbiddenPlaceholders =
 	[
@@ -83,10 +108,45 @@ internal static class Rules
 			["home"] = ("/", "/en/"),
 			["fibromyalgia"] = ("/maladies-chroniques/fibromyalgie/", "/en/chronic-conditions/fibromyalgia/"),
 			["chronic"] = ("/maladies-chroniques/", "/en/chronic-conditions/"),
+			["fibromyalgia-resources"] = (
+				"/maladies-chroniques/fibromyalgie/ressources-montreal/",
+				"/en/chronic-conditions/fibromyalgia/montreal-resources/"),
 			["about"] = ("/a-propos/", "/en/about/"),
 			["fees"] = ("/tarifs-et-assurances/", "/en/fees-and-insurance/"),
 			["privacy"] = ("/confidentialite/", "/en/privacy/"),
 		};
+
+	/// <summary>
+	/// Hosts the site may link out to. A typo in an external domain produces a link that looks
+	/// fine and goes nowhere, and the resource page exists entirely to send readers elsewhere.
+	/// </summary>
+	/// <remarks>
+	/// The Montréal fibromyalgia association is a live example of why this list is checked:
+	/// most directories still publish afim.qc.ca for it, and that domain no longer resolves.
+	/// This list catches a mistyped or newly added host; it cannot catch a host that dies.
+	/// A separate network test, excluded from the required check, does that.
+	/// </remarks>
+	public static readonly IReadOnlySet<string> AllowedExternalHosts = new HashSet<string>(StringComparer.OrdinalIgnoreCase)
+	{
+		// Booking, the clinic, the association the practitioner belongs to
+		"www.gorendezvous.com",
+		"www.hakini.ca",
+		"www.ritma.ca",
+		// The map link in the contact block
+		"www.google.com",
+		// Condition entities referenced by the structured data
+		"fr.wikipedia.org",
+		"en.wikipedia.org",
+		// Patient organisations and public resources, on the resource pages
+		"www.fibromyalgiemontreal.ca",
+		"www.sqf.quebec",
+		"sqf.quebec",
+		"douleurquebec.ca",
+		"gerermadouleur.ca",
+		"publications.msss.gouv.qc.ca",
+		// The professional order osteopaths are being integrated into
+		"www.ordredeschiropraticiens.ca",
+	};
 
 	/// <summary>Upper bound for the HTML title element, past which search results truncate it.</summary>
 	public const int MaxTitleLength = 65;
