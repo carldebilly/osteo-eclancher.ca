@@ -43,13 +43,13 @@ Une précision qui a des conséquences concrètes : tous les assureurs ne rembo
 
 Le 25 mars 2026, le gouvernement du Québec a annoncé que l’ostéopathie deviendrait la 57e profession réglementée. Le 16 juin, il a précisé que les ostéopathes seraient intégrés à l’[Ordre des chiropraticiens du Québec](https://www.ordredeschiropraticiens.ca/) plutôt que de former un ordre distinct.
 
-Ce que cela changera pour moi n’est pas encore établi. Les règles de transition, l’échéancier et le sort du titre d’interne en ostéopathie restent à déterminer par les travaux en cours. Je mettrai cette page à jour quand ce sera connu. D’ici là, c’est le code de déontologie du RITMA qui encadre ma pratique, et c’est lui qui explique la prudence de certaines formulations sur ce site.
+Ce que cela changera pour moi n’est pas encore établi. Les règles de transition, l’échéancier et le sort du titre d’interne en ostéopathie restent à déterminer par les travaux en cours. D’ici là, c’est le code de déontologie du RITMA qui encadre ma pratique.
 
 ## Un mémoire consacré à la fibromyalgie
 
 Mon travail de fin d’études porte sur l’ostéopathie et la fibromyalgie. C’est ce qui oriente ma pratique vers les personnes qui vivent avec une douleur installée : [fibromyalgie](/maladies-chroniques/fibromyalgie/), [maladies chroniques](/maladies-chroniques/), tensions liées à l’anxiété.
 
-Ce travail est en cours. Je n’en tire aucune promesse de résultat, et vous ne trouverez pas de conclusions sur ce site tant qu’il n’est pas terminé.
+Ce travail est en cours, et je n’en tire aucune promesse de résultat.
 
 ## Comment je travaille
 

@@ -86,7 +86,7 @@ At the end, I leave you a few pointers for the week, matched to your energy rath
 
 ## Do you actually know fibromyalgia?
 
-Fibromyalgia is the subject of my graduating thesis, currently being written at the Institut d’enseignement de l’ostéopathie du Québec. That work is not finished: I draw no promise of results from it, and you will find no conclusions on this site until it is.
+Fibromyalgia is the subject of my graduating thesis, currently being written at the Institut d’enseignement de l’ostéopathie du Québec. That work is not finished, and I draw no promise of results from it.
 
 The subject also explains the time I spend listening before I put my hands anywhere. What people describe of their own experience is the most useful material I have.
 

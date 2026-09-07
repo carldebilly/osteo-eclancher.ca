@@ -6,7 +6,7 @@ title: "Fibromyalgie à Montréal : où trouver de l’aide"
 seo_title: "Fibromyalgie à Montréal · ressources et associations"
 description: "Associations, ligne d’écoute et ressources publiques pour les personnes vivant avec la fibromyalgie à Montréal. Une page d’orientation, pas une offre de service."
 eyebrow: "Ressources"
-lead: "Cette page dit où aller. La plupart des réponses ne sont pas chez un ostéopathe, et les organismes ci-dessous font un travail que personne en cabinet ne remplace."
+lead: "La plupart des réponses ne sont pas chez un ostéopathe. Les organismes ci-dessous font un travail que personne en cabinet ne remplace."
 date: 2026-09-07
 last_modified_at: 2026-09-07
 byline: true
@@ -69,12 +69,12 @@ Pour une urgence vitale, c’est le 911, pas le 811.
 
 Le ministère de la Santé et des Services sociaux a publié en 2021 un document intitulé *Algorithme de prise en charge de la fibromyalgie*, disponible sur les [publications du ministère](https://publications.msss.gouv.qc.ca/msss/document-001056/).
 
-Son intérêt pour vous n’est pas médical, il est pratique : c’est le document dont votre médecin de famille est censé s’inspirer. Savoir qu’un parcours existe, et pouvoir le nommer en rendez-vous, change la conversation. Je ne le résume pas ici et je n’en tire aucune conclusion sur ma propre pratique.
+Son intérêt pour vous n’est pas médical, il est pratique : c’est le document dont votre médecin de famille est censé s’inspirer. Savoir qu’un parcours existe, et pouvoir le nommer en rendez-vous, change la conversation.
 
-## Pourquoi cette page existe, et ce que je n’y fais pas
+## Mes liens avec ces organismes
 
-Les personnes qui arrivent dans mon bureau ont souvent passé des semaines à chercher, et n’ont trouvé que de la publicité de cliniques. Cette page est ce que j’aurais voulu qu’elles trouvent d’abord.
+Les personnes qui arrivent dans mon bureau ont souvent passé des semaines à chercher, et n’ont trouvé que de la publicité de cliniques.
 
-Trois choses à dire clairement. Je ne suis affilié à aucun des organismes ci-dessus et je ne reçois rien pour les nommer. L’ostéopathie ne fait pas partie du parcours public et n’est pas remboursée par la RAMQ. Et mes reçus ne sont pas acceptés par tous les assureurs, pour une raison expliquée sur la page [tarifs et assurances](/tarifs-et-assurances/).
+Je ne suis affilié à aucun des organismes ci-dessus et je ne reçois rien pour les nommer. L’ostéopathie ne fait pas partie du parcours public et n’est pas remboursée par la RAMQ. Et mes reçus ne sont pas acceptés par tous les assureurs, pour une raison expliquée sur la page [tarifs et assurances](/tarifs-et-assurances/).
 
 Si après tout cela vous voulez essayer une approche manuelle douce, la page [ostéopathie et fibromyalgie](/maladies-chroniques/fibromyalgie/) explique comment je travaille.

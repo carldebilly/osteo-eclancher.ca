@@ -6,7 +6,7 @@ title: "Fibromyalgia in Montréal: where to find help"
 seo_title: "Fibromyalgia in Montréal · support and resources"
 description: "Associations, the 811 helpline and public resources for people living with fibromyalgia in Montréal. An orientation page, not an offer of service."
 eyebrow: "Resources"
-lead: "This page says where to go. Most of the answers are not at an osteopath’s office, and the organisations below do work that no practitioner replaces."
+lead: "Most of the answers are not at an osteopath’s office. The organisations below do work that no practitioner replaces."
 date: 2026-09-07
 last_modified_at: 2026-09-07
 byline: true
@@ -69,12 +69,12 @@ For a life-threatening emergency it is 911, not 811.
 
 In 2021 the ministère de la Santé et des Services sociaux published a document titled *Algorithme de prise en charge de la fibromyalgie*, available from the [ministry’s publications](https://publications.msss.gouv.qc.ca/msss/document-001056/). It is in French.
 
-Its interest for you is not medical but practical: it is the document your family physician is meant to work from. Knowing a pathway exists, and being able to name it in an appointment, changes the conversation. I do not summarise it here and I draw no conclusion from it about my own practice.
+Its interest for you is not medical but practical: it is the document your family physician is meant to work from. Knowing a pathway exists, and being able to name it in an appointment, changes the conversation.
 
-## Why this page exists, and what I do not do on it
+## My connection to these organisations
 
-People who arrive in my room have often spent weeks looking and found nothing but clinic advertising. This page is what I wish they had found first.
+People who arrive in my room have often spent weeks looking and found nothing but clinic advertising.
 
-Three things stated plainly. I am affiliated with none of the organisations above and I receive nothing for naming them. Osteopathy is not part of the public pathway and is not reimbursed by the RAMQ. And my receipts are not accepted by every insurer, for a reason explained on the [fees and insurance](/en/fees-and-insurance/) page.
+I am affiliated with none of the organisations above and I receive nothing for naming them. Osteopathy is not part of the public pathway and is not reimbursed by the RAMQ. And my receipts are not accepted by every insurer, for a reason explained on the [fees and insurance](/en/fees-and-insurance/) page.
 
 If after all that you want to try a gentle manual approach, the page on [osteopathy and fibromyalgia](/en/chronic-conditions/fibromyalgia/) explains how I work.

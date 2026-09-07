@@ -39,4 +39,4 @@ Send your request by telephone to 514 824 5854. You will receive an answer withi
 
 ## Changes
 
-This page will be updated if an analytics tool or a form is added to the site. The date of the last change is recorded in the site’s sitemap.
+This page will be updated if an analytics tool or a form is added to the site.

@@ -86,7 +86,7 @@ La durée s’ajuste à ce que vous pouvez recevoir ce jour-là. Une séance qui
 
 ## Est-ce que vous connaissez bien la fibromyalgie ?
 
-La fibromyalgie est le sujet de mon mémoire de finissant, en cours de rédaction à l’Institut d’enseignement de l’ostéopathie du Québec. Ce travail n’est pas terminé : je n’en tire aucune promesse de résultat, et vous ne trouverez pas de conclusions sur ce site tant qu’il ne l’est pas.
+La fibromyalgie est le sujet de mon mémoire de finissant, en cours de rédaction à l’Institut d’enseignement de l’ostéopathie du Québec. Ce travail n’est pas terminé, et je n’en tire aucune promesse de résultat.
 
 Ce sujet explique aussi le temps que je passe à écouter avant de poser les mains. Ce que les personnes décrivent de leur propre expérience est la matière la plus utile dont je dispose.
 
