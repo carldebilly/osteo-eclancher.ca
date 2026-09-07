@@ -7,8 +7,6 @@ name: PR check
 on:
   pull_request:
     branches: [master]
-  push:
-    branches-ignore: [master]
   workflow_dispatch:
 
 permissions:
@@ -22,9 +20,9 @@ jobs:
   verify:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-dotnet@v4
+      - uses: actions/setup-dotnet@v5
         with:
           dotnet-version: '10.0.x'
 
@@ -45,7 +43,7 @@ jobs:
 
       - name: Keep the build for inspection
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: site
           path: _site
