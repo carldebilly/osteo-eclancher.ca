@@ -23,18 +23,6 @@ faq:
       the situation improves enough that you stop or you leave with what you need to manage it
       yourself. I sell no packages and I set no rhythm in advance: we take stock after a few
       sessions, and if you no longer need me I will say so.
-  - q: "Why so many questions about my history and my habits?"
-    a: >
-      Because the reason you came is rarely isolated. A shoulder pain can come from a fall fifteen
-      years ago, from a desk, from always sleeping on the same side, or from a stretch of time when
-      you compensated without noticing. Looking for what keeps a problem going means knowing what
-      came before it.
-
-
-      Your medication and your habits belong there for the same reason: they tell me what your body
-      is handling right now, and they sometimes explain a reaction I would otherwise read as a
-      sign. Nothing you tell me is used to judge your choices, and if a question seems beside the
-      point, ask me why I am asking it.
   - q: "How does this fit with my other care?"
     a: >
       Alongside it, never instead of it. An osteopath takes no part in managing medication:
