@@ -1,0 +1,16 @@
+# Jekyll build output (built locally with tools/preview.ps1, never committed)
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# .NET
+bin/
+obj/
+TestResults/
+*.user
+.vs/
+
+# Tooling scratch
+.playwright-mcp/
+traffic.db

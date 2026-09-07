@@ -1,0 +1,2 @@
+{%- assign t = site.data.i18n[page.lang] -%}
+<a class="{{ include.class | default: 'btn-primary' }}" href="{{ site.data.business.booking[page.lang] }}" target="_blank" rel="noopener" aria-label="{{ t.cta.book_aria | escape }}">{{ include.label | default: t.cta.book }}</a>

@@ -1,0 +1,42 @@
+# Built natively by GitHub Pages (github-pages gem = Jekyll 3.10). Whitelisted plugins only.
+# Local parity build: tools/preview.ps1 (same container as GitHub's "pages build and deployment").
+title: Julien Éclancher — Ostéopathe
+description: Ostéopathe à Verdun (Montréal)
+url: "https://osteo-eclancher.ca"
+baseurl: ""
+lang: fr
+timezone: America/Toronto
+
+# Disables GitHub's implicit jekyll-theme-primer, which would otherwise inject its own stylesheet.
+theme: null
+
+permalink: pretty
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+
+plugins:
+  - jekyll-sitemap
+
+# The github-pages gem drops CNAME from the output by default. The custom domain is stored in
+# the repository settings so the site works either way, but keeping the file makes the build
+# self-describing and survivable if the settings are ever re-created from the source.
+include:
+  - CNAME
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+      lang: fr
+  # Directory-prefix match: every file under en/ is English without repeating `lang`.
+  - scope:
+      path: "en"
+    values:
+      lang: en
+
+# Manual cache-buster appended to the stylesheet URL.
+assets_version: "2026-09a"

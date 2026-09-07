@@ -1,0 +1,22 @@
+{%- assign t = site.data.i18n[page.lang] -%}
+{%- assign c = page.schema_condition -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "@id": {{ page.url | absolute_url | append: "#webpage" | jsonify }},
+  "url": {{ page.url | absolute_url | jsonify }},
+  "name": {{ page.title | jsonify }},
+  "description": {{ page.description | jsonify }},
+  "inLanguage": {{ t.hreflang | jsonify }},
+  "isPartOf": { "@id": {{ site.url | append: "/#website" | jsonify }} },
+  "publisher": { "@id": {{ site.url | append: "/#business" | jsonify }} },
+  "about": {
+    "@type": "MedicalCondition",
+    "name": {{ c.name | jsonify }}
+    {%- if c.same_as %},
+    "sameAs": {{ c.same_as | jsonify }}
+    {%- endif %}
+  }
+}
+</script>

@@ -1,0 +1,23 @@
+{%- assign b = site.data.business -%}
+{%- assign t = site.data.i18n[page.lang] -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": {{ site.url | append: "/#person" | jsonify }},
+  "name": {{ b.person.name | jsonify }},
+  "jobTitle": {{ b.person.job_title[page.lang] | jsonify }},
+  "image": {{ "/assets/img/julien-800.jpg" | absolute_url | jsonify }},
+  "url": {{ page.url | absolute_url | jsonify }},
+  {%- if b.person.same_as.size > 0 %}
+  "sameAs": {{ b.person.same_as | jsonify }},
+  {%- endif %}
+  "alumniOf": {{ b.person.alumni_of | jsonify }},
+  "memberOf": {{ b.ritma.org | jsonify }},
+  "hasCredential": {{ b.ritma.credential | jsonify }},
+  "knowsAbout": {{ b.person.knows_about[page.lang] | jsonify }},
+  "knowsLanguage": {{ b.languages | jsonify }},
+  "worksFor": { "@id": {{ site.url | append: "/#business" | jsonify }} },
+  "workLocation": {{ b.address | jsonify }}
+}
+</script>

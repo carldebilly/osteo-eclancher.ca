@@ -1,0 +1,75 @@
+# Single source of truth for the visible contact block, the footer and every JSON-LD node.
+# Sub-objects are pre-shaped for schema.org so Liquid can dump them with `jsonify`.
+name: "Julien Éclancher — Ostéopathe"
+clinic_name: "Hakini, Clinique d’ostéopathie & santé globale"
+clinic_url: "https://www.hakini.ca/"
+
+telephone_display: "514 824 5854"
+telephone_e164: "+15148245854"
+
+address:
+  "@type": PostalAddress
+  streetAddress: "4255, rue Wellington, bureau 202"
+  addressLocality: Verdun
+  addressRegion: QC
+  postalCode: "H4G 1V9"
+  addressCountry: CA
+
+geo:
+  "@type": GeoCoordinates
+  latitude: 45.461192
+  longitude: -73.567334
+
+map_url: "https://www.google.com/maps/search/?api=1&query=4255+rue+Wellington+Verdun+QC+H4G+1V9"
+
+booking:
+  fr: "https://www.gorendezvous.com/BookingWidget/fr?companyId=101639&eids=194282&lids=2849"
+  en: "https://www.gorendezvous.com/BookingWidget/en?companyId=101639&eids=194282&lids=2849"
+
+# BCP 47 tags -> schema.org knowsLanguage
+languages:
+  - fr-CA
+  - en-CA
+
+# Profiles describing the practice itself (Google Business Profile, directories).
+# Add them as they are created: `sameAs` is what lets search and LLM engines merge
+# these listings into one entity.
+same_as: []
+
+ritma:
+  org:
+    "@type": Organization
+    name: RITMA
+    url: "https://www.ritma.ca/"
+  credential:
+    "@type": EducationalOccupationalCredential
+    credentialCategory: "Ostéopathe I.O."
+    identifier: "11364"
+    recognizedBy:
+      "@type": Organization
+      name: RITMA
+
+person:
+  name: "Julien Éclancher"
+  job_title:
+    fr: "Interne en ostéopathie (I.O.)"
+    en: "Osteopathy intern (I.O.)"
+  alumni_of:
+    "@type": EducationalOrganization
+    name: "Institut d’enseignement de l’ostéopathie du Québec (IEOQ)"
+  # Pages that describe Julien himself (not the practice).
+  same_as:
+    - "https://www.hakini.ca/fr/a-propos"
+  knows_about:
+    fr:
+      - "Ostéopathie"
+      - "Maladies chroniques"
+      - "Douleur chronique"
+      - "Fibromyalgie"
+      - "Anxiété"
+    en:
+      - "Osteopathy"
+      - "Chronic conditions"
+      - "Chronic pain"
+      - "Fibromyalgia"
+      - "Anxiety"

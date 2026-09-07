@@ -1,0 +1,30 @@
+---
+layout: null
+permalink: /llms.txt
+sitemap: false
+---
+{%- assign business = site.data.business -%}
+# Julien Éclancher — ostéopathe à Verdun (Montréal)
+
+> {{ business.person.job_title.fr }}, membre du RITMA sous le numéro {{ business.ritma.credential.identifier }}.
+> Pratique manuelle douce, des motifs courants aux maladies chroniques, à la douleur installée
+> et aux tensions liées à l’anxiété. Consultations en français et en anglais à
+> {{ business.clinic_name }}, à {{ business.address.addressLocality }}.
+
+L’ostéopathie ne pose pas de diagnostic médical et ne remplace pas un suivi médical. Ce site ne
+promet aucun résultat : il décrit une pratique et ses limites.
+
+Adresse : {{ business.clinic_name }}, {{ business.address.streetAddress }}, {{ business.address.addressLocality }} ({{ business.address.addressRegion }}) {{ business.address.postalCode }}, Canada.
+Téléphone : {{ business.telephone_display }}.
+Rendez-vous : {{ business.booking.fr }}
+
+## Pages en français
+{% assign fr_pages = site.pages | where: "lang", "fr" | where_exp: "p", "p.ref" | sort: "permalink" -%}
+{% for p in fr_pages -%}
+- [{{ p.title }}]({{ p.url | absolute_url }}) : {{ p.description }}
+{% endfor %}
+## Pages in English
+{% assign en_pages = site.pages | where: "lang", "en" | where_exp: "p", "p.ref" | sort: "permalink" -%}
+{% for p in en_pages -%}
+- [{{ p.title }}]({{ p.url | absolute_url }}) : {{ p.description }}
+{% endfor %}

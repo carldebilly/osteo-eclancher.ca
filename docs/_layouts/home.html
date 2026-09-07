@@ -1,0 +1,115 @@
+---
+layout: default
+---
+{%- assign t = site.data.i18n[page.lang] -%}
+{%- assign b = site.data.business -%}
+
+  <section class="hero" id="top">
+    <div class="ring1" aria-hidden="true"></div>
+    <div class="ring2" aria-hidden="true"></div>
+    <div class="wrap">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="bar"></span><span class="txt">{{ page.hero.eyebrow }}</span></div>
+        <h1>{{ page.hero.title }}</h1>
+        <p class="intro">{{ page.hero.intro }}</p>
+        <div class="hero-cta">
+          {%- include cta-booking.html class="btn-primary btn-lg" -%}
+          <a class="btn-ghost" href="#approche">{{ t.cta.discover }}</a>
+        </div>
+        <p class="cta-note">{{ t.cta.book_note }}</p>
+      </div>
+      <div class="hero-photo">
+        <div class="frame" aria-hidden="true"></div>
+        {%- include picture-portrait.html fetchpriority="high" -%}
+        <div class="dot" aria-hidden="true"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="approche" id="approche">
+    <div class="wrap">
+      <div class="values">
+        {%- for value in page.values %}
+        <div class="value">
+          <span class="vdot" aria-hidden="true"></span>
+          <h2>{{ value.title }}</h2>
+          <p>{{ value.text }}</p>
+        </div>
+        {%- endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="eyebrow"><span class="bar"></span><span class="txt">{{ page.audience.eyebrow }}</span></div>
+        <h2>{{ page.audience.title }}</h2>
+        <p>{{ page.audience.lead }}</p>
+      </div>
+      <div class="cards">
+        {%- for card in page.audience.cards %}
+        {%- assign target = site.pages | where: "ref", card.link_ref | where: "lang", page.lang | first %}
+        <article class="card">
+          <span class="num">{{ card.num }}</span>
+          <h3>{{ card.title }}</h3>
+          <p>{{ card.text }}</p>
+          {%- if target %}
+          <p class="cardlink"><a href="{{ target.url | relative_url }}{{ card.link_anchor }}">{{ card.link_label }}</a></p>
+          {%- endif %}
+        </article>
+        {%- endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section class="seance" id="seance">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="eyebrow"><span class="bar"></span><span class="txt">{{ page.session.eyebrow }}</span></div>
+        <h2>{{ page.session.title }}</h2>
+        <p>{{ page.session.lead }}</p>
+      </div>
+      <ol class="steps">
+        {%- for step in page.session.steps %}
+        <li class="step">
+          <h3>{{ step.title }}</h3>
+          <p>{{ step.text }}</p>
+        </li>
+        {%- endfor %}
+      </ol>
+    </div>
+  </section>
+
+  <section class="apropos" id="apropos">
+    <div class="wrap">
+      {%- assign about_page = site.pages | where: "ref", "about" | where: "lang", page.lang | first %}
+      {%- assign fees_page = site.pages | where: "ref", "fees" | where: "lang", page.lang | first %}
+      <div class="apropos-copy">
+        <div class="eyebrow"><span class="bar"></span><span class="txt">{{ page.about.eyebrow }}</span></div>
+        <h2>{{ page.about.title }}</h2>
+        <p>{{ page.about.text }}</p>
+        <p class="cardlink"><a href="{{ about_page.url | relative_url }}">{{ page.about.link_label }}</a></p>
+      </div>
+      <div class="apropos-side">
+        <h3>{{ page.insurance.title }}</h3>
+        <p>{{ page.insurance.text }}</p>
+        <p class="cardlink"><a href="{{ fees_page.url | relative_url }}">{{ page.insurance.link_label }}</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="wrap">
+      <div class="contact-copy">
+        <div class="eyebrow"><span class="bar"></span><span class="txt">{{ t.contact.title }}</span></div>
+        <h2>{{ page.contact.title }}</h2>
+        <p class="lead">{{ page.contact.lead }}</p>
+        {%- include cta-booking.html class="btn-primary btn-lg" -%}
+        <p class="cta-note">{{ t.cta.book_note }}</p>
+      </div>
+      <div class="contact-side">
+{%- include nap.html -%}
+      </div>
+    </div>
+  </section>

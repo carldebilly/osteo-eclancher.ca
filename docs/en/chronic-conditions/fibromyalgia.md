@@ -1,0 +1,82 @@
+---
+ref: fibromyalgia
+permalink: /en/chronic-conditions/fibromyalgia/
+parent_ref: chronic
+title: "Osteopathy and fibromyalgia"
+seo_title: "Fibromyalgia osteopath in Verdun · Julien Éclancher"
+description: "Osteopathic support for people living with fibromyalgia, in Verdun (Montréal). Gentle sessions adapted to sensitivity to touch, in English or French."
+eyebrow: "Reason for consulting"
+lead: "When touch itself hurts, an osteopathy session cannot look like anyone else’s. Here is how I work with people living with fibromyalgia."
+last_modified_at: 2026-09-06
+schema_condition:
+  name: "Fibromyalgia"
+  same_as:
+    - "https://en.wikipedia.org/wiki/Fibromyalgia"
+faq:
+  - q: "Do I need a diagnosis before booking?"
+    a: >
+      No. Many people come with widespread pain that has no name yet. I make no diagnosis, that is
+      your physician’s role, and if your situation calls for a medical opinion you have not had yet,
+      I will say so.
+  - q: "Will the session hurt?"
+    a: >
+      The aim is that it does not. Work stays inside your comfort zone, and you stop me the moment
+      something turns unpleasant. Some tiredness or soreness can follow for twenty-four to
+      forty-eight hours, especially the first time. If that has happened to you elsewhere, tell me
+      and I will do less.
+  - q: "I am in a flare. Can I still come?"
+    a: >
+      Yes, and it is worth telling me beforehand: the session will be shorter and lighter. We can
+      also move the appointment, just write to me.
+  - q: "How many sessions will I need?"
+    a: >
+      I cannot promise you a number. We will take stock after a few sessions, and if nothing has
+      shifted for you I will say so rather than have you keep coming back.
+  - q: "Will my insurance reimburse this?"
+    a: >
+      That depends on your insurer and on how it treats the osteopathy intern title. The questions
+      to ask are on the [fees and insurance](/en/fees-and-insurance/) page.
+  - q: "Do you practise in French?"
+    a: >
+      Yes. Sessions run in English or French, whichever you prefer.
+---
+
+## What fibromyalgia is like
+
+Widespread pain that has lasted for months. Fatigue that rest does not fix. Sleep that no longer restores. Often, trouble with concentration and memory that nobody warns you about but that weighs as much as the pain does.
+
+The nervous system becomes over-reactive to pain signals, something called central sensitisation. Ordinary pressure, a bag strap, a hand resting a little too firmly, register as painful. The pain is not imagined. Its mechanism is simply different from that of a sprained ankle.
+
+Diagnosis belongs to your physician. Many people arrive here before they have one, sometimes after years of tests with no answer. That does not prevent us from working together, but if your situation calls for a medical opinion you have not had yet, I will tell you.
+
+## Why gentle matters more here
+
+The osteopathy people picture, with brisk thrusts and cracking joints, is exactly what should not happen when touch already hurts. Too much pressure wakes the system up instead of settling it, and the person leaves worse than they arrived. Many have had that experience already, and it is often why they never went back.
+
+My practice runs the other way. Contact stays light, the pace is yours, and every movement is announced before it happens. You can stop the session at any point without explaining yourself.
+
+## What I can offer, and what I cannot
+
+Osteopathy does not make fibromyalgia go away, and it does not replace your medical care. It is added to it.
+
+What manual work can address:
+
+- the tension that has built up around the pain, in the neck, the shoulders, the pelvis;
+- the mobility of the rib cage and diaphragm, often restricted when breathing turns shallow;
+- comfort in specific everyday movements, the ones you name at the start of the session.
+
+What I do not do: promise improvement, set a number of sessions in advance, or ask you to stop anything in your current treatment.
+
+## A session when everything is sensitive
+
+We pick a position you can hold: on your back, on your side with cushions, seated if lying down is too uncomfortable. Breaks are part of the session, not a sign it failed.
+
+Contact stays light and the length adjusts to what you can take that day. A session that stops after twenty minutes because that was enough is a session that worked.
+
+At the end, a few pointers for the week, matched to your energy rather than to a standard programme.
+
+## Why this subject
+
+Fibromyalgia is the subject of my graduating thesis, currently being written. It also explains the time I spend listening before I put my hands anywhere: what people describe of their own experience is the most useful material I have.
+
+If that interests you, let us talk about it in session. My background is set out on the [about](/en/about/) page, and the other reasons for consulting on the [chronic conditions](/en/chronic-conditions/) page.

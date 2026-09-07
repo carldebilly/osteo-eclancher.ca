@@ -1,0 +1,50 @@
+name: PR check
+
+# Builds the site with the same container GitHub Pages runs, then checks the result.
+# There is deliberately no deploy step: master is still published by the built-in
+# "pages build and deployment" workflow from the branch, and adding a deploy job here
+# would take that over.
+on:
+  pull_request:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pr-check-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-dotnet@v5
+        with:
+          dotnet-version: '10.0.x'
+
+      - name: Check the sources
+        run: dotnet test tests/Site.Tests --nologo --filter "Category!=Output"
+
+      - name: Build with the GitHub Pages toolchain
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./docs
+          destination: ./_site
+          verbose: true
+
+      - name: Check the built site
+        env:
+          SITE_OUTPUT_DIR: ${{ github.workspace }}/_site
+        run: dotnet test tests/Site.Tests --nologo --filter "Category=Output"
+
+      - name: Keep the build for inspection
+        if: always()
+        uses: actions/upload-artifact@v5
+        with:
+          name: site
+          path: _site
+          retention-days: 7

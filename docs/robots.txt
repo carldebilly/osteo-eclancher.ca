@@ -1,0 +1,15 @@
+# Everything here is meant to be found, including by answer engines: someone asking ChatGPT or
+# Perplexity for an osteopath in Verdun should reach the same pages as someone searching Google.
+# The wildcard already says that. The two "Extended" tokens are named anyway because their
+# absence is easy to misread as an oversight rather than as a decision.
+
+User-agent: *
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+Sitemap: https://osteo-eclancher.ca/sitemap.xml

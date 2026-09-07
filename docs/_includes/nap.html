@@ -1,0 +1,21 @@
+{%- assign b = site.data.business -%}
+{%- assign t = site.data.i18n[page.lang] -%}
+        <address class="details">
+          <div class="detail">
+            <span class="lbl">{{ t.contact.address }}</span>
+            <span class="val">{{ b.clinic_name }}<br>{{ b.address.streetAddress }}<br>{{ b.address.addressLocality }} ({{ b.address.addressRegion }})&nbsp; {{ b.address.postalCode }}<br>
+              <a class="maplink" href="{{ b.map_url }}" target="_blank" rel="noopener">{{ t.contact.map }}</a></span>
+          </div>
+          <div class="detail">
+            <span class="lbl">{{ t.contact.phone }}</span>
+            <span class="val"><a href="tel:{{ b.telephone_e164 }}">{{ b.telephone_display }}</a></span>
+          </div>
+          <div class="detail">
+            <span class="lbl">{{ t.contact.hours }}</span>
+            <span class="val">{{ t.contact.by_appointment }}</span>
+          </div>
+          <div class="detail">
+            <span class="lbl">RITMA</span>
+            <span class="val">{{ b.ritma.credential.credentialCategory }} &nbsp;·&nbsp; {{ b.ritma.credential.identifier }}</span>
+          </div>
+        </address>

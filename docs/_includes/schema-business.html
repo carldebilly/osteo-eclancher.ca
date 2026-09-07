@@ -1,0 +1,61 @@
+{%- comment -%}
+  Shared entity graph, emitted on every page. Rules that keep the JSON valid:
+   - every scalar goes through `jsonify`, which emits its own quotes and escapes
+     quotes, backslashes and control characters;
+   - sub-objects are pre-shaped in _data/business.yml and dumped whole;
+   - optional members are emitted BEFORE a mandatory one, so no trailing comma
+     can ever appear.
+  No openingHoursSpecification: the practice is by appointment only, and
+  schema.org has no value for that. The visible contact block carries it.
+{%- endcomment -%}
+{%- assign b = site.data.business -%}
+{%- assign t = site.data.i18n[page.lang] -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": {{ site.url | append: "/#website" | jsonify }},
+      "url": {{ site.url | append: "/" | jsonify }},
+      "name": {{ t.site_name | jsonify }},
+      "inLanguage": {{ t.hreflang | jsonify }},
+      "publisher": { "@id": {{ site.url | append: "/#business" | jsonify }} }
+    },
+    {
+      "@type": ["MedicalBusiness", "LocalBusiness"],
+      "@id": {{ site.url | append: "/#business" | jsonify }},
+      "name": {{ b.name | jsonify }},
+      "url": {{ site.url | append: "/" | jsonify }},
+      "image": {{ "/assets/img/julien-800.jpg" | absolute_url | jsonify }},
+      "telephone": {{ b.telephone_e164 | jsonify }},
+      "address": {{ b.address | jsonify }},
+      {%- if b.geo.latitude %}
+      "geo": {{ b.geo | jsonify }},
+      {%- endif %}
+      {%- if b.same_as.size > 0 %}
+      "sameAs": {{ b.same_as | jsonify }},
+      {%- endif %}
+      "hasMap": {{ b.map_url | jsonify }},
+      "knowsAbout": {{ b.person.knows_about[page.lang] | jsonify }},
+      "knowsLanguage": {{ b.languages | jsonify }},
+      "memberOf": {{ b.ritma.org | jsonify }},
+      "hasCredential": {{ b.ritma.credential | jsonify }},
+      "founder": { "@id": {{ site.url | append: "/#person" | jsonify }} },
+      "potentialAction": {
+        "@type": "ReserveAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": {{ b.booking[page.lang] | jsonify }},
+          "inLanguage": {{ t.hreflang | jsonify }},
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
+        },
+        "result": { "@type": "Reservation", "name": {{ t.schema.reservation_name | jsonify }} }
+      }
+    }
+  ]
+}
+</script>

@@ -1,0 +1,11 @@
+{%- comment -%}
+  Wrapped in <figure> on purpose: kramdown only treats tags from its block-level
+  list as HTML blocks, so a bare <picture> in Markdown would be wrapped in <p>.
+{%- endcomment -%}
+{%- assign t = site.data.i18n[page.lang] -%}
+<figure class="ph">
+  <picture>
+    <source type="image/webp" srcset="{{ '/assets/img/julien-400.webp' | relative_url }} 400w, {{ '/assets/img/julien-800.webp' | relative_url }} 800w" sizes="(max-width: 720px) 88vw, 360px">
+    <img src="{{ '/assets/img/julien-800.jpg' | relative_url }}" width="800" height="924" alt="{{ include.alt | default: t.portrait_alt | escape }}" {% if include.fetchpriority %}fetchpriority="{{ include.fetchpriority }}"{% else %}loading="lazy"{% endif %} decoding="async">
+  </picture>
+</figure>

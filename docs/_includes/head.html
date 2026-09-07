@@ -1,0 +1,43 @@
+{%- assign t = site.data.i18n[page.lang] -%}
+{%- assign self_url = page.url | absolute_url -%}
+{%- assign seo_title = page.seo_title | default: page.title -%}
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ seo_title | escape }}</title>
+  <meta name="description" content="{{ page.description | escape }}">
+  <link rel="canonical" href="{{ self_url }}">
+{%- if page.noindex %}
+  <meta name="robots" content="noindex, follow">
+{%- else %}
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+{%- endif %}
+{%- if twin %}
+{%- if page.lang == "fr" %}{% assign fr_url = self_url %}{% assign en_url = twin.url | absolute_url %}
+{%- else %}{% assign fr_url = twin.url | absolute_url %}{% assign en_url = self_url %}{% endif %}
+  <link rel="alternate" hreflang="fr-CA" href="{{ fr_url }}">
+  <link rel="alternate" hreflang="en-CA" href="{{ en_url }}">
+  <link rel="alternate" hreflang="x-default" href="{{ fr_url }}">
+{%- endif %}
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ t.site_name | escape }}">
+  <meta property="og:title" content="{{ seo_title | escape }}">
+  <meta property="og:description" content="{{ page.description | escape }}">
+  <meta property="og:url" content="{{ self_url }}">
+  <meta property="og:locale" content="{{ t.og_locale }}">
+{%- if twin %}
+  <meta property="og:locale:alternate" content="{{ site.data.i18n[twin.lang].og_locale }}">
+{%- endif %}
+  <meta property="og:image" content="{{ '/assets/og/og-' | append: page.lang | append: '.jpg' | absolute_url }}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="{{ t.site_name | escape }} — {{ t.footer.location }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#F5F0E8">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Hanken+Grotesk:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}?v={{ site.assets_version }}">
