@@ -24,18 +24,6 @@ faq:
       repartez avec de quoi la gérer vous-même. Je ne vends pas de forfait et je ne fixe pas de
       rythme à l’avance : nous faisons le point après quelques séances, et si vous n’avez plus
       besoin de moi, je vous le dirai.
-  - q: "Pourquoi autant de questions sur mon passé et mes habitudes ?"
-    a: >
-      Parce que le motif de consultation est rarement isolé. Une douleur d’épaule peut venir
-      d’une chute d’il y a quinze ans, d’un poste de travail, d’un sommeil toujours sur le même
-      côté, ou d’une période où vous avez compensé sans y penser. Chercher ce qui entretient un
-      problème demande de savoir ce qui l’a précédé.
-
-
-      Vos médicaments et vos habitudes entrent là pour la même raison : ils me disent ce que
-      votre corps gère en ce moment, et ils expliquent parfois une réaction que je lirais autrement
-      comme un signe. Rien de ce que vous me dites ne sert à juger vos choix, et si une question
-      vous semble hors sujet, demandez-moi pourquoi je la pose.
   - q: "Comment cela s’articule avec mes autres suivis ?"
     a: >
       En complément, jamais à la place. Un ostéopathe n’intervient pas dans la gestion de la

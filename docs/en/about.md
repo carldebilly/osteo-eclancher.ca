@@ -53,7 +53,9 @@ The work is in progress, and I draw no promise of results from it.
 
 ## How I work
 
-Three things, visible from the first session.
+What you will see from the first session.
+
+**I ask a lot of questions.** The reason you came is rarely isolated. A shoulder pain can come from a fall fifteen years ago, from a desk, from always sleeping on the same side, or from a stretch of time when you compensated without noticing. Looking for what keeps a problem going means knowing what came before it, and that is why a first visit is mostly a conversation. Your medication and your habits belong there for the same reason: they tell me what your body is handling right now. None of it is used to judge your choices, and if a question seems beside the point, ask me why I am asking it.
 
 **Gently.** No abrupt manipulation. When touch already hurts, a forceful technique does more harm than good, and I would rather a session feel too light than one you spend two days recovering from.
 

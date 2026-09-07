@@ -53,7 +53,9 @@ Ce travail est en cours, et je n’en tire aucune promesse de résultat.
 
 ## Comment je travaille
 
-Trois choses, que vous verrez dès la première séance.
+Ce que vous verrez dès la première séance.
+
+**Je pose beaucoup de questions.** Le motif de consultation est rarement isolé. Une douleur d’épaule peut venir d’une chute d’il y a quinze ans, d’un poste de travail, d’un sommeil toujours sur le même côté, ou d’une période où vous avez compensé sans y penser. Chercher ce qui entretient un problème demande de savoir ce qui l’a précédé, et c’est pour cette raison que la première rencontre est surtout une conversation. Vos médicaments et vos habitudes entrent là pour la même raison : ils me disent ce que votre corps gère en ce moment. Rien de tout cela ne sert à juger vos choix, et si une question vous semble hors sujet, demandez-moi pourquoi je la pose.
 
 **Doucement.** Pas de manipulation brusque. Quand le toucher est déjà douloureux, une technique appuyée fait plus de mal que de bien, et je préfère une séance qui semble trop légère à une séance dont on se remet pendant deux jours.
 
