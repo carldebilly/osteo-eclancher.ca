@@ -44,6 +44,8 @@ Fibromyalgia combines widespread pain that has lasted for months, fatigue that r
 
 The nervous system becomes over-reactive to pain signals, something called central sensitisation. Ordinary pressure, a bag strap, a hand resting a little too firmly, register as painful. The pain is not imagined. Its mechanism is simply different from that of a sprained ankle.
 
+Something else comes up in almost every history I hear: years spent moving from one professional to the next, repeating the same account, trying one approach and then the next, often with no lasting result and sometimes without being believed. That exhaustion adds itself to the pain, and it explains the wariness with which some people come through my door. It is warranted.
+
 If what you need first is help rather than a practitioner, the page on [fibromyalgia resources in Montréal](/en/chronic-conditions/fibromyalgia/montreal-resources/) lists the associations, the 811 line and what the public system provides.
 
 ## Do I need a diagnosis before booking?
@@ -74,7 +76,11 @@ What I do not do: promise improvement, set a number of sessions in advance, or a
 
 An adapted session starts with choosing a position you can hold: on your back, on your side with cushions, seated if lying down is too uncomfortable. Breaks are part of the session, not a sign it failed.
 
-Contact stays light and the length adjusts to what you can take that day. A session that stops after twenty minutes because that was enough is a session that worked.
+Concretely, the work goes mostly through the fascia, the sheets of tissue that connect muscles, joints and organs. Myofascial release techniques mean slow pressure, light stretching and sustained gentle traction. I often add cranial work and a rhythmic sequence of whole-body mobilisation, two approaches that ask little of the system.
+
+What I reduce or leave aside when touch is painful: direct articular techniques and muscle energy work, which need your active participation and demand more of you. They come back if and when your tolerance allows.
+
+The length adjusts to what you can take that day. A session that stops after twenty minutes because that was enough is a session that worked.
 
 At the end, I leave you a few pointers for the week, matched to your energy rather than to a standard programme.
 

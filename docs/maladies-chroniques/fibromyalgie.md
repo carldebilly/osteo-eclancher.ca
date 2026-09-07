@@ -44,6 +44,8 @@ La fibromyalgie associe des douleurs répandues qui durent depuis des mois, une 
 
 Le système nerveux devient trop réactif au signal douloureux : c’est ce qu’on appelle la sensibilisation centrale. Une pression ordinaire, la sangle d’un sac, une main posée un peu fermement, sont ressenties comme douloureuses. La douleur n’est pas imaginée. Son mécanisme est simplement différent de celui d’une entorse.
 
+Une autre chose revient dans presque toutes les histoires qu’on me raconte : l’errance thérapeutique. Des années à passer d’un professionnel à l’autre, à répéter le même récit, à essayer une approche puis une suivante, souvent sans résultat durable et parfois sans être crue. Cette fatigue-là s’ajoute à la douleur, et elle explique la méfiance avec laquelle certaines personnes poussent ma porte. Elle est justifiée.
+
 Si vous cherchez d’abord de l’aide et non un praticien, la page [ressources pour la fibromyalgie à Montréal](/maladies-chroniques/fibromyalgie/ressources-montreal/) recense les associations, la ligne 811 et ce que le réseau public prévoit.
 
 ## Faut-il un diagnostic avant de consulter ?
@@ -74,7 +76,11 @@ Ce que je ne fais pas : promettre une amélioration, fixer un nombre de séance
 
 Une séance adaptée commence par le choix d’une position tenable : sur le dos, sur le côté avec des coussins, assis si l’allongé est trop inconfortable. Les pauses font partie de la séance, pas de son échec.
 
-Le contact reste léger et la durée s’ajuste à ce que vous pouvez recevoir ce jour-là. Une séance qui s’arrête à vingt minutes parce que c’était assez est une séance réussie.
+Concrètement, le travail passe surtout par les fascias, ces enveloppes de tissu qui relient muscles, articulations et organes. Les techniques de relâchement myofascial consistent en pressions lentes, étirements légers et tractions douces maintenues. J’y ajoute souvent un travail crânien et une séquence rythmée de mobilisations sur l’ensemble du corps, deux approches qui demandent peu au système.
+
+Ce que je réduis ou laisse de côté quand le toucher est douloureux : les techniques articulaires directes et le travail en énergie musculaire, qui demandent votre participation active et qui sollicitent davantage. Ils reviennent si et quand votre tolérance le permet.
+
+La durée s’ajuste à ce que vous pouvez recevoir ce jour-là. Une séance qui s’arrête à vingt minutes parce que c’était assez est une séance réussie.
 
 À la fin, je vous laisse quelques repères pour la semaine, adaptés à votre niveau d’énergie plutôt qu’à un programme type.
 
