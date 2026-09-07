@@ -45,11 +45,11 @@ Ce qu’elle offre, d’après ses propres pages : des groupes de soutien, un p
 
 Ce n’est pas une clinique et elle ne remplace pas un suivi médical. Sa valeur est ailleurs : le contact avec des personnes qui vivent la même chose, et des outils d’autogestion structurés. Aucun praticien ne fournit cela.
 
-## Le regroupement provincial et son bottin de ressources
+## Trouver l’association de sa région
 
-La Société québécoise de la fibromyalgie regroupe les associations régionales depuis 2015. Elle répond au 450 933-6530 ou au 1 833 933-6533, et son site est [sqf.quebec](https://www.sqf.quebec/).
+Fondée en 2015, la Société québécoise de la fibromyalgie regroupe les associations régionales du Québec. Sa mission, telle qu’elle la formule, est d’allier, d’appuyer et de représenter les organismes qui soutiennent les personnes atteintes et leurs proches. Son site est [sqf.quebec](https://www.sqf.quebec/).
 
-Son bottin de ressources est le document le plus utile pour quelqu’un qui commence à chercher : il recense les associations partout au Québec, mais aussi des ressources juridiques et financières, et des références en santé et en santé mentale. Il est publié sur la [page documentation](https://sqf.quebec/documentation/) du site.
+C’est par là qu’on trouve l’association de sa propre région, si vous n’êtes pas à Montréal. Sa [page documentation](https://sqf.quebec/documentation/) rassemble ce qu’elle publie.
 
 ## Vivre avec une douleur chronique, au-delà de la fibromyalgie
 

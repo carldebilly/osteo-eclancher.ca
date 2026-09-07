@@ -45,11 +45,11 @@ What it offers, according to its own pages: support groups, a pain-management pr
 
 It is not a clinic and it does not replace medical care. Its value lies elsewhere: contact with people living the same thing, and structured self-management tools. No practitioner provides that.
 
-## The provincial body and its resource directory
+## Finding the association for your region
 
-The Société québécoise de la fibromyalgie has brought the regional associations together since 2015. It answers at 450 933-6530 or 1 833 933-6533, and its site is [sqf.quebec](https://www.sqf.quebec/).
+Founded in 2015, the Société québécoise de la fibromyalgie brings together the regional associations across Québec. Its stated mission is to unite, support and represent the organisations that help people living with fibromyalgia and those close to them. Its site is [sqf.quebec](https://www.sqf.quebec/), in French.
 
-Its resource directory is the most useful document for someone starting to look: it lists the associations across Québec, along with legal and financial resources and referrals in health and mental health. It is published on the site’s [documentation page](https://sqf.quebec/documentation/).
+That is where to find the association for your own region, if you are not in Montréal. Its [documentation page](https://sqf.quebec/documentation/) gathers what it publishes.
 
 ## Living with chronic pain, beyond fibromyalgia
 

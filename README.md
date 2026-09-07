@@ -28,6 +28,21 @@ hosts the resource pages link to; it is excluded from the pull-request check bec
 limit at someone else's door must not block a change. Run it on purpose with
 `dotnet test tests/Site.Tests --filter "Category=Network"`.
 
+## Content conventions
+
+Two decisions worth knowing before editing the pages.
+
+**Facts repeat across pages on purpose.** A visitor reads one page, not the site, so the
+insurance caveat and the clinic address appear wherever someone needs them rather than once
+with links. This is the client's call, and it is why a normalisation review of the content
+pages will find repetition and should leave it.
+
+**Every external claim is checked against the organisation's own pages, not a search result.**
+The resource pages link out and describe what each organisation does; anything not verified at
+the source gets removed rather than hedged. A phone number nobody confirmed fails the person
+the page exists for. `dotnet test --filter "Category=Network"` checks the links still answer;
+it does not check that the destinations still say what we claim.
+
 ## Where things are
 
 | Path | What |
