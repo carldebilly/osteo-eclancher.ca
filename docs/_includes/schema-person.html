@@ -1,5 +1,16 @@
+{%- comment -%}
+  The practitioner as an entity, emitted on every page so that `founder` in the business
+  graph resolves wherever it appears, and so a search engine can connect the person to the
+  pages about a condition. That connection is the whole point of the markup.
+
+  `url` is pinned to the French about page rather than derived from the current page: one
+  `@id` may have only one canonical address, and deriving it gave the same identifier two
+  different homes depending on which page was being rendered. `jobTitle` stays in the page's
+  language, which is a translation of one fact rather than two conflicting facts.
+{%- endcomment -%}
 {%- assign b = site.data.business -%}
-{%- assign t = site.data.i18n[page.lang] -%}
+{%- assign about_fr = site.pages | where: "ref", "about" | where: "lang", "fr" | first -%}
+{%- assign about_en = site.pages | where: "ref", "about" | where: "lang", "en" | first -%}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -8,10 +19,17 @@
   "name": {{ b.person.name | jsonify }},
   "jobTitle": {{ b.person.job_title[page.lang] | jsonify }},
   "image": {{ "/assets/img/julien-800.jpg" | absolute_url | jsonify }},
-  "url": {{ page.url | absolute_url | jsonify }},
-  {%- if b.person.same_as.size > 0 %}
-  "sameAs": {{ b.person.same_as | jsonify }},
+  "url": {{ about_fr.url | absolute_url | jsonify }},
+  "sameAs": [
+  {%- for profile in b.person.same_as %}
+    {{ profile | jsonify }},
+  {%- endfor %}
+  {%- if about_en %}
+    {{ about_en.url | absolute_url | jsonify }}
+  {%- else %}
+    {{ about_fr.url | absolute_url | jsonify }}
   {%- endif %}
+  ],
   "alumniOf": {{ b.person.alumni_of | jsonify }},
   "memberOf": {{ b.ritma.org | jsonify }},
   "hasCredential": {{ b.ritma.credential | jsonify }},

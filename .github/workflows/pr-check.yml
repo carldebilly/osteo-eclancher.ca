@@ -27,7 +27,9 @@ jobs:
           dotnet-version: '10.0.x'
 
       - name: Check the sources
-        run: dotnet test tests/Site.Tests --nologo --filter "Category!=Output"
+        run: dotnet test tests/Site.Tests --nologo --filter "Category!=Output&Category!=Network"
+        # Category=Network calls third-party hosts. A rate limit at someone else's door
+        # must not block an unrelated change; run it on purpose instead.
 
       - name: Build with the GitHub Pages toolchain
         uses: actions/jekyll-build-pages@v1

@@ -33,11 +33,25 @@ public sealed class DeontologyLintTests
 		return data;
 	}
 
+	/// <summary>
+	/// Removes the allowed disclaimers before scanning, so a sentence that denies a claim is not
+	/// read as making it. Everything else in the file is still scanned.
+	/// </summary>
+	private static string WithoutAllowedDisclaimers(string text)
+	{
+		foreach (var disclaimer in Rules.AllowedDisclaimers)
+		{
+			text = text.Replace(disclaimer, "", StringComparison.OrdinalIgnoreCase);
+		}
+
+		return text;
+	}
+
 	[Theory(DisplayName = "No source file promises recovery, claims a diagnosis or guarantees a result")]
 	[MemberData(nameof(AllTextFiles))]
 	public void Given_a_source_file_When_scanning_for_forbidden_claims_Then_none_is_present(string relativePath)
 	{
-		var text = File.ReadAllText(Path.Combine(RepoPaths.Root, relativePath));
+		var text = WithoutAllowedDisclaimers(File.ReadAllText(Path.Combine(RepoPaths.Root, relativePath)));
 		var found = new List<string>();
 
 		foreach (var (pattern, why) in Rules.ForbiddenClaims)
@@ -114,5 +128,42 @@ public sealed class DeontologyLintTests
 		}
 
 		Assert.Empty(problems);
+	}
+
+	[Fact(DisplayName = "Every allowed disclaimer denies or asks, so the exemption cannot smuggle in a claim")]
+	public void Given_the_allowed_disclaimers_When_reading_their_form_Then_each_denies_or_asks()
+	{
+		var offenders = new List<string>();
+
+		foreach (var disclaimer in Rules.AllowedDisclaimers)
+		{
+			var asks = disclaimer.TrimEnd().EndsWith('?');
+			var denies = disclaimer.Contains("n’est pas", StringComparison.OrdinalIgnoreCase)
+				|| disclaimer.Contains("is not", StringComparison.OrdinalIgnoreCase);
+
+			if (!asks && !denies)
+			{
+				offenders.Add(disclaimer);
+			}
+		}
+
+		Assert.Empty(offenders);
+	}
+
+	[Fact(DisplayName = "Every allowed disclaimer is actually used, so no dead exemption accumulates")]
+	public void Given_the_allowed_disclaimers_When_searching_the_site_Then_each_appears_somewhere()
+	{
+		var corpus = string.Join(
+			"\n",
+			Directory
+				.EnumerateFiles(RepoPaths.Docs, "*", SearchOption.AllDirectories)
+				.Where(static file => Path.GetExtension(file) is ".html" or ".md" or ".yml" or ".txt")
+				.Select(File.ReadAllText));
+
+		var unused = Rules.AllowedDisclaimers
+			.Where(disclaimer => !corpus.Contains(disclaimer, StringComparison.OrdinalIgnoreCase))
+			.ToArray();
+
+		Assert.Empty(unused);
 	}
 }

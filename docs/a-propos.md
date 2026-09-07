@@ -39,6 +39,12 @@ Je suis membre du **RITMA sous le numéro 11364**, ce qui m’engage à respecte
 
 Une précision qui a des conséquences concrètes : tous les assureurs ne remboursent pas les reçus émis par un interne en ostéopathie. La page [tarifs et assurances](/tarifs-et-assurances/) explique quoi demander à votre assureur avant de venir.
 
+## Où va la profession
+
+Le 25 mars 2026, le gouvernement du Québec a annoncé que l’ostéopathie deviendrait la 57e profession réglementée. Le 16 juin, il a précisé que les ostéopathes seraient intégrés à l’[Ordre des chiropraticiens du Québec](https://www.ordredeschiropraticiens.ca/) plutôt que de former un ordre distinct.
+
+Ce que cela changera pour moi n’est pas encore établi. Les règles de transition, l’échéancier et le sort du titre d’interne en ostéopathie restent à déterminer par les travaux en cours. Je mettrai cette page à jour quand ce sera connu. D’ici là, c’est le code de déontologie du RITMA qui encadre ma pratique, et c’est lui qui explique la prudence de certaines formulations sur ce site.
+
 ## Un mémoire consacré à la fibromyalgie
 
 Mon travail de fin d’études porte sur l’ostéopathie et la fibromyalgie. C’est ce qui oriente ma pratique vers les personnes qui vivent avec une douleur installée : [fibromyalgie](/maladies-chroniques/fibromyalgie/), [maladies chroniques](/maladies-chroniques/), tensions liées à l’anxiété.

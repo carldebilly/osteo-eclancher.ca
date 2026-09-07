@@ -23,7 +23,10 @@ The suite has two halves. `Category!=Output` reads the sources and needs nothing
 locks the URL set, pairs each page with its translation, bounds titles and descriptions, and
 fails on copy that would breach the RITMA code of ethics. `Category=Output` reads `_site/` and
 checks what visitors actually get: reciprocal hreflang, canonicals, structured data, internal
-links, the sitemap and typography. Both run on every pull request.
+links, the sitemap and typography. Both run on every pull request. A third category, `Network`, actually calls the external
+hosts the resource pages link to; it is excluded from the pull-request check because a rate
+limit at someone else's door must not block a change. Run it on purpose with
+`dotnet test tests/Site.Tests --filter "Category=Network"`.
 
 ## Where things are
 

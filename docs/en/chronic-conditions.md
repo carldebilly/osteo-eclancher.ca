@@ -8,7 +8,9 @@ seo_title: "Osteopathy for chronic conditions in Verdun"
 description: "Osteopathy in Verdun for pain that lasts: osteoarthritis, migraines, fibromyalgia, chronic fatigue, the tension that comes with anxiety. Alongside your medical care."
 eyebrow: "Reasons for consulting"
 lead: "Pain that has been there for years is not approached like a stiff neck from last week. The goal shifts: gaining comfort and room to move, session after session."
+date: 2026-09-06
 last_modified_at: 2026-09-06
+byline: true
 schema_condition:
   name: "Chronic pain"
   same_as:
