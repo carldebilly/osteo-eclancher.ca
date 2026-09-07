@@ -18,13 +18,18 @@ schema_condition:
 faq:
   - q: "How often should I come?"
     a: >
-      It depends on you and on what we see. Spacing sessions out gradually is more common than a
-      fixed rhythm: closer together at first if that helps, then further apart.
-  - q: "Do I need to stop my medication or my other care?"
+      My aim is that you should stop needing to come. I look for what is keeping the problem going
+      rather than easing the symptom until the next appointment. Once that is identified, either
+      the situation improves enough that you stop or you leave with what you need to manage it
+      yourself. I sell no packages and I set no rhythm in advance: we take stock after a few
+      sessions, and if you no longer need me I will say so.
+  - q: "How does this fit with my other care?"
     a: >
-      No, and I will never ask you to. What I do comes alongside what your physician,
-      physiotherapist or psychologist have put in place. Changes to your medication belong to
-      whoever prescribed it.
+      Alongside it, never instead of it. An osteopath takes no part in managing medication:
+      prescriptions and their adjustments belong to whoever wrote them, and the same holds for
+      what your physiotherapist or psychologist has put in place. If I notice something that
+      deserves their attention, I will suggest you raise it. Bring your medication list: it
+      informs what I do, it is not there to be changed.
   - q: "Can osteopathy help when the pain has lasted ten years?"
     a: >
       Often the first thing to shift is not the intensity of the pain but what you manage to do
