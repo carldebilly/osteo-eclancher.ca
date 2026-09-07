@@ -61,4 +61,6 @@ What you will see from the first session.
 
 **With your agreement.** Every movement is announced before it happens. You can stop me at any point, without explaining why.
 
+If you want to know where this approach comes from, what an osteopath is and is not in Québec, and what the research shows, [I have written a page about that](/en/osteopathy/).
+
 **Saying what I cannot do.** I make no diagnosis, I do not replace your physician, and I will tell you plainly if I do not think I am the right person for your situation.

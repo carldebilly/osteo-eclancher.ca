@@ -112,6 +112,7 @@ internal static class Rules
 				"/maladies-chroniques/fibromyalgie/ressources-montreal/",
 				"/en/chronic-conditions/fibromyalgia/montreal-resources/"),
 			["about"] = ("/a-propos/", "/en/about/"),
+			["osteopathy"] = ("/l-osteopathie/", "/en/osteopathy/"),
 			["fees"] = ("/tarifs-et-assurances/", "/en/fees-and-insurance/"),
 			["privacy"] = ("/confidentialite/", "/en/privacy/"),
 		};
@@ -146,6 +147,9 @@ internal static class Rules
 		"publications.msss.gouv.qc.ca",
 		// The professional order osteopaths are being integrated into
 		"www.ordredeschiropraticiens.ca",
+		// Sources the osteopathy page rests on: the digitised 1910 book and the studies it cites
+		"wellcomecollection.org",
+		"pubmed.ncbi.nlm.nih.gov",
 	};
 
 	/// <summary>Upper bound for the HTML title element, past which search results truncate it.</summary>

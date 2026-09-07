@@ -61,4 +61,6 @@ Ce que vous verrez dès la première séance.
 
 **Avec votre accord.** Chaque geste est annoncé avant d’être posé. Vous pouvez m’arrêter à tout moment, sans avoir à expliquer pourquoi.
 
+Si vous voulez savoir d’où vient cette approche, ce qu’un ostéopathe est et n’est pas au Québec, et ce que la recherche en dit, [j’ai écrit une page pour cela](/l-osteopathie/).
+
 **En disant ce que je ne peux pas faire.** Je ne pose pas de diagnostic, je ne remplace pas votre médecin, et je vous dirai franchement si je ne pense pas être la bonne personne pour votre situation.
