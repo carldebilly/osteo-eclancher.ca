@@ -64,7 +64,7 @@ La raideur qui l’accompagne, en revanche, dépend aussi des muscles, des fasci
 
 ## Fibromyalgie
 
-Douleurs diffuses, fatigue, sommeil qui ne répare plus, sensibilité au toucher. La séance se calibre alors autrement : plus légère, plus courte, avec des pauses.
+Douleurs diffuses, fatigue, sommeil qui ne répare plus, sensibilité au toucher. La séance se calibre alors autrement : plus légère, avec des pauses.
 
 C’est le sujet de mon mémoire de finissant, et cela demandait sa propre page : [ostéopathie et fibromyalgie](/maladies-chroniques/fibromyalgie/).
 
@@ -76,7 +76,7 @@ Les migraines avec aura relèvent d’un suivi médical. Une céphalée inhabitu
 
 ## Fatigue chronique
 
-Quand l’énergie manque, la règle est simple : la séance ne doit pas coûter plus qu’elle ne rend. Les consultations sont donc plus courtes, plus espacées, et le travail reste peu stimulant.
+Quand l’énergie manque, la règle est simple : la séance ne doit pas coûter plus qu’elle ne rend. Les consultations sont donc plus espacées, et le travail reste peu stimulant.
 
 ## Inconforts digestifs fonctionnels
 

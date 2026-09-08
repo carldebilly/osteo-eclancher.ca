@@ -62,7 +62,7 @@ The stiffness around it does depend on muscles, fascia and how neighbouring join
 
 ## Fibromyalgia
 
-Widespread pain, fatigue, sleep that no longer restores, sensitivity to touch. The session is then calibrated differently: lighter, shorter, with breaks.
+Widespread pain, fatigue, sleep that no longer restores, sensitivity to touch. The session is then calibrated differently: lighter, with breaks.
 
 It is the subject of my graduating thesis, and it needed a page of its own: [osteopathy and fibromyalgia](/en/chronic-conditions/fibromyalgia/).
 
@@ -74,7 +74,7 @@ Migraine with aura belongs with medical care. An unusual or sudden headache belo
 
 ## Chronic fatigue
 
-When energy is short the rule is simple: the session must not cost more than it gives back. Consultations are therefore shorter, further apart, and the work stays undemanding.
+When energy is short the rule is simple: the session must not cost more than it gives back. Consultations are therefore further apart, and the work stays undemanding.
 
 ## Functional digestive discomfort
 

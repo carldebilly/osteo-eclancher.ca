@@ -73,7 +73,7 @@ Its interest for you is not medical but practical: it is the document your famil
 
 ## My connection to these organisations
 
-People who arrive in my room have often spent weeks looking and found nothing but clinic advertising.
+People who arrive at my practice have often spent weeks looking and found nothing but clinic advertising.
 
 I am affiliated with none of the organisations above and I receive nothing for naming them. Osteopathy is not part of the public pathway and is not reimbursed by the RAMQ. And my receipts are not accepted by every insurer, for a reason explained on the [fees and insurance](/en/fees-and-insurance/) page.
 
