@@ -18,13 +18,19 @@ schema_condition:
 faq:
   - q: "À quelle fréquence faut-il venir ?"
     a: >
-      Cela dépend de vous et de ce que nous observons. Un espacement progressif est plus fréquent
-      qu’un rythme fixe : rapproché au début si c’est utile, puis de plus en plus espacé.
-  - q: "Est-ce que je dois arrêter mes médicaments ou mes autres suivis ?"
+      Mon objectif est que vous n’ayez plus besoin de venir. Je cherche ce qui entretient le
+      problème plutôt que de soulager le symptôme jusqu’au rendez-vous suivant. Une fois que
+      c’est identifié, soit la situation s’améliore assez pour que vous arrêtiez, soit vous
+      repartez avec de quoi la gérer vous-même. Je ne vends pas de forfait et je ne fixe pas de
+      rythme à l’avance : nous faisons le point après quelques séances, et si vous n’avez plus
+      besoin de moi, je vous le dirai.
+  - q: "Comment cela s’articule avec mes autres suivis ?"
     a: >
-      Non, et je ne vous le demanderai jamais. Ce que je fais vient en complément de ce que votre
-      médecin, votre physiothérapeute ou votre psychologue mettent en place. Vos ajustements de
-      médication se discutent avec la personne qui les a prescrits.
+      En complément, jamais à la place. Un ostéopathe n’intervient pas dans la gestion de la
+      médication : les prescriptions et leurs ajustements appartiennent à qui les a faites, et il
+      en va de même pour ce que votre physiothérapeute ou votre psychologue met en place. Si
+      j’observe quelque chose qui mérite leur attention, je vous invite à leur en parler. Apportez
+      la liste de vos médicaments : elle m’informe, elle ne sert pas à la modifier.
   - q: "L’ostéopathie peut-elle aider quand la douleur est là depuis dix ans ?"
     a: >
       Souvent, ce qui bouge en premier n’est pas l’intensité de la douleur mais ce qu’on arrive à

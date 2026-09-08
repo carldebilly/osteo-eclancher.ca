@@ -53,10 +53,14 @@ Ce travail est en cours, et je n’en tire aucune promesse de résultat.
 
 ## Comment je travaille
 
-Trois choses, que vous verrez dès la première séance.
+Ce que vous verrez dès la première séance.
+
+**Je pose beaucoup de questions.** Le motif de consultation est rarement isolé. Une douleur d’épaule peut venir d’une chute d’il y a quinze ans, d’un poste de travail, d’un sommeil toujours sur le même côté, ou d’une période où vous avez compensé sans y penser. Chercher ce qui entretient un problème demande de savoir ce qui l’a précédé, et c’est pour cette raison que la première rencontre est surtout une conversation. Vos médicaments et vos habitudes entrent là pour la même raison : ils me disent ce que votre corps gère en ce moment. Rien de tout cela ne sert à juger vos choix, et si une question vous semble hors sujet, demandez-moi pourquoi je la pose.
 
 **Doucement.** Pas de manipulation brusque. Quand le toucher est déjà douloureux, une technique appuyée fait plus de mal que de bien, et je préfère une séance qui semble trop légère à une séance dont on se remet pendant deux jours.
 
 **Avec votre accord.** Chaque geste est annoncé avant d’être posé. Vous pouvez m’arrêter à tout moment, sans avoir à expliquer pourquoi.
+
+Si vous voulez savoir d’où vient cette approche, ce qu’un ostéopathe est et n’est pas au Québec, et ce que la recherche en dit, [j’ai écrit une page pour cela](/l-osteopathie/).
 
 **En disant ce que je ne peux pas faire.** Je ne pose pas de diagnostic, je ne remplace pas votre médecin, et je vous dirai franchement si je ne pense pas être la bonne personne pour votre situation.
