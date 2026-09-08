@@ -23,7 +23,7 @@ faq:
       and I will do less.
   - q: "I am in a flare. Can I still come?"
     a: >
-      Yes, and it is worth telling me beforehand: the session will be shorter and lighter. We can
+      Yes, and it is worth telling me beforehand: the session will be lighter. We can
       also move the appointment, just write to me.
   - q: "How many sessions will I need?"
     a: >
@@ -80,7 +80,7 @@ Concretely, the work goes mostly through the fascia, the sheets of tissue that c
 
 What I reduce or leave aside when touch is painful: direct articular techniques and muscle energy work, which need your active participation and demand more of you. They come back if and when your tolerance allows.
 
-The length adjusts to what you can take that day. A session that stops after twenty minutes because that was enough is a session that worked.
+Contact stays light, and I adapt what I do to what you can take that day rather than to a protocol. The appointment runs an hour like any other.
 
 At the end, I leave you a few pointers for the week, matched to your energy rather than to a standard programme.
 

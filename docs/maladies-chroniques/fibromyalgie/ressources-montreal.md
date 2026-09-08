@@ -73,7 +73,7 @@ Son intérêt pour vous n’est pas médical, il est pratique : c’est le docu
 
 ## Mes liens avec ces organismes
 
-Les personnes qui arrivent dans mon bureau ont souvent passé des semaines à chercher, et n’ont trouvé que de la publicité de cliniques.
+Les personnes qui arrivent à mon cabinet ont souvent passé des semaines à chercher, et n’ont trouvé que de la publicité de cliniques.
 
 Je ne suis affilié à aucun des organismes ci-dessus et je ne reçois rien pour les nommer. L’ostéopathie ne fait pas partie du parcours public et n’est pas remboursée par la RAMQ. Et mes reçus ne sont pas acceptés par tous les assureurs, pour une raison expliquée sur la page [tarifs et assurances](/tarifs-et-assurances/).
 

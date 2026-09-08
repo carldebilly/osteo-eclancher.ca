@@ -13,33 +13,31 @@ last_modified_at: 2026-09-06
 
 ## The session
 
-Allow about an hour for a first consultation, a good half of it spent talking about your situation. Follow-up sessions are somewhat shorter.
+Appointments run an hour, first consultation and follow-up alike. The first one includes a thorough conversation about your situation, an examination, and manual work: you do not leave without anything having been done.
+
+Part of that examination is there to check that manual work is indicated for your situation and that nothing contraindicates it. If it is not, I say so and point you elsewhere.
 
 You stay dressed, in loose clothing. Bring your medication list and, if you have them, recent test results.
 
 ## Fees and payment
 
-Fees are shown on the booking page, when you pick your time slot, along with the length of each type of session. They are always current there, which avoids a stale web page announcing something other than what you will pay.
+Fees are shown on the booking page, when you pick your time slot. They are always current there, which avoids a stale web page announcing something other than what you will pay.
 
-Payment is made at the end of the session, at the clinic.
+Payment is made at the end of the consultation, at the clinic. All cards are accepted. If you pay cash, please bring the exact amount.
 
 ## Receipts and insurance
 
 I issue a receipt under **RITMA membership number 11364**, usable with insurers who recognise that association. I do not bill insurers directly: you pay, you get your receipt, you submit it yourself.
 
-One point matters here: my current title is **osteopathy intern**. Some insurers reimburse receipts issued under that title, others do not, and this depends neither on me nor on the clinic. Before your first visit, call your insurer and ask these three questions:
+One point matters here: my current title is **osteopathy intern**. Some insurers reimburse receipts issued under that title, others do not, and this depends neither on me nor on the clinic.
 
-1. Does my plan cover osteopathy?
-2. Do you accept receipts from a RITMA member?
-3. Do you accept receipts issued by an osteopathy intern?
-
-The third one makes the difference. If the answer is no, you will know before paying rather than after. It is also worth asking again each year: plans change at renewal.
+Before your first visit, one question to ask your insurer: **do you accept receipts from an osteopathy intern in good standing with RITMA?** That wording covers everything that matters. If the answer is no, you will know before paying rather than after, and it is worth asking again each year: plans change at renewal.
 
 ## Cancellation
 
-Let me know in advance if you cannot come, using the confirmation email GOrendezvous sends you. A slot freed early goes to someone else.
+Cancellation follows the Hakini clinic’s policy, which may involve a fee. What the [clinic’s own site](https://www.hakini.ca/) says takes precedence over this page.
 
-For people living with fibromyalgia or a chronic condition, a flare is not forgetfulness. Write to me and we will move the appointment.
+Let me know as early as you can if you cannot come, using the confirmation email GOrendezvous sends you. A slot freed early goes to someone else.
 
 ## Booking
 

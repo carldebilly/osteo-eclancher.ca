@@ -23,7 +23,7 @@ faq:
       fois. Si cela vous est déjà arrivé ailleurs, dites-le-moi : je réduirai d’autant.
   - q: "Je suis en poussée. Est-ce que je peux venir quand même ?"
     a: >
-      Oui, et cela vaut la peine de me le dire avant : la séance sera plus courte et plus légère.
+      Oui, et cela vaut la peine de me le dire avant : la séance sera plus légère.
       Nous pouvons aussi décaler le rendez-vous, écrivez-moi.
   - q: "Combien de séances faut-il prévoir ?"
     a: >
@@ -80,7 +80,7 @@ Concrètement, le travail passe surtout par les fascias, ces enveloppes de tissu
 
 Ce que je réduis ou laisse de côté quand le toucher est douloureux : les techniques articulaires directes et le travail en énergie musculaire, qui demandent votre participation active et qui sollicitent davantage. Ils reviennent si et quand votre tolérance le permet.
 
-La durée s’ajuste à ce que vous pouvez recevoir ce jour-là. Une séance qui s’arrête à vingt minutes parce que c’était assez est une séance réussie.
+Le contact reste léger, et j’adapte ce que je fais à ce que vous pouvez recevoir ce jour-là plutôt qu’à un protocole. Le rendez-vous dure une heure comme les autres.
 
 À la fin, je vous laisse quelques repères pour la semaine, adaptés à votre niveau d’énergie plutôt qu’à un programme type.
 

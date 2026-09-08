@@ -29,6 +29,8 @@ faq:
 
 Je viens des arts, de la philosophie et des mathématiques. Ce sont trois façons d’apprendre à observer avant de conclure, et c’est ce que je retrouve dans le travail manuel : d’abord regarder ce qui se passe, ensuite seulement décider quoi en faire.
 
+Les arts m’ont surtout appris la sensibilité, cette attention fine à ce qui change avant qu’on sache le nommer. L’ostéopathie m’a permis de me la réapproprier autrement, par les mains. C’est par là que passe tout le reste : ce que je perçois sous les doigts est mon instrument principal, et c’est aussi ce qui oriente mes intérêts.
+
 Ce détour explique aussi pourquoi je prends du temps en consultation. Ce que vous savez de votre propre corps est une source d’information que je ne peux pas obtenir autrement.
 
 ## Ma formation et mon titre
@@ -55,12 +57,13 @@ Ce travail est en cours, et je n’en tire aucune promesse de résultat.
 
 Ce que vous verrez dès la première séance.
 
-**Je pose beaucoup de questions.** Le motif de consultation est rarement isolé. Une douleur d’épaule peut venir d’une chute d’il y a quinze ans, d’un poste de travail, d’un sommeil toujours sur le même côté, ou d’une période où vous avez compensé sans y penser. Chercher ce qui entretient un problème demande de savoir ce qui l’a précédé, et c’est pour cette raison que la première rencontre est surtout une conversation. Vos médicaments et vos habitudes entrent là pour la même raison : ils me disent ce que votre corps gère en ce moment. Rien de tout cela ne sert à juger vos choix, et si une question vous semble hors sujet, demandez-moi pourquoi je la pose.
+**Je pose beaucoup de questions.** Le motif de consultation a souvent une histoire. Une douleur d’épaule peut venir d’une chute d’il y a quinze ans, d’un poste de travail, d’un sommeil toujours sur le même côté, ou d’une période où vous avez compensé sans y penser. Chercher ce qui entretient un problème demande de savoir ce qui l’a précédé, et c’est pour cette raison que la première rencontre commence par un échange approfondi. Vos médicaments et vos habitudes entrent là pour la même raison : ils me disent ce que votre corps gère en ce moment. Rien de tout cela ne sert à juger vos choix, et si une question vous semble hors sujet, demandez-moi pourquoi je la pose.
 
-**Doucement.** Pas de manipulation brusque. Quand le toucher est déjà douloureux, une technique appuyée fait plus de mal que de bien, et je préfère une séance qui semble trop légère à une séance dont on se remet pendant deux jours.
+**Le plus doucement que le problème permet.** Toutes les techniques ne sont pas également douces, et certaines demandent un geste plus franc. Je privilégie toujours la moins sollicitante de celles qui peuvent faire le travail, et j’ajuste au problème et à ce que vous tolérez. Quand le toucher est déjà douloureux, une technique appuyée fait plus de mal que de bien.
 
-**Avec votre accord.** Chaque geste est annoncé avant d’être posé. Vous pouvez m’arrêter à tout moment, sans avoir à expliquer pourquoi.
-
-Si vous voulez savoir d’où vient cette approche, ce qu’un ostéopathe est et n’est pas au Québec, et ce que la recherche en dit, [j’ai écrit une page pour cela](/l-osteopathie/).
+**Je vous préviens avant.** Vous savez ce que je vais faire, et pourquoi, avant que je le fasse. Vous pouvez m’arrêter à tout moment, sans avoir à expliquer pourquoi.
 
 **En disant ce que je ne peux pas faire.** Je ne pose pas de diagnostic, je ne remplace pas votre médecin, et je vous dirai franchement si je ne pense pas être la bonne personne pour votre situation.
+
+
+Si vous voulez savoir d’où vient cette approche, ce qu’un ostéopathe est et n’est pas au Québec, et ce que la recherche en dit, [j’ai écrit une page pour cela](/l-osteopathie/).
