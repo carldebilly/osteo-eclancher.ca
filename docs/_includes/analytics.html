@@ -1,0 +1,22 @@
+{%- if site.analytics_id %}
+{%- assign site_host = site.url | remove: "https://" %}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics_id }}"></script>
+  <script>
+    /* Audience measurement without cookies: consent is declared denied up front, so Google
+       Analytics sends anonymous pings and stores no identifier in the browser. That is what lets
+       the privacy page say there is no cookie, and what keeps the site outside Law 25's consent
+       requirement. Keep the consent call before config. The hostname check keeps local previews
+       and any mirror out of the property. */
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('consent', 'default', {
+      analytics_storage: 'denied', ad_storage: 'denied',
+      ad_user_data: 'denied', ad_personalization: 'denied'
+    });
+    gtag('js', new Date());
+    gtag('config', '{{ site.analytics_id }}', {
+      send_page_view: location.hostname === '{{ site_host }}',
+      allow_google_signals: false
+    });
+  </script>
+{%- endif %}

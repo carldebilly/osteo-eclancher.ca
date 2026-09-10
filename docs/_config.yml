@@ -38,5 +38,9 @@ defaults:
     values:
       lang: en
 
+# GA4 measurement id. The tag runs in consent-denied mode (see _includes/analytics.html): no cookie,
+# no stored identifier. Remove the key to build without analytics.
+analytics_id: "G-PTLGTGE9J5"
+
 # Manual cache-buster appended to the stylesheet URL.
 assets_version: "2026-09a"

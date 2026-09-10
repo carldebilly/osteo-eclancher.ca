@@ -41,6 +41,19 @@
       }
     });
   })();
+{%- if site.analytics_id %}
+  /* Booking clicks, one event per button placement (data-cta). The link opens a new tab, so the
+     page survives and the beacon has time to leave. Same hostname guard as the page view. */
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest('a[data-cta]');
+    if (!a || location.hostname !== '{{ site.url | remove: "https://" }}') return;
+    gtag('event', 'book_click', {
+      placement: a.getAttribute('data-cta'),
+      page_ref: '{{ page.ref }}',
+      page_lang: '{{ page.lang }}'
+    });
+  });
+{%- endif %}
 </script>
 </body>
 </html>

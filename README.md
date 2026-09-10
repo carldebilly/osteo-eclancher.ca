@@ -43,6 +43,12 @@ the source gets removed rather than hedged. A phone number nobody confirmed fail
 the page exists for. `dotnet test --filter "Category=Network"` checks the links still answer;
 it does not check that the destinations still say what we claim.
 
+## Analytics
+
+Google Analytics 4 runs in consent-denied mode (`_includes/analytics.html`): no cookie, no stored identifier, page views and booking clicks only. The measurement id lives in `_config.yml` (`analytics_id`); remove the key to build without the tag. The `gtag('consent', 'default', …)` call must stay before `gtag('config', …)` — a test enforces the order, because the standard snippet Google hands out omits it and would start writing cookies the privacy page says do not exist.
+
+Every booking button is rendered by `_includes/cta-booking.html` and must pass a `placement` (`nav`, `hero`, `contact`, `band`). Clicks are reported as one `book_click` event carrying that placement, so the buttons can be compared in GA4. Adding a new button means adding its placement to `AnalyticsTests.KnownPlacements` too.
+
 ## Where things are
 
 | Path | What |

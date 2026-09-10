@@ -13,7 +13,7 @@ layout: default
         <h1>{{ page.hero.title }}</h1>
         <p class="intro">{{ page.hero.intro }}</p>
         <div class="hero-cta">
-          {%- include cta-booking.html class="btn-primary btn-lg" -%}
+          {%- include cta-booking.html class="btn-primary btn-lg" placement="hero" -%}
           <a class="btn-ghost" href="#approche">{{ t.cta.discover }}</a>
         </div>
         <p class="cta-note">{{ t.cta.book_note }}</p>
@@ -105,7 +105,7 @@ layout: default
         <div class="eyebrow"><span class="bar"></span><span class="txt">{{ t.contact.title }}</span></div>
         <h2>{{ page.contact.title }}</h2>
         <p class="lead">{{ page.contact.lead }}</p>
-        {%- include cta-booking.html class="btn-primary btn-lg" -%}
+        {%- include cta-booking.html class="btn-primary btn-lg" placement="contact" -%}
         <p class="cta-note">{{ t.cta.book_note }}</p>
       </div>
       <div class="contact-side">

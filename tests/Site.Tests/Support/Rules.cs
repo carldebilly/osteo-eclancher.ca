@@ -127,6 +127,9 @@ internal static class Rules
 	/// This list catches a mistyped or newly added host; it cannot catch a host that dies.
 	/// A separate network test, excluded from the required check, does that.
 	/// </remarks>
+	/// <summary>GA4 measurement id, duplicated from <c>_config.yml</c> so the built pages are checked against a value the config cannot drift from silently.</summary>
+	public const string AnalyticsId = "G-PTLGTGE9J5";
+
 	public static readonly IReadOnlySet<string> AllowedExternalHosts = new HashSet<string>(StringComparer.OrdinalIgnoreCase)
 	{
 		// Booking, the clinic, the association the practitioner belongs to
@@ -135,6 +138,8 @@ internal static class Rules
 		"www.ritma.ca",
 		// The practice's Facebook page, linked from the footer
 		"www.facebook.com",
+		// Google Analytics loader, in the head of every page
+		"www.googletagmanager.com",
 		// The map link in the contact block
 		"www.google.com",
 		// Condition entities referenced by the structured data
