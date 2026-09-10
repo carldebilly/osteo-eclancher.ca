@@ -34,7 +34,9 @@ languages:
 # Profiles describing the practice itself (Google Business Profile, directories).
 # Add them as they are created: `sameAs` is what lets search and LLM engines merge
 # these listings into one entity.
-same_as: []
+facebook_url: "https://www.facebook.com/profile.php?id=61594369316443"
+same_as:
+  - "https://www.facebook.com/profile.php?id=61594369316443"
 
 ritma:
   org:

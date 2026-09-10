@@ -133,6 +133,8 @@ internal static class Rules
 		"www.gorendezvous.com",
 		"www.hakini.ca",
 		"www.ritma.ca",
+		// The practice's Facebook page, linked from the footer
+		"www.facebook.com",
 		// The map link in the contact block
 		"www.google.com",
 		// Condition entities referenced by the structured data
