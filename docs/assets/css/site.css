@@ -183,8 +183,9 @@ footer.site{background:var(--blue-deep);color:var(--cream)}
 footer.site .wrap{padding-top:52px;padding-bottom:52px;display:flex;justify-content:space-between;align-items:flex-start;gap:28px;flex-wrap:wrap}
 footer.site .fname{font-family:'EB Garamond',serif;font-size:24px;font-weight:600;display:block}
 footer.site .frole{font-size:10px;font-weight:600;letter-spacing:.26em;text-transform:uppercase;color:var(--terra);margin-top:6px;display:block}
-footer.site .fclinic{font-size:13.5px;color:rgba(245,240,232,.78);margin-top:14px;display:block}
-footer.site .fclinic a{text-decoration:none;box-shadow:inset 0 -1px 0 rgba(197,135,90,.6)}
+footer.site .fclinic,footer.site .fsocial{font-size:13.5px;color:rgba(245,240,232,.78);margin-top:14px;display:block}
+footer.site .fsocial{margin-top:6px}
+footer.site .fclinic a,footer.site .fsocial a{text-decoration:none;box-shadow:inset 0 -1px 0 rgba(197,135,90,.6)}
 footer.site .fright{display:flex;flex-direction:column;align-items:flex-end;gap:8px;text-align:right}
 footer.site .fdomain{font-size:14px;color:rgba(245,240,232,.82)}
 footer.site .fprivacy a{font-size:13px;color:rgba(245,240,232,.72);text-decoration:none;box-shadow:inset 0 -1px 0 rgba(197,135,90,.6)}

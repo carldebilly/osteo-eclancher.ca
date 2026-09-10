@@ -129,4 +129,17 @@ public sealed class LinksAndAssetsTests
 		Assert.DoesNotContain("cdn-cgi", html, StringComparison.Ordinal);
 		Assert.DoesNotContain("mailto:", html, StringComparison.Ordinal);
 	}
+	[Theory(DisplayName = "Every page footer links to the Facebook page so visitors and crawlers can connect the two")]
+	[MemberData(nameof(SiteOutput.AllPageUrls), MemberType = typeof(SiteOutput))]
+	public void Given_a_built_page_When_reading_its_footer_Then_it_links_to_the_facebook_page(string url)
+	{
+		var document = SiteOutput.Parse(SiteOutput.FileFor(url));
+
+		var link = document.QuerySelector("footer a[href^='https://www.facebook.com/']");
+
+		Assert.NotNull(link);
+		Assert.Equal("_blank", link.GetAttribute("target"));
+		Assert.Contains("noopener", link.GetAttribute("rel") ?? "");
+	}
+
 }

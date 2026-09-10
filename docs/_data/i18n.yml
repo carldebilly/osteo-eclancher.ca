@@ -48,6 +48,7 @@ fr:
     location: "Verdun, Montréal"
     privacy: "Politique de confidentialité"
     clinic: "Clinique Hakini"
+    facebook: "Page Facebook"
     rights: "Tous droits réservés."
   schema:
     reservation_name: "Consultation en ostéopathie"
@@ -102,6 +103,7 @@ en:
     location: "Verdun, Montréal"
     privacy: "Privacy policy"
     clinic: "Hakini clinic"
+    facebook: "Facebook page"
     rights: "All rights reserved."
   schema:
     reservation_name: "Osteopathy consultation"

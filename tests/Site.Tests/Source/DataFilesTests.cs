@@ -111,4 +111,16 @@ public sealed class DataFilesTests
 
 		return keys;
 	}
+	[Fact(DisplayName = "The Facebook page is declared once and listed among the profiles search engines merge")]
+	public void Given_the_business_data_When_reading_the_facebook_page_Then_it_is_an_https_url_present_in_same_as()
+	{
+		var business = Load("business.yml");
+
+		var facebookUrl = business.GetValueOrDefault("facebook_url")?.ToString() ?? "";
+		var sameAs = (business.GetValueOrDefault("same_as") as List<object?> ?? []).Select(x => x?.ToString());
+
+		Assert.Matches(new Regex(@"^https://www\.facebook\.com/\S+$"), facebookUrl);
+		Assert.Contains(facebookUrl, sameAs);
+	}
+
 }
