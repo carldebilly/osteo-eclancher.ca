@@ -6,7 +6,7 @@ seo_title: "Politique de confidentialité · osteo-eclancher.ca"
 description: "Comment les renseignements personnels sont traités sur osteo-eclancher.ca et lors d’une prise de rendez-vous, conformément à la Loi 25 du Québec."
 eyebrow: "Mentions"
 lead: "Ce site ne collecte rien par lui-même. Cette page explique ce qui est recueilli quand vous prenez rendez-vous, par qui, et comment exercer vos droits."
-last_modified_at: 2026-09-06
+last_modified_at: 2026-09-10
 ---
 
 ## Responsable de la protection des renseignements personnels
@@ -15,7 +15,15 @@ Le responsable de la protection des renseignements personnels, c’est moi : J
 
 ## Ce que ce site collecte
 
-Aucune donnée personnelle n’est recueillie par osteo-eclancher.ca. Le site est composé de pages statiques : il n’y a pas de formulaire, pas de compte, pas de cookie de suivi, pas d’outil de mesure d’audience, et aucune donnée n’est transmise à un réseau publicitaire.
+Aucune donnée personnelle n’est recueillie par osteo-eclancher.ca. Le site est composé de pages statiques : il n’y a pas de formulaire, pas de compte, et aucune donnée n’est transmise à un réseau publicitaire.
+
+### Mesure d’audience
+
+J’utilise Google Analytics pour savoir quelles pages sont consultées et d’où viennent les visites. L’outil est réglé pour ne déposer aucun témoin (cookie) et ne conserver aucun identifiant dans votre navigateur : chaque page vue est comptée sans être reliée aux précédentes ni aux suivantes.
+
+Ce qui est transmis à Google à chaque page : l’adresse de la page, celle de la page d’où vous venez, la langue de votre navigateur, le type d’appareil, et une ville approximative déduite de votre adresse IP, que Google n’enregistre pas. Quand vous cliquez sur un bouton de prise de rendez-vous, le clic est compté avec l’emplacement du bouton sur la page. Rien de tout cela ne permet de reconnaître une personne d’une visite à l’autre. Les domaines contactés sont www.googletagmanager.com et google-analytics.com.
+
+### Polices de caractères
 
 Les pages chargent leurs polices de caractères depuis Google Fonts. Votre navigateur contacte alors deux domaines de ce fournisseur, fonts.googleapis.com pour la feuille de style et fonts.gstatic.com pour les fichiers de police, qui voient votre adresse IP comme pour toute ressource chargée depuis un autre domaine. Aucune information supplémentaire ne leur est transmise par ce site.
 
@@ -37,4 +45,4 @@ Adressez votre demande par téléphone au 514 824 5854. Une réponse vous sera d
 
 ## Modifications
 
-Cette page sera mise à jour si un outil de mesure d’audience ou un formulaire est ajouté au site.
+Dernière mise à jour : 10 septembre 2026.

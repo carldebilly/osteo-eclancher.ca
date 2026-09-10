@@ -23,9 +23,9 @@ public sealed class ExternalLinksTests
 		{
 			var page = SiteOutput.UrlOf(file);
 
-			foreach (var anchor in SiteOutput.Parse(file).QuerySelectorAll("a[href]"))
+			foreach (var element in SiteOutput.Parse(file).QuerySelectorAll("a[href], script[src]"))
 			{
-				var href = anchor.GetAttribute("href")!;
+				var href = element.GetAttribute("href") ?? element.GetAttribute("src")!;
 
 				if (Uri.TryCreate(href, UriKind.Absolute, out var target)
 					&& target.Scheme is "http" or "https")

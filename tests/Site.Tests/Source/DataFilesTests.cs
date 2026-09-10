@@ -123,4 +123,26 @@ public sealed class DataFilesTests
 		Assert.Contains(facebookUrl, sameAs);
 	}
 
+	[Fact(DisplayName = "The analytics measurement id is configured once, in the shape Google issues")]
+	public void Given_the_site_config_When_reading_the_analytics_id_Then_it_is_a_ga4_measurement_id()
+	{
+		var config = Load(Path.Combine("..", "_config.yml"));
+
+		var analyticsId = config.GetValueOrDefault("analytics_id")?.ToString() ?? "";
+
+		Assert.Matches(new Regex(@"^G-[A-Z0-9]{6,12}$"), analyticsId);
+		Assert.Equal(Rules.AnalyticsId, analyticsId);
+	}
+
+	[Theory(DisplayName = "The privacy page names the analytics tool instead of denying there is one")]
+	[InlineData("confidentialite.md", "pas d’outil de mesure d’audience")]
+	[InlineData("en/privacy.md", "no analytics tool")]
+	public void Given_a_privacy_page_When_reading_it_Then_it_names_google_analytics_and_drops_the_old_denial(string relative, string denial)
+	{
+		var text = File.ReadAllText(Path.Combine(RepoPaths.Docs, relative));
+
+		Assert.Contains("Google Analytics", text);
+		Assert.DoesNotContain(denial, text);
+	}
+
 }

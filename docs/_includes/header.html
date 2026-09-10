@@ -22,7 +22,7 @@
         <a class="lnk" href="{{ p.url | relative_url }}"{% if p.url == page.url %} aria-current="page"{% endif %}>{{ p.nav_label | default: p.title }}</a>
         {%- endfor %}
         {%- include lang-switch.html -%}
-        {%- include cta-booking.html class="btn-primary btn-nav" -%}
+        {%- include cta-booking.html class="btn-primary btn-nav" placement="nav" -%}
       </nav>
     </div>
   </header>

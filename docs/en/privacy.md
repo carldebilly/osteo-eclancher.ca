@@ -6,7 +6,7 @@ seo_title: "Privacy policy · osteo-eclancher.ca"
 description: "How personal information is handled on osteo-eclancher.ca and when booking an appointment, under Québec’s Law 25."
 eyebrow: "Legal"
 lead: "This site collects nothing by itself. This page explains what is collected when you book, by whom, and how to exercise your rights."
-last_modified_at: 2026-09-06
+last_modified_at: 2026-09-10
 ---
 
 ## Person responsible for personal information
@@ -15,9 +15,17 @@ I am the person responsible for the protection of personal information: Julien �
 
 ## What this site collects
 
-No personal data is collected by osteo-eclancher.ca. The site is made of static pages: there is no form, no account, no tracking cookie, no analytics tool, and no data is sent to any advertising network.
+No personal data is collected by osteo-eclancher.ca. The site is made of static pages: there is no form, no account, and no data is sent to any advertising network.
 
-Two external resources are loaded by your browser when a page is displayed: the typefaces served by Google Fonts. Your IP address is then visible to that provider, as it is for any resource loaded from another domain. No further information is passed to it by this site.
+### Audience measurement
+
+I use Google Analytics to know which pages are read and where visits come from. The tool is set to write no cookie and keep no identifier in your browser: each page view is counted without being linked to the ones before or after it.
+
+What is sent to Google on each page: the page address, the address of the page you came from, your browser language, the type of device, and an approximate city derived from your IP address, which Google does not store. When you click a booking button, the click is counted along with the button’s position on the page. None of this makes it possible to recognise a person from one visit to the next. The domains contacted are www.googletagmanager.com and google-analytics.com.
+
+### Typefaces
+
+The pages load their typefaces from Google Fonts. Your browser then contacts two of that provider’s domains, fonts.googleapis.com for the stylesheet and fonts.gstatic.com for the font files, which see your IP address as they would for any resource loaded from another domain. No further information is passed to them by this site.
 
 Hosting is provided by GitHub Pages, which keeps technical access logs for the security and operation of its service.
 
@@ -39,4 +47,4 @@ Send your request by telephone to 514 824 5854. You will receive an answer withi
 
 ## Changes
 
-This page will be updated if an analytics tool or a form is added to the site.
+Last updated: 10 September 2026.
