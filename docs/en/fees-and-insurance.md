@@ -8,12 +8,12 @@ seo_title: "Fees and insurance · Osteopath in Verdun"
 description: "Session length, RITMA receipts, insurance reimbursement and cancellation for osteopathy consultations in Verdun (Montréal)."
 eyebrow: "Practical"
 lead: "What to know before a first visit: how long, how to pay, receipts, and the reimbursement question, which is worth a phone call to your insurer."
-last_modified_at: 2026-09-06
+last_modified_at: 2026-09-11
 ---
 
 ## The session
 
-Appointments run an hour, first consultation and follow-up alike. The first one includes a thorough conversation about your situation, an examination, and manual work: you do not leave without anything having been done.
+Appointments run an hour, first consultation and follow-up alike. The first one already includes a thorough conversation about your situation, an examination, and manual work.
 
 Part of that examination is there to check that manual work is indicated for your situation and that nothing contraindicates it. If it is not, I say so and point you elsewhere.
 

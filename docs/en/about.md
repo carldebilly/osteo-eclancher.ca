@@ -8,7 +8,7 @@ seo_title: "Julien Éclancher, osteopath in Verdun · Background"
 description: "The background of Julien Éclancher, osteopathy intern in Verdun (Montréal): training at the IEOQ, RITMA member 11364, graduating thesis on fibromyalgia."
 eyebrow: "Who I am"
 lead: "I practise at the Hakini clinic on Wellington Street, in Verdun. Here is my background, my exact title, and what it means for you."
-last_modified_at: 2026-09-06
+last_modified_at: 2026-09-11
 faq:
   - q: "What does \"osteopathy intern\" mean?"
     a: >
@@ -25,13 +25,13 @@ faq:
       De l’Église metro station.
 ---
 
-## A path that does not start in health care
+## A path shaped by sensitivity
 
 I come from the arts, philosophy and mathematics. All three are ways of learning to observe before concluding, and that is what I find again in manual work: first look at what is happening, only then decide what to do about it.
 
 What the arts taught me above all was sensitivity, that fine attention to what shifts before anyone can name it. Osteopathy let me reclaim it differently, through my hands. Everything else runs through that: what I perceive under my fingers is my main instrument, and it is what my interests follow.
 
-That detour also explains why I take my time in consultation. What you know about your own body is information I cannot get any other way.
+That is also where my attention to what you tell me comes from: what you know about your own body is information I cannot get any other way.
 
 ## My training and my title
 
@@ -63,7 +63,7 @@ What you will see from the first session.
 
 **I tell you before I do it.** You know what I am about to do, and why, before I do it. You can stop me at any point, without explaining why.
 
-**Saying what I cannot do.** I make no diagnosis, I do not replace your physician, and I will tell you plainly if I do not think I am the right person for your situation.
+**Pointing you elsewhere when that is what you need.** I make no diagnosis, I do not replace your physician, and I will tell you plainly if I do not think I am the right person for your situation.
 
 
 If you want to know where this approach comes from, what an osteopath is and is not in Québec, and what the research shows, [I have written a page about that](/en/osteopathy/).

@@ -8,7 +8,7 @@ seo_title: "Julien Éclancher, ostéopathe à Verdun · Parcours"
 description: "Le parcours de Julien Éclancher, interne en ostéopathie à Verdun (Montréal) : formation à l’IEOQ, membre RITMA 11364, mémoire consacré à la fibromyalgie."
 eyebrow: "Qui je suis"
 lead: "Je pratique à la clinique Hakini, rue Wellington, à Verdun. Voici mon parcours, mon titre exact et ce que cela implique pour vous."
-last_modified_at: 2026-09-06
+last_modified_at: 2026-09-11
 faq:
   - q: "Que veut dire « interne en ostéopathie » ?"
     a: >
@@ -25,13 +25,13 @@ faq:
       métro De l’Église.
 ---
 
-## Un chemin qui ne part pas de la santé
+## Un chemin marqué par la sensibilité
 
 Je viens des arts, de la philosophie et des mathématiques. Ce sont trois façons d’apprendre à observer avant de conclure, et c’est ce que je retrouve dans le travail manuel : d’abord regarder ce qui se passe, ensuite seulement décider quoi en faire.
 
 Les arts m’ont surtout appris la sensibilité, cette attention fine à ce qui change avant qu’on sache le nommer. L’ostéopathie m’a permis de me la réapproprier autrement, par les mains. C’est par là que passe tout le reste : ce que je perçois sous les doigts est mon instrument principal, et c’est aussi ce qui oriente mes intérêts.
 
-Ce détour explique aussi pourquoi je prends du temps en consultation. Ce que vous savez de votre propre corps est une source d’information que je ne peux pas obtenir autrement.
+C’est aussi de là que vient l’attention que je porte à ce que vous me dites : ce que vous savez de votre propre corps est une information que je ne peux pas obtenir autrement.
 
 ## Ma formation et mon titre
 
@@ -63,7 +63,7 @@ Ce que vous verrez dès la première séance.
 
 **Je vous préviens avant.** Vous savez ce que je vais faire, et pourquoi, avant que je le fasse. Vous pouvez m’arrêter à tout moment, sans avoir à expliquer pourquoi.
 
-**En disant ce que je ne peux pas faire.** Je ne pose pas de diagnostic, je ne remplace pas votre médecin, et je vous dirai franchement si je ne pense pas être la bonne personne pour votre situation.
+**En vous orientant quand il le faut.** Je ne pose pas de diagnostic, je ne remplace pas votre médecin, et je vous dirai franchement si je ne pense pas être la bonne personne pour votre situation.
 
 
 Si vous voulez savoir d’où vient cette approche, ce qu’un ostéopathe est et n’est pas au Québec, et ce que la recherche en dit, [j’ai écrit une page pour cela](/l-osteopathie/).
