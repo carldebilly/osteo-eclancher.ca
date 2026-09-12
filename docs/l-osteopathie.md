@@ -7,7 +7,7 @@ description: "L’origine de l’ostéopathie, la différence avec un médecin o
 eyebrow: "Pour aller plus loin"
 lead: "Cette page est pour la personne qui veut savoir sur quoi tout cela repose avant de prendre rendez-vous. Elle contient ce que je peux appuyer et ce que je ne peux pas."
 date: 2026-09-07
-last_modified_at: 2026-09-07
+last_modified_at: 2026-09-11
 byline: true
 ---
 
@@ -23,7 +23,7 @@ C’est-à-dire, dans ma traduction : il ne devrait jamais s’attarder aux eff
 
 Cette logique explique la longue conversation en début de séance, décrite sur la page [à propos](/a-propos/). Elle explique aussi pourquoi un ostéopathe s’intéresse à une chute d’il y a quinze ans.
 
-## Ce qu’un ostéopathe n’est pas, au Québec
+## Ostéopathe au Québec, D.O. aux États-Unis
 
 C’est la confusion la plus fréquente, et elle vient des sources en anglais.
 

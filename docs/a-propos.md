@@ -63,7 +63,7 @@ Ce que vous verrez dès la première séance.
 
 **Je vous préviens avant.** Vous savez ce que je vais faire, et pourquoi, avant que je le fasse. Vous pouvez m’arrêter à tout moment, sans avoir à expliquer pourquoi.
 
-**En disant ce que je ne peux pas faire.** Je ne pose pas de diagnostic, je ne remplace pas votre médecin, et je vous dirai franchement si je ne pense pas être la bonne personne pour votre situation.
+**En vous orientant quand il le faut.** Je ne pose pas de diagnostic, je ne remplace pas votre médecin, et je vous dirai franchement si je ne pense pas être la bonne personne pour votre situation.
 
 
 Si vous voulez savoir d’où vient cette approche, ce qu’un ostéopathe est et n’est pas au Québec, et ce que la recherche en dit, [j’ai écrit une page pour cela](/l-osteopathie/).

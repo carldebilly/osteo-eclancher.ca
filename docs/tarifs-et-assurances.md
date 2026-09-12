@@ -8,12 +8,12 @@ seo_title: "Tarifs et assurances · Ostéopathe à Verdun"
 description: "Durée des séances, reçus RITMA, remboursement par les assurances et annulation pour les consultations d’ostéopathie à Verdun (Montréal)."
 eyebrow: "Pratique"
 lead: "Ce qu’il faut savoir avant une première visite : la durée, le paiement, les reçus, et la question du remboursement, qui mérite un appel à votre assureur."
-last_modified_at: 2026-09-06
+last_modified_at: 2026-09-11
 ---
 
 ## La séance
 
-Les rendez-vous durent une heure, première consultation comme suivi. La première comprend un échange approfondi sur votre situation, un examen, et du travail manuel : vous ne repartez pas sans que rien n’ait été fait.
+Les rendez-vous durent une heure, première consultation comme suivi. La première comprend déjà un échange approfondi sur votre situation, un examen, et du travail manuel.
 
 Une partie de cet examen sert à vérifier que le travail manuel est indiqué pour votre situation et qu’il n’y a pas de contre-indication. Si ce n’est pas le cas, je vous le dis et je vous oriente.
 

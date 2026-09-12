@@ -7,7 +7,7 @@ description: "Where osteopathy comes from, how it differs from an American osteo
 eyebrow: "Going further"
 lead: "This page is for the person who wants to know what all of this rests on before booking. It holds what I can support and what I cannot."
 date: 2026-09-07
-last_modified_at: 2026-09-07
+last_modified_at: 2026-09-11
 byline: true
 ---
 
@@ -23,7 +23,7 @@ The sentence is on page 10 of the book, [digitised by Harvard’s medical librar
 
 That logic is what the long conversation at the start of a session is for, described on the [about](/en/about/) page. It is also why an osteopath takes an interest in a fall fifteen years ago.
 
-## What an osteopath is not, in Québec
+## Osteopath in Québec, D.O. in the United States
 
 This is the most common confusion, and it comes from English-language sources.
 
