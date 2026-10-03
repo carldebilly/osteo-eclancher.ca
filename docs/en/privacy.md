@@ -45,7 +45,7 @@ Retention follows the standards applicable to record-keeping in manual therapy i
 
 Under the Act respecting the protection of personal information in the private sector, as amended by Law 25, you may ask for access to the information I hold about you, its correction, or its removal where keeping it is no longer justified.
 
-Send your request by email to [{{ site.data.business.email }}](mailto:{{ site.data.business.email }}). You will receive an answer within thirty days. If you disagree with the outcome, you may contact the Commission d’accès à l’information du Québec.
+Send your request by email: {% include email-contact.html %}. You will receive an answer within thirty days. If you disagree with the outcome, you may contact the Commission d’accès à l’information du Québec.
 
 ## Changes
 

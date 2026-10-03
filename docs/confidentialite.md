@@ -43,7 +43,7 @@ Les renseignements de santé que vous me communiquez en séance, ainsi que mes n
 
 En vertu de la Loi sur la protection des renseignements personnels dans le secteur privé, telle que modifiée par la Loi 25, vous pouvez demander l’accès aux renseignements que je détiens à votre sujet, leur rectification, ou leur retrait lorsque leur conservation n’est plus justifiée.
 
-Adressez votre demande par courriel à [{{ site.data.business.email }}](mailto:{{ site.data.business.email }}). Une réponse vous sera donnée dans les trente jours. En cas de désaccord, vous pouvez vous adresser à la Commission d’accès à l’information du Québec.
+Pour adresser votre demande par courriel : {% include email-contact.html %}. Une réponse vous sera donnée dans les trente jours. En cas de désaccord, vous pouvez vous adresser à la Commission d’accès à l’information du Québec.
 
 ## Modifications
 

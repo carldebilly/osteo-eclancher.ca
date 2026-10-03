@@ -8,7 +8,7 @@
           </div>
           <div class="detail">
             <span class="lbl">{{ t.contact.email }}</span>
-            <span class="val"><a href="mailto:{{ b.email }}">{{ b.email }}</a></span>
+            <span class="val">{% include email-contact.html %}</span>
           </div>
           <div class="detail">
             <span class="lbl">{{ t.contact.hours }}</span>

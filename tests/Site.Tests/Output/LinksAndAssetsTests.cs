@@ -130,20 +130,25 @@ public sealed class LinksAndAssetsTests
 		Assert.DoesNotContain("__cf_email__", html, StringComparison.Ordinal);
 	}
 
-	[Theory(DisplayName = "Every page provides a footer email link and all email links address the practitioner")]
+	[Theory(DisplayName = "Every page provides an email reveal button without publishing the plain address")]
 	[MemberData(nameof(SiteOutput.AllPageUrls), MemberType = typeof(SiteOutput))]
-	public void Given_a_built_page_When_reading_email_links_Then_they_address_the_practitioner(string url)
+	public void Given_a_built_page_When_reading_email_controls_Then_the_address_is_obfuscated(string url)
 	{
 		var document = SiteOutput.Parse(SiteOutput.FileFor(url));
 		var email = DataFile.Load("business.yml").GetValueOrDefault("email")?.ToString();
 
 		Assert.False(string.IsNullOrWhiteSpace(email));
-		Assert.Single(document.QuerySelectorAll("footer a[href^='mailto:']"));
+		Assert.DoesNotContain(email!, File.ReadAllText(SiteOutput.FileFor(url)), StringComparison.Ordinal);
+		Assert.Empty(document.QuerySelectorAll("a[href^='mailto:']"));
+		Assert.Single(document.QuerySelectorAll("footer button[data-email-reversed]"));
 
-		foreach (var link in document.QuerySelectorAll("a[href^='mailto:']"))
+		foreach (var button in document.QuerySelectorAll("button[data-email-reversed]"))
 		{
-			Assert.Equal($"mailto:{email}", link.GetAttribute("href"));
-			Assert.Equal(email, link.TextContent.Trim());
+			var encoded = button.GetAttribute("data-email-reversed")!;
+			Assert.Equal(email, new string(encoded.Reverse().ToArray()).Replace('|', '@'));
+			Assert.Equal("button", button.GetAttribute("type"));
+			Assert.True(button.HasAttribute("hidden"));
+			Assert.NotEmpty(button.TextContent.Trim());
 		}
 	}
 
