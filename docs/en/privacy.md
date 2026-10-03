@@ -37,7 +37,7 @@ Booking is handled by **GOrendezvous**, a separate service. When you click a boo
 
 ## Your consultation record
 
-The health information you give me during a session, together with my clinical notes, forms your record. It is stored securely, used only to follow your situation, and disclosed to nobody without your written consent, except where the law requires it. The RITMA code of ethics binds its members to professional secrecy.
+The health information you give me during a session, together with my clinical notes, forms your record. It is stored securely, used only to follow your situation, and disclosed to nobody without your written consent, except where the law requires it. With your written consent, your record may also be shared with other professionals at the clinic. The RITMA code of ethics binds its members to professional secrecy.
 
 Retention follows the standards applicable to record-keeping in manual therapy in Québec.
 
@@ -45,7 +45,7 @@ Retention follows the standards applicable to record-keeping in manual therapy i
 
 Under the Act respecting the protection of personal information in the private sector, as amended by Law 25, you may ask for access to the information I hold about you, its correction, or its removal where keeping it is no longer justified.
 
-Send your request by telephone to 514 824 5854. You will receive an answer within thirty days. If you disagree with the outcome, you may contact the Commission d’accès à l’information du Québec.
+Send your request by email: {% include email-contact.html %}. You will receive an answer within thirty days. If you disagree with the outcome, you may contact the Commission d’accès à l’information du Québec.
 
 ## Changes
 

@@ -25,6 +25,19 @@
 {%- if page.schema_condition %}{% include schema-webpage.html %}{% endif -%}
 {%- if page.ref and page.ref != "home" %}{% include schema-breadcrumb.html %}{% endif -%}
 <script>
+  document.querySelectorAll('button[data-email-reversed]').forEach(function (button) {
+    button.addEventListener('click', function () {
+      var email = button.getAttribute('data-email-reversed').split('').reverse().join('').replace('|', '@');
+      var link = document.createElement('a');
+      link.className = 'email-contact';
+      link.href = 'mailto:' + email;
+      link.textContent = email;
+      button.replaceWith(link);
+      link.focus();
+    });
+    button.hidden = false;
+  });
+
   /* Mobile menu: progressive enhancement. Without JS the nav links simply stack. */
   document.documentElement.classList.add('js');
   (function () {

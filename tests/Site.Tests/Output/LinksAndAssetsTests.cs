@@ -118,7 +118,7 @@ public sealed class LinksAndAssetsTests
 		}
 	}
 
-	[Theory(DisplayName = "No page still contains unrendered template syntax or the removed email markup")]
+	[Theory(DisplayName = "No page still contains unrendered template syntax or broken email obfuscation")]
 	[MemberData(nameof(SiteOutput.AllPageUrls), MemberType = typeof(SiteOutput))]
 	public void Given_a_built_page_When_scanning_its_html_Then_no_template_residue_remains(string url)
 	{
@@ -127,8 +127,31 @@ public sealed class LinksAndAssetsTests
 		Assert.DoesNotContain("{{", html, StringComparison.Ordinal);
 		Assert.DoesNotContain("{%", html, StringComparison.Ordinal);
 		Assert.DoesNotContain("cdn-cgi", html, StringComparison.Ordinal);
-		Assert.DoesNotContain("mailto:", html, StringComparison.Ordinal);
+		Assert.DoesNotContain("__cf_email__", html, StringComparison.Ordinal);
 	}
+
+	[Theory(DisplayName = "Every page provides an email reveal button without publishing the plain address")]
+	[MemberData(nameof(SiteOutput.AllPageUrls), MemberType = typeof(SiteOutput))]
+	public void Given_a_built_page_When_reading_email_controls_Then_the_address_is_obfuscated(string url)
+	{
+		var document = SiteOutput.Parse(SiteOutput.FileFor(url));
+		var email = DataFile.Load("business.yml").GetValueOrDefault("email")?.ToString();
+
+		Assert.False(string.IsNullOrWhiteSpace(email));
+		Assert.DoesNotContain(email!, File.ReadAllText(SiteOutput.FileFor(url)), StringComparison.Ordinal);
+		Assert.Empty(document.QuerySelectorAll("a[href^='mailto:']"));
+		Assert.Single(document.QuerySelectorAll("footer button[data-email-reversed]"));
+
+		foreach (var button in document.QuerySelectorAll("button[data-email-reversed]"))
+		{
+			var encoded = button.GetAttribute("data-email-reversed")!;
+			Assert.Equal(email, new string(encoded.Reverse().ToArray()).Replace('|', '@'));
+			Assert.Equal("button", button.GetAttribute("type"));
+			Assert.True(button.HasAttribute("hidden"));
+			Assert.NotEmpty(button.TextContent.Trim());
+		}
+	}
+
 	[Theory(DisplayName = "Every page footer links to the Facebook page so visitors and crawlers can connect the two")]
 	[MemberData(nameof(SiteOutput.AllPageUrls), MemberType = typeof(SiteOutput))]
 	public void Given_a_built_page_When_reading_its_footer_Then_it_links_to_the_facebook_page(string url)

@@ -6,6 +6,7 @@ clinic_url: "https://www.hakini.ca/"
 
 telephone_display: "514 824 5854"
 telephone_e164: "+15148245854"
+email: "osteo-eclancher@proton.me"
 
 address:
   "@type": PostalAddress
