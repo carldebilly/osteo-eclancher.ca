@@ -6,6 +6,7 @@ clinic_url: "https://www.hakini.ca/"
 
 telephone_display: "514 824 5854"
 telephone_e164: "+15148245854"
+email: "osteo-eclancher@proton.me"
 
 address:
   "@type": PostalAddress
@@ -45,7 +46,7 @@ ritma:
     url: "https://www.ritma.ca/"
   credential:
     "@type": EducationalOccupationalCredential
-    credentialCategory: "Ostéopathe I.O."
+    credentialCategory: "Interne en ostéopathie (I.O.)"
     identifier: "11364"
     recognizedBy:
       "@type": Organization

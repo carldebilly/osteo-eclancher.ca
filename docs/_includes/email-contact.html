@@ -1,0 +1,2 @@
+{%- assign email_text = site.data.i18n[page.lang].contact -%}
+<button type="button" class="email-contact" data-email-reversed="{{ site.data.business.email | replace: '@', '|' | split: '' | reverse | join: '' | escape }}" hidden>{{ email_text.reveal_email }}</button><noscript>{{ email_text.email_requires_js }}</noscript>

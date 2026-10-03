@@ -3,7 +3,7 @@ fr:
   hreflang: fr-CA
   og_locale: fr_CA
   site_name: "Julien Éclancher — Ostéopathe"
-  role: "Ostéopathe I.O."
+  role: "Interne en ostéopathie (I.O.)"
   byline_credential: "interne en ostéopathie (I.O.), membre RITMA"
   updated_on: "Mis à jour le"
   months:
@@ -37,7 +37,9 @@ fr:
   contact:
     title: "Prendre rendez-vous"
     address: "Adresse"
-    phone: "Téléphone"
+    email: "Courriel"
+    reveal_email: "Afficher le courriel"
+    email_requires_js: "Activez JavaScript pour afficher le courriel."
     hours: "Horaires"
     by_appointment: "Sur rendez-vous"
     map: "Voir sur la carte"
@@ -58,7 +60,7 @@ en:
   hreflang: en-CA
   og_locale: en_CA
   site_name: "Julien Éclancher — Osteopath"
-  role: "Osteopath I.O."
+  role: "Osteopathy intern (I.O.)"
   byline_credential: "osteopathy intern (I.O.), RITMA member"
   updated_on: "Updated"
   months:
@@ -92,7 +94,9 @@ en:
   contact:
     title: "Book an appointment"
     address: "Address"
-    phone: "Phone"
+    email: "Email"
+    reveal_email: "Show email address"
+    email_requires_js: "Enable JavaScript to show the email address."
     hours: "Hours"
     by_appointment: "By appointment"
     map: "View on the map"
