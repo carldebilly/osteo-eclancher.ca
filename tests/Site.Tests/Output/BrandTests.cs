@@ -57,10 +57,10 @@ public sealed partial class BrandTests
 
 	[Theory(DisplayName = "Brand assets stay within their weight budget, since the logo and textures load on every page")]
 	[InlineData("assets/img/enso.svg", 40)]
-	[InlineData("assets/img/enso-halo.svg", 120)]
+	[InlineData("assets/img/enso-halo.svg", 40)]
 	[InlineData("assets/img/brush-under.svg", 30)]
 	[InlineData("assets/img/portrait-mask.svg", 30)]
-	[InlineData("assets/img/washi-tile.png", 200)]
+	[InlineData("assets/img/washi-tile.jpg", 200)]
 	public void Given_a_brand_asset_When_measuring_it_Then_it_stays_under_budget(string relativePath, int budgetKilobytes)
 	{
 		var path = Path.Combine(SiteOutput.RequireDirectory(), relativePath.Replace('/', Path.DirectorySeparatorChar));
