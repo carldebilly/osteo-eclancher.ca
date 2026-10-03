@@ -1,0 +1,5 @@
+node_modules/
+generated/
+out/
+# Holds the door code; kept out of the public repository.
+card.local.json
