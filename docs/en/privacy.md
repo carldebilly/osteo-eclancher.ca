@@ -5,8 +5,8 @@ title: "Privacy policy"
 seo_title: "Privacy policy · osteo-eclancher.ca"
 description: "How personal information is handled on osteo-eclancher.ca and when booking an appointment, under Québec’s Law 25."
 eyebrow: "Legal"
-lead: "This site collects nothing by itself. This page explains what is collected when you book, by whom, and how to exercise your rights."
-last_modified_at: 2026-09-10
+lead: "This page explains what the site measures, what is collected when you book, by whom, and how to exercise your rights."
+last_modified_at: 2026-10-03
 ---
 
 ## Person responsible for personal information
@@ -15,13 +15,15 @@ I am the person responsible for the protection of personal information: Julien �
 
 ## What this site collects
 
-No personal data is collected by osteo-eclancher.ca. The site is made of static pages: there is no form, no account, and no data is sent to any advertising network.
+The site is made of static pages: there is no form, no account, and no data is sent to any advertising network. The only collection is the audience measurement described below.
 
 ### Audience measurement
 
-I use Google Analytics to know which pages are read and where visits come from. The tool is set to write no cookie and keep no identifier in your browser: each page view is counted without being linked to the ones before or after it.
+I use Google Analytics to know which pages are read and where visits come from. The tool writes two cookies in your browser, `_ga` and `_ga_PTLGTGE9J5`. They hold a random identifier that recognises your browser from one visit to the next, without revealing who you are, and are kept for 13 months.
 
-What is sent to Google on each page: the page address, the address of the page you came from, your browser language, the type of device, and an approximate city derived from your IP address, which Google does not store. When you click a booking button, the click is counted along with the button’s position on the page. None of this makes it possible to recognise a person from one visit to the next. The domains contacted are www.googletagmanager.com and google-analytics.com.
+What is sent to Google on each page: the page address, the address of the page you came from, your browser language, the type of device, an approximate city derived from your IP address, which Google does not store, and the cookies’ identifier. When you click a booking button, the click is counted along with the button’s position on the page. Google’s advertising features are turned off: this data is not used for advertising or remarketing. The domains contacted are www.googletagmanager.com and google-analytics.com.
+
+You can refuse this measurement by blocking or deleting this site’s cookies in your browser settings, or by installing the [Google Analytics opt-out add-on](https://tools.google.com/dlpage/gaoptout). The site works the same either way.
 
 ### Typefaces
 
@@ -47,4 +49,4 @@ Send your request by telephone to 514 824 5854. You will receive an answer withi
 
 ## Changes
 
-Last updated: 10 September 2026.
+Last updated: 3 October 2026.

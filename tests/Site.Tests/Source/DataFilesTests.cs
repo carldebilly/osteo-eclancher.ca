@@ -132,8 +132,8 @@ public sealed class DataFilesTests
 	}
 
 	[Theory(DisplayName = "The privacy page names the analytics cookies, their lifetime and how to refuse them, since Law 25 requires visitors be told")]
-	[InlineData("confidentialite.md", "13 mois", "bloquer")]
-	[InlineData("en/privacy.md", "13 months", "block")]
+	[InlineData("confidentialite.md", "13 mois", "gaoptout")]
+	[InlineData("en/privacy.md", "13 months", "gaoptout")]
 	public void Given_a_privacy_page_When_reading_it_Then_the_analytics_cookies_are_disclosed(string relative, string lifetime, string refusal)
 	{
 		var text = File.ReadAllText(Path.Combine(RepoPaths.Docs, relative));

@@ -45,7 +45,7 @@ it does not check that the destinations still say what we claim.
 
 ## Analytics
 
-Google Analytics 4 runs in consent-denied mode (`_includes/analytics.html`): no cookie, no stored identifier, page views and booking clicks only. The measurement id lives in `_config.yml` (`analytics_id`); remove the key to build without the tag. The `gtag('consent', 'default', …)` call must stay before `gtag('config', …)` — a test enforces the order, because the standard snippet Google hands out omits it and would start writing cookies the privacy page says do not exist.
+Google Analytics 4 writes its usual cookies (`_ga`, `_ga_*`) for page views and booking clicks, and nothing more (`_includes/analytics.html`): every advertising signal is denied and the cookies last 13 months instead of two years. The privacy pages state both; tests keep the tag and the pages in step. There is deliberately no consent banner. The measurement id lives in `_config.yml` (`analytics_id`); remove the key to build without the tag. The `gtag('consent', 'default', …)` call must stay before `gtag('config', …)` — a test enforces the order, because the standard snippet Google hands out omits it and would turn the advertising signals on.
 
 Every booking button is rendered by `_includes/cta-booking.html` and must pass a `placement` (`nav`, `hero`, `contact`, `band`, `qr`). Clicks are reported as one `book_click` event carrying that placement, so the buttons can be compared in GA4. Adding a new button means adding its placement to `AnalyticsTests.KnownPlacements` too.
 

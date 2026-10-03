@@ -150,6 +150,8 @@ internal static class Rules
 		"www.facebook.com",
 		// Google Analytics loader, in the head of every page
 		"www.googletagmanager.com",
+		// Google Analytics opt-out add-on, offered on the privacy pages
+		"tools.google.com",
 		// The map link in the contact block
 		"www.google.com",
 		// Condition entities referenced by the structured data
