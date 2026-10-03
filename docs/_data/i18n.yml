@@ -3,7 +3,7 @@ fr:
   hreflang: fr-CA
   og_locale: fr_CA
   site_name: "Julien Éclancher — Ostéopathe"
-  role: "Ostéopathe I.O."
+  role: "Interne en ostéopathie (I.O.)"
   byline_credential: "interne en ostéopathie (I.O.), membre RITMA"
   updated_on: "Mis à jour le"
   months:
@@ -58,7 +58,7 @@ en:
   hreflang: en-CA
   og_locale: en_CA
   site_name: "Julien Éclancher — Osteopath"
-  role: "Osteopath I.O."
+  role: "Osteopathy intern (I.O.)"
   byline_credential: "osteopathy intern (I.O.), RITMA member"
   updated_on: "Updated"
   months:
