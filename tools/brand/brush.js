@@ -95,7 +95,9 @@ const BRUSH_DETAIL = {
 };
 
 // The ensō with the column of dots from the original logo. viewBox 0 0 100 100.
-function drawMark({ brush = "#5F80A6", dots = "#3B5A7D", accent = "#D9946A", detail = "print" } = {}) {
+// column: "full" draws the column of dots; "dot" keeps a single larger terracotta dot, for
+// favicons where the column would blur into a smudge; "none" draws the brush alone.
+function drawMark({ brush = "#5F80A6", dots = "#3B5A7D", accent = "#D9946A", detail = "print", column = "full" } = {}) {
 	const { markBristles, markSteps, precision, chunkPoints } = BRUSH_DETAIL[detail];
 	const rand = seededRandom(1142);
 	const cx = 50, cy = 50, radius = 34.5;
@@ -146,18 +148,24 @@ function drawMark({ brush = "#5F80A6", dots = "#3B5A7D", accent = "#D9946A", det
 	}).join("");
 
 	const x = 50;
-	return `
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Logo">
-	<polygon points="${blot}" fill="${brush}"/>
-	<g fill="none" stroke="${brush}" stroke-linecap="round" stroke-linejoin="round">${strokes.join("")}</g>
-	${drops}
+	const columns = {
+		full: `
 	<circle cx="${x}" cy="25" r="2.7" fill="${accent}"/>
 	<circle cx="${x}" cy="35" r="0.95" fill="${dots}"/>
 	<circle cx="${x}" cy="41.3" r="1.35" fill="${dots}"/>
 	<circle cx="${x}" cy="48.6" r="2.05" fill="${dots}"/>
 	<line x1="${x}" y1="54.5" x2="${x}" y2="64" stroke="${dots}" stroke-width="0.55" stroke-linecap="round"/>
 	<circle cx="${x}" cy="69.8" r="1.9" fill="none" stroke="${dots}" stroke-width="0.6"/>
-	<line x1="${x}" y1="75.2" x2="${x}" y2="95" stroke="${accent}" stroke-width="0.55" stroke-linecap="round"/>
+	<line x1="${x}" y1="75.2" x2="${x}" y2="95" stroke="${accent}" stroke-width="0.55" stroke-linecap="round"/>`,
+		dot: `
+	<circle cx="${x}" cy="50" r="8" fill="${accent}"/>`,
+		none: "",
+	};
+	return `
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Logo">
+	<polygon points="${blot}" fill="${brush}"/>
+	<g fill="none" stroke="${brush}" stroke-linecap="round" stroke-linejoin="round">${strokes.join("")}</g>
+	${drops}${columns[column]}
 </svg>`;
 }
 
