@@ -45,9 +45,17 @@ internal static class SiteOutput
 			.EnumerateFiles(RequireDirectory(), "*.html", SearchOption.AllDirectories)
 			.OrderBy(static path => path, StringComparer.Ordinal)];
 
-	/// <summary>Every generated page except the 404, which has no twin and is not indexed.</summary>
+	/// <summary>
+	/// Every generated page that asks to be indexed. Utility pages (the 404, the QR-code redirect)
+	/// declare <c>noindex</c>, have no twin and stay out of the sitemap, so the SEO checks skip them.
+	/// </summary>
 	public static IReadOnlyList<string> IndexablePages()
-		=> [.. HtmlFiles().Where(static path => Path.GetFileName(path) != "404.html")];
+		=> [.. HtmlFiles().Where(IsIndexable)];
+
+	/// <summary>False when the page carries a robots <c>noindex</c> directive.</summary>
+	public static bool IsIndexable(string htmlFile)
+		=> Parse(htmlFile).QuerySelector("meta[name=robots]")?.GetAttribute("content")
+			?.Contains("noindex", StringComparison.Ordinal) != true;
 
 	/// <summary>The site URL a generated file is served at, derived from its path.</summary>
 	public static string UrlOf(string htmlFile)
@@ -75,7 +83,7 @@ internal static class SiteOutput
 	/// <summary>Every generated page, as theory data addressed by site URL.</summary>
 	public static TheoryData<string> AllPageUrls() => UrlsOf(HtmlFiles());
 
-	/// <summary>Every generated page except the 404, as theory data addressed by site URL.</summary>
+	/// <summary>Every page that asks to be indexed, as theory data addressed by site URL.</summary>
 	public static TheoryData<string> IndexablePageUrls() => UrlsOf(IndexablePages());
 
 	private static TheoryData<string> UrlsOf(IReadOnlyList<string> files)
