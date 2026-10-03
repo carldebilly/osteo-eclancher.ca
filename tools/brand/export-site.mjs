@@ -19,7 +19,7 @@ const assets = {
 	// Header logo: the site's blue brush on cream.
 	"enso.svg": drawMark({ brush: "#5F80A6", dots: "#2E4762", accent: "#C5875A", detail: "web" }),
 	// Halo behind the portrait: the white brush alone, without the dots.
-	"enso-halo.svg": drawMark({ brush: "#FFFFFF", dots: "transparent", accent: "transparent", detail: "web" }),
+	"enso-halo.svg": drawMark({ brush: "#FFFFFF", detail: "web", column: "none" }),
 	"brush-under.svg": drawSwash({ detail: "web" }),
 	"portrait-mask.svg": drawBrushRoundRect(),
 };
