@@ -58,7 +58,7 @@ Every booking button is rendered by `_includes/cta-booking.html` and must pass a
 | `docs/*.md`, `docs/en/*.md` | Page content. Each pair shares a `ref`, which is what produces hreflang and the language switcher. |
 | `docs/_includes/` | Head, header, footer, booking button, contact block, FAQ, JSON-LD. |
 | `tools/images/build-images.py` | Regenerates every image, icon and social card from `tools/images/sources/`. |
-| `tools/brand/brush.js` | Vector brush drawings: the ensō mark and the stroke under the name. Shared by the card and the site. |
+| `tools/brand/` | Vector brush drawings (`brush.js`: the ensō and the stroke under the name), the portrait mask and the washi tile. `node tools/brand/export-site.mjs` regenerates the site's copies in `docs/assets/img/`. |
 | `print/carte-affaires/` | The business card, rendered to Vistaprint-ready PDFs. See its README. |
 
 ## Adding a page

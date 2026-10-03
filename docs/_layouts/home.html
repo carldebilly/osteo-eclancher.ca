@@ -5,12 +5,15 @@ layout: default
 {%- assign b = site.data.business -%}
 
   <section class="hero" id="top">
-    <div class="ring1" aria-hidden="true"></div>
-    <div class="ring2" aria-hidden="true"></div>
     <div class="wrap">
       <div class="hero-copy">
         <div class="eyebrow"><span class="bar"></span><span class="txt">{{ page.hero.eyebrow }}</span></div>
-        <h1>{{ page.hero.title }}</h1>
+        {%- comment -%}
+          The white brush stroke from the business card underlines the words named in
+          hero.title_stroke. Liquid has no regex, so the words are swapped for a wrapped copy.
+        {%- endcomment -%}
+        {%- capture stroked %}<span class="brush-under">{{ page.hero.title_stroke }}</span>{% endcapture %}
+        <h1>{% if page.hero.title_stroke %}{{ page.hero.title | replace: page.hero.title_stroke, stroked }}{% else %}{{ page.hero.title }}{% endif %}</h1>
         <p class="intro">{{ page.hero.intro }}</p>
         <div class="hero-cta">
           {%- include cta-booking.html class="btn-primary btn-lg" placement="hero" -%}
@@ -19,9 +22,7 @@ layout: default
         <p class="cta-note">{{ t.cta.book_note }}</p>
       </div>
       <div class="hero-photo">
-        <div class="frame" aria-hidden="true"></div>
         {%- include picture-portrait.html fetchpriority="high" -%}
-        <div class="dot" aria-hidden="true"></div>
       </div>
     </div>
   </section>

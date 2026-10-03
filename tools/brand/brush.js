@@ -24,7 +24,7 @@ function smoothStep(a, b, t) {
 // Paints one brush stroke and returns its SVG polylines (the colour comes from the parent <g>).
 // path(t) gives the centre line as { x, y, nx, ny }, the normal pointing to offset +0.5.
 // envelope(t) is the full width at t; endOf(offset) is where each bristle runs out of ink.
-function paintStroke({ rand, path, envelope, bristles, steps, startOf, endOf, skipChance, gapLength, channels, opacity, width, strokeFade }) {
+function paintStroke({ rand, path, envelope, bristles, steps, startOf, endOf, skipChance, gapLength, channels, opacity, width, strokeFade, precision = 2, chunkPoints = 7 }) {
 	const polylines = [];
 	for (let i = 0; i < bristles; i++) {
 		// -0.5 and +0.5 are the two edges of the stroke.
@@ -44,7 +44,7 @@ function paintStroke({ rand, path, envelope, bristles, steps, startOf, endOf, sk
 			if (points.length > 1) {
 				const mid = (chunkStart + t) / 2;
 				const fade = ownFade(mid) * strokeFade(mid);
-				polylines.push(`<polyline points="${points.join(" ")}" stroke-width="${(lineWidth * (0.5 + 0.5 * fade)).toFixed(2)}" stroke-opacity="${(lineOpacity * fade).toFixed(2)}"/>`);
+				polylines.push(`<polyline points="${points.join(" ")}" stroke-width="${(lineWidth * (0.5 + 0.5 * fade)).toFixed(precision)}" stroke-opacity="${(lineOpacity * fade).toFixed(2)}"/>`);
 			}
 			points = keepLast && points.length ? [points[points.length - 1]] : [];
 			chunkStart = t;
@@ -64,8 +64,8 @@ function paintStroke({ rand, path, envelope, bristles, steps, startOf, endOf, sk
 				continue;
 			}
 			const p = path(t), w = envelope(t);
-			points.push(`${(p.x + p.nx * wandered * w).toFixed(2)},${(p.y + p.ny * wandered * w).toFixed(2)}`);
-			if (points.length >= 7) flush(t, true);
+			points.push(`${(p.x + p.nx * wandered * w).toFixed(precision)},${(p.y + p.ny * wandered * w).toFixed(precision)}`);
+			if (points.length >= chunkPoints) flush(t, true);
 		}
 		flush(end, false);
 	}
@@ -86,8 +86,17 @@ function paintLines(rand, { count, from, to, maxHalfWidth }) {
 	});
 }
 
+// Print detail fills a business card at 600 dpi; web detail keeps a header logo light, with fewer
+// bristles and points and one-decimal coordinates, invisible at screen sizes.
+const BRUSH_DETAIL = {
+	print: { markBristles: 70, markSteps: 340, swashBristles: 38, swashSteps: 260, precision: 2, chunkPoints: 7 },
+	// Longer chunks too: each polyline repeats its attributes, so fewer of them weigh less.
+	web: { markBristles: 28, markSteps: 100, swashBristles: 18, swashSteps: 70, precision: 1, chunkPoints: 24 },
+};
+
 // The ensō with the column of dots from the original logo. viewBox 0 0 100 100.
-function drawMark({ brush = "#5F80A6", dots = "#3B5A7D", accent = "#D9946A" } = {}) {
+function drawMark({ brush = "#5F80A6", dots = "#3B5A7D", accent = "#D9946A", detail = "print" } = {}) {
+	const { markBristles, markSteps, precision, chunkPoints } = BRUSH_DETAIL[detail];
 	const rand = seededRandom(1142);
 	const cx = 50, cy = 50, radius = 34.5;
 	// Angles are clockwise from 12 o'clock. The brush lands at the upper right and travels
@@ -106,7 +115,7 @@ function drawMark({ brush = "#5F80A6", dots = "#3B5A7D", accent = "#D9946A" } = 
 		* (1 + 0.05 * Math.sin(t * Math.PI * 2 * 3.7));
 
 	const strokes = paintStroke({
-		rand, path, envelope, bristles: 70, steps: 340,
+		rand, path, envelope, bristles: markBristles, steps: markSteps, precision, chunkPoints,
 		startOf: offset => 0.012 + rand() * 0.006 + offset * offset * 0.03,
 		// Inner bristles (negative offset) run dry first; the outer edge carries the stroke round.
 		endOf: offset => Math.min(1, 0.6 + (offset + 0.5) * 0.32 + rand() * 0.18),
@@ -154,14 +163,15 @@ function drawMark({ brush = "#5F80A6", dots = "#3B5A7D", accent = "#D9946A" } = 
 
 // The stroke under the practitioner's name: a thin horizontal line of the same brush, landing
 // on the left and lifting dry on the right, with paint lines along its length. viewBox 0 0 200 12.
-function drawSwash({ brush = "#FFFFFF" } = {}) {
+function drawSwash({ brush = "#FFFFFF", detail = "print" } = {}) {
+	const { swashBristles, swashSteps, precision, chunkPoints } = BRUSH_DETAIL[detail];
 	const rand = seededRandom(4242);
 	// A gentle upward bow with a slight rise; the normal points down (offset +0.5 is the lower edge).
 	const path = t => ({ x: 3 + 194 * t, y: 6.4 - 1.2 * Math.sin(Math.PI * t) - 0.8 * t, nx: 0, ny: 1 });
 	const envelope = t => 7 * (1 + 0.15 * (1 - smoothStep(0, 0.08, t))) * (1 - 0.45 * smoothStep(0.55, 1, t));
 
 	const strokes = paintStroke({
-		rand, path, envelope, bristles: 38, steps: 260,
+		rand, path, envelope, bristles: swashBristles, steps: swashSteps, precision, chunkPoints,
 		startOf: offset => rand() * 0.01 + offset * offset * 0.02,
 		// The upper edge runs dry first, the way the ensō's inner edge does.
 		endOf: offset => Math.min(1, 0.62 + (offset + 0.5) * 0.28 + rand() * 0.12),

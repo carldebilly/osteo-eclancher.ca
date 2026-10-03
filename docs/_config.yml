@@ -43,4 +43,4 @@ defaults:
 analytics_id: "G-PTLGTGE9J5"
 
 # Manual cache-buster appended to the stylesheet URL.
-assets_version: "2026-10a"
+assets_version: "2026-10b"

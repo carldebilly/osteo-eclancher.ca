@@ -8,10 +8,14 @@
   --cream:#F5F0E8; --cream2:#ECE4D5; --paper:#FBF8F2; --ink:#33302B;
   --muted:#6E675C; --blue:#3B5A7D; --blue-deep:#2E4762; --blue-soft:#7B93AE;
   --terra:#C5875A; --line:#E0D8C8;
+  /* Brand from the business card: Crane-clan powder blue, navy type on it, deeper terracotta. */
+  --crane-light:#BED8EB; --crane-deep:#8DB2D0; --navy:#23405E; --terra-deep:#9A4F26;
+  /* Washi paper: a neutral-grey tile blended with soft-light, so it textures any colour. */
+  --washi:url(/assets/img/washi-tile.jpg);
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{margin:0;font-family:'Hanken Grotesk',system-ui,sans-serif;background:var(--cream);color:var(--ink);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+body{margin:0;font-family:'Hanken Grotesk',system-ui,sans-serif;background:var(--cream) var(--washi);background-blend-mode:soft-light;color:var(--ink);-webkit-font-smoothing:antialiased;overflow-x:hidden}
 ::selection{background:rgba(197,135,90,.24)}
 a{color:inherit}
 img{max-width:100%}
@@ -45,7 +49,7 @@ img{max-width:100%}
 header.site{position:sticky;top:0;z-index:50;background:rgba(245,240,232,.9);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
 header.site .wrap{display:flex;align-items:center;gap:32px;padding-top:14px;padding-bottom:14px;position:relative}
 .brand{display:flex;align-items:center;gap:13px;text-decoration:none;color:inherit}
-.brand img{width:42px;height:42px;object-fit:cover;border-radius:50%;flex:none}
+.brand img{width:54px;height:54px;flex:none}
 .brandtext{display:flex;flex-direction:column;line-height:1}
 .brand .name{font-family:'EB Garamond',serif;font-size:21px;font-weight:600;color:var(--blue);letter-spacing:.01em;line-height:1}
 .brand .role{font-size:9.5px;font-weight:600;letter-spacing:.26em;text-transform:uppercase;color:var(--terra);margin-top:4px;line-height:1;white-space:nowrap}
@@ -65,22 +69,29 @@ nav.main a.lnk[aria-current="page"]{color:var(--blue);box-shadow:inset 0 -2px 0 
 .burger-bars::after{position:absolute;top:6px}
 
 /* ---------- Hero ---------- */
-.hero{position:relative;overflow:hidden}
-.hero .ring1{position:absolute;top:-160px;right:-180px;width:620px;height:620px;border:1.5px solid var(--blue-soft);border-radius:50%;opacity:.22;pointer-events:none}
-.hero .ring2{position:absolute;top:-90px;right:-110px;width:480px;height:480px;border:1px solid var(--terra);border-radius:50%;opacity:.18;pointer-events:none}
+.hero{position:relative;overflow:hidden;background-color:var(--crane-deep);background-image:var(--washi),linear-gradient(135deg,var(--crane-light),var(--crane-deep));background-blend-mode:soft-light,normal}
 .hero .wrap{position:relative;padding-top:86px;padding-bottom:96px;display:flex;align-items:center;gap:56px;flex-wrap:wrap}
 .hero-copy{flex:1 1 380px;min-width:300px}
-.hero h1{font-family:'EB Garamond',serif;font-weight:500;color:var(--blue);font-size:clamp(38px,4.8vw,60px);line-height:1.1;letter-spacing:-.01em;margin:0 0 26px}
-.hero .intro{font-size:18px;line-height:1.72;color:var(--muted);max-width:500px;margin:0 0 34px}
+.hero h1{font-family:'EB Garamond',serif;font-weight:500;color:var(--navy);font-size:clamp(38px,4.8vw,60px);line-height:1.1;letter-spacing:-.01em;margin:0 0 38px}
+/* The card's thin white brush stroke, just under the named words and clear of the letters. */
+.brush-under{position:relative;white-space:nowrap}
+.brush-under::after{content:"";position:absolute;left:0;right:-.12em;top:calc(100% + .02em);height:.17em;background:url(/assets/img/brush-under.svg) center/100% 100% no-repeat}
+.hero .eyebrow span.txt{color:var(--terra-deep)}
+.hero .eyebrow span.bar{background:var(--terra-deep)}
+.hero .btn-primary,.cta-band .btn-primary{background:var(--navy)}
+.hero .btn-ghost{color:var(--navy);border-color:rgba(35,64,94,.45)}
+.hero .cta-note,.cta-band .cta-note{color:#3A5675}
+.hero .intro{font-size:18px;line-height:1.72;color:#2F4B68;max-width:500px;margin:0 0 34px}
 .hero-cta{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
-.hero-photo{flex:0 1 360px;position:relative}
-.hero-photo .frame{position:absolute;inset:0;transform:translate(20px,20px);border:1px solid var(--blue-soft);border-radius:8px;pointer-events:none}
-.hero-photo .ph{position:relative;border-radius:8px;overflow:hidden;background:var(--cream2);box-shadow:0 30px 64px -32px rgba(46,71,98,.55);margin:0}
+.hero-photo{flex:0 1 360px;position:relative;isolation:isolate}
+/* A white ensō centred behind the portrait, wider than the photo, so it reads as a halo rather
+   than a frame. The photo's rim is masked with brush strokes instead of a hard edge. */
+.hero-photo::before{content:"";position:absolute;z-index:-1;left:50%;top:50%;width:172%;aspect-ratio:1;transform:translate(-50%,-50%);background:url(/assets/img/enso-halo.svg) center/contain no-repeat;opacity:.55;pointer-events:none}
+.hero-photo .ph{position:relative;margin:0;-webkit-mask:url(/assets/img/portrait-mask.svg) center/100% 100% no-repeat;mask:url(/assets/img/portrait-mask.svg) center/100% 100% no-repeat}
 .hero-photo .ph img{display:block;width:100%;height:auto}
-.hero-photo .dot{position:absolute;bottom:-14px;left:-14px;width:30px;height:30px;border-radius:50%;background:var(--terra)}
 
 /* ---------- Values ---------- */
-section.approche{background:var(--cream2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+section.approche{background:var(--cream2) var(--washi);background-blend-mode:soft-light;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
 section.approche .wrap{padding-top:74px;padding-bottom:74px}
 .values{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:48px}
 .value .vdot{display:block;width:9px;height:9px;border-radius:50%;background:var(--terra);margin-bottom:14px}
@@ -102,7 +113,7 @@ section.services .wrap{padding-top:92px;padding-bottom:92px}
 .cardlink a:hover{color:var(--terra)}
 
 /* ---------- Session steps ---------- */
-section.seance{background:var(--cream2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+section.seance{background:var(--cream2) var(--washi);background-blend-mode:soft-light;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
 section.seance .wrap{padding-top:86px;padding-bottom:86px}
 .steps{list-style:none;counter-reset:step;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:36px}
 .step{counter-increment:step;position:relative;padding-top:34px}
@@ -157,10 +168,10 @@ section.apropos .wrap{padding-top:88px;padding-bottom:88px;display:flex;gap:64px
 .faq-answer a{color:var(--blue);box-shadow:inset 0 -1px 0 var(--terra);text-decoration:none}
 
 /* ---------- CTA band ---------- */
-.cta-band{background:var(--cream2);border-top:1px solid var(--line)}
+.cta-band{background-color:var(--crane-deep);background-image:var(--washi),linear-gradient(120deg,var(--crane-light),var(--crane-deep));background-blend-mode:soft-light,normal}
 .cta-band .wrap{padding-top:56px;padding-bottom:56px;display:flex;gap:40px;align-items:center;justify-content:space-between;flex-wrap:wrap}
-.cta-band h2{font-family:'EB Garamond',serif;font-weight:500;color:var(--blue);font-size:clamp(26px,3vw,34px);margin:0 0 8px}
-.cta-band p{font-size:16px;color:var(--muted);margin:0;max-width:460px}
+.cta-band h2{font-family:'EB Garamond',serif;font-weight:500;color:var(--navy);font-size:clamp(26px,3vw,34px);margin:0 0 8px}
+.cta-band p{font-size:16px;color:#2F4B68;margin:0;max-width:460px}
 .cta-band-actions{flex:none}
 .cta-band-actions .cta-note{margin-top:10px}
 
@@ -210,7 +221,7 @@ footer.site .fcopy{font-size:12.5px;color:rgba(245,240,232,.55)}
   html.js #primary-nav.open{padding-left:24px;padding-right:24px}
   .wrap{padding-left:24px;padding-right:24px}
   .hero .wrap{padding-top:56px;padding-bottom:64px;gap:44px}
-  .hero-photo{flex:1 1 100%;max-width:340px}
+  .hero-photo{flex:1 1 100%;max-width:340px;margin:30px 13% 20px}
   .page-head .wrap{padding-top:52px;padding-bottom:42px}
   .page > .wrap{padding-top:48px;padding-bottom:52px}
   .cta-band .wrap{flex-direction:column;align-items:flex-start;gap:24px}
