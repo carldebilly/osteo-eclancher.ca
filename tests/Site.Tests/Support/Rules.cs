@@ -118,6 +118,16 @@ internal static class Rules
 		};
 
 	/// <summary>
+	/// Address encoded in the QR code printed on the business cards. It redirects to the booking
+	/// page, so the cards survive a change of booking provider; it can never move, because the
+	/// printed cards cannot follow it.
+	/// </summary>
+	public const string QrRedirectUrl = "/rdv/";
+
+	/// <summary>GA4 measurement id, duplicated from <c>_config.yml</c> so the built pages are checked against a value the config cannot drift from silently.</summary>
+	public const string AnalyticsId = "G-PTLGTGE9J5";
+
+	/// <summary>
 	/// Hosts the site may link out to. A typo in an external domain produces a link that looks
 	/// fine and goes nowhere, and the resource page exists entirely to send readers elsewhere.
 	/// </summary>
@@ -127,9 +137,6 @@ internal static class Rules
 	/// This list catches a mistyped or newly added host; it cannot catch a host that dies.
 	/// A separate network test, excluded from the required check, does that.
 	/// </remarks>
-	/// <summary>GA4 measurement id, duplicated from <c>_config.yml</c> so the built pages are checked against a value the config cannot drift from silently.</summary>
-	public const string AnalyticsId = "G-PTLGTGE9J5";
-
 	public static readonly IReadOnlySet<string> AllowedExternalHosts = new HashSet<string>(StringComparer.OrdinalIgnoreCase)
 	{
 		// Booking, the clinic, the association the practitioner belongs to

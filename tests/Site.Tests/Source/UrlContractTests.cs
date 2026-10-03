@@ -67,4 +67,16 @@ public sealed class UrlContractTests
 		Assert.True(notFound.NoIndex, "the 404 page must not be indexed");
 		Assert.False(notFound.InSitemap, "the 404 page must stay out of the sitemap");
 	}
+
+	[Fact(DisplayName = "The booking redirect printed as a QR code on the business cards keeps its address and stays out of search")]
+	public void Given_the_qr_redirect_When_reading_its_front_matter_Then_its_printed_address_holds()
+	{
+		var redirect = SourcePage.All()
+			.SingleOrDefault(static page => page.Permalink == Rules.QrRedirectUrl);
+
+		Assert.NotNull(redirect);
+		Assert.Null(redirect.Ref);
+		Assert.True(redirect.NoIndex, "a redirect has no content of its own to index");
+		Assert.False(redirect.InSitemap, "a redirect must stay out of the sitemap");
+	}
 }
