@@ -57,8 +57,8 @@ Every booking button is rendered by `_includes/cta-booking.html` and must pass a
 | `docs/_data/i18n.yml` | Interface strings. The `fr` and `en` key trees must match. |
 | `docs/*.md`, `docs/en/*.md` | Page content. Each pair shares a `ref`, which is what produces hreflang and the language switcher. |
 | `docs/_includes/` | Head, header, footer, booking button, contact block, FAQ, JSON-LD. |
-| `tools/images/build-images.py` | Regenerates every image, icon and social card from `tools/images/sources/`. |
-| `tools/brand/` | Vector brush drawings (`brush.js`: the ensō and the stroke under the name), the portrait mask and the washi tile. `node tools/brand/export-site.mjs` regenerates the site's copies in `docs/assets/img/`. |
+| `tools/images/build-images.py` | Regenerates the portrait images from the high-resolution original (kept out of the repository). |
+| `tools/brand/` | Vector brush drawings (`brush.js`: the ensō and the stroke under the name), the portrait mask and the washi tile. `node tools/brand/export-site.mjs` regenerates the site's SVGs and texture; `node tools/brand/export-images.mjs` renders the favicons, app icons, share cards and the PNG logo kit (`enso.png`, `enso-white.png`, `email-signature.png`, `profile-picture.png`). |
 | `print/carte-affaires/` | The business card, rendered to Vistaprint-ready PDFs. See its README. |
 
 ## Adding a page
