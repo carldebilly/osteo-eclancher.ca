@@ -143,4 +143,20 @@ public sealed class DataFilesTests
 		Assert.Contains(refusal, text, StringComparison.Ordinal);
 	}
 
+	[Theory(DisplayName = "The title in the header, footer and credential is the job title from business.yml, as printed on the business card")]
+	[InlineData("fr")]
+	[InlineData("en")]
+	public void Given_the_data_files_When_reading_the_practitioner_title_Then_every_copy_matches_the_job_title(string lang)
+	{
+		var business = Load("business.yml");
+		var i18n = Load("i18n.yml");
+
+		var jobTitle = Dig(business, "person", "job_title", lang)?.ToString();
+		var role = Dig(i18n, lang, "role")?.ToString();
+		var credential = Dig(business, "ritma", "credential", "credentialCategory")?.ToString();
+
+		Assert.False(string.IsNullOrWhiteSpace(jobTitle));
+		Assert.Equal(jobTitle, role);
+		Assert.Equal(Dig(business, "person", "job_title", "fr")?.ToString(), credential);
+	}
 }

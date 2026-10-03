@@ -46,7 +46,7 @@ ritma:
     url: "https://www.ritma.ca/"
   credential:
     "@type": EducationalOccupationalCredential
-    credentialCategory: "Ostéopathe I.O."
+    credentialCategory: "Interne en ostéopathie (I.O.)"
     identifier: "11364"
     recognizedBy:
       "@type": Organization
