@@ -127,6 +127,9 @@ internal static class Rules
 	/// <summary>GA4 measurement id, duplicated from <c>_config.yml</c> so the built pages are checked against a value the config cannot drift from silently.</summary>
 	public const string AnalyticsId = "G-PTLGTGE9J5";
 
+	/// <summary>Lifetime of the Google Analytics cookies: 395 days, the 13 months stated on the privacy pages.</summary>
+	public const int AnalyticsCookieLifetimeSeconds = 395 * 24 * 60 * 60;
+
 	/// <summary>
 	/// Hosts the site may link out to. A typo in an external domain produces a link that looks
 	/// fine and goes nowhere, and the resource page exists entirely to send readers elsewhere.
