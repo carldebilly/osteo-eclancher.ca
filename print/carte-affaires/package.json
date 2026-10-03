@@ -1,0 +1,15 @@
+{
+  "name": "carte-affaires",
+  "private": true,
+  "description": "Business card for Julien Éclancher, rendered to Vistaprint-ready PDFs.",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "pdf-lib": "^1.17.1",
+    "playwright-core": "^1.63.0",
+    "qrcode": "^1.5.4"
+  }
+}

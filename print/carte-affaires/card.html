@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Carte d'affaires — Julien Éclancher</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;1,500&family=Hanken+Grotesk:wght@400;500;600&display=block">
+<style>
+	/* Vistaprint standard card: 3.5 x 2 in trim, 3.62 x 2.12 in with bleed (0.06 in per side). */
+	:root {
+		--cream: #F5F0E8; --paper: #FBF8F2; --ink: #33302B; --muted: #6E675C;
+		--blue: #3B5A7D; --blue-soft: #7B93AE; --terra: #C5875A; --line: #C9B99E;
+		--sand: #F2E9DB; --navy: #23405E; --terra-deep: #9A4F26;
+		/* Powder blue of the Crane clan (Legend of the Five Rings): pale, slightly greyed, paired with white. */
+		--crane: #A3C4DC;
+		--bleed: 0.06in;
+	}
+	@page { size: 3.62in 2.12in; margin: 0; }
+	* { box-sizing: border-box; }
+	html, body { margin: 0; padding: 0; background: #fff; }
+	body { -webkit-print-color-adjust: exact; print-color-adjust: exact; font-family: 'Hanken Grotesk', sans-serif; color: var(--ink); }
+	.page { position: relative; width: 3.62in; height: 2.12in; overflow: hidden; page-break-after: always; break-after: page; }
+	.page:last-child { page-break-after: auto; break-after: auto; }
+
+	/* ---------- Recto ---------- */
+	/* Washi textures from textures.py, 600 dpi at the full-bleed size, laid edge to edge. */
+	.recto { background: var(--crane) url(generated/crane-washi.png) 0 0 / 3.62in 2.12in no-repeat; }
+	.recto .mark { position: absolute; left: 0.18in; top: 50%; width: 1.34in; height: 1.34in; transform: translateY(-50%); }
+	.recto .mark svg { width: 100%; height: 100%; display: block; }
+	.recto .text { position: absolute; left: 1.64in; right: 0.27in; top: 0.27in; bottom: 0.27in; display: flex; flex-direction: column; justify-content: center; }
+	.name { font-family: 'EB Garamond', serif; font-weight: 600; font-size: 14pt; line-height: 1; color: var(--navy); letter-spacing: .005em; margin: 0; }
+	/* A thin white brush stroke just under the name, clear of the letters and their descenders. */
+	.name { position: relative; align-self: flex-start; }
+	.name .swash { position: absolute; left: -0.02in; right: -0.12in; top: calc(100% + 0.025in); height: 0.065in; }
+	.name .swash svg { width: 100%; height: 100%; display: block; }
+	.role { font-size: 5.6pt; font-weight: 600; letter-spacing: .2em; text-transform: uppercase; color: var(--terra-deep); margin-top: 7.5pt; }
+	.focus { font-family: 'EB Garamond', serif; font-style: italic; font-weight: 500; font-size: 8.4pt; line-height: 1.15; color: var(--navy); margin-top: 4pt; }
+	.rule { width: 0.42in; height: 0; border-top: 0.6pt solid var(--terra-deep); margin: 4pt 0 4pt; }
+	.address { font-size: 6.1pt; line-height: 1.28; color: var(--navy); }
+	.web { font-size: 6.4pt; font-weight: 600; color: var(--navy); margin-top: 3pt; letter-spacing: .01em; }
+	.mail { font-size: 6.3pt; color: var(--navy); margin-top: 1.5pt; letter-spacing: .01em; }
+	.foot { margin-top: 3pt; font-size: 5.3pt; color: #3A5675; letter-spacing: .04em; }
+	.foot i { font-family: 'EB Garamond', serif; font-size: 6.6pt; letter-spacing: .01em; color: var(--navy); }
+
+	/* ---------- Verso ---------- */
+	.verso { background: var(--sand) url(generated/sand-washi.png) 0 0 / 3.62in 2.12in no-repeat; }
+	.verso .band { position: absolute; left: 0; top: 0; bottom: 0; width: 1.3in; background: var(--crane) url(generated/crane-washi.png) 0 0 / 3.62in 2.12in no-repeat; }
+	.verso .qr { position: absolute; left: 0.3in; top: 0.32in; width: 0.84in; height: 0.84in; background: #FFFFFF; border-radius: 2.5pt; padding: 0.055in; }
+	.verso .qr svg { width: 100%; height: 100%; display: block; }
+	.verso .qr-caption { position: absolute; left: 0.24in; width: 0.96in; top: 1.27in; text-align: center; color: var(--navy); }
+	.qr-caption .lead { font-size: 5.3pt; font-weight: 600; letter-spacing: .17em; text-transform: uppercase; line-height: 1.5; }
+	.qr-caption .url { font-size: 5.5pt; margin-top: 3pt; color: #3A5675; letter-spacing: .02em; }
+	.verso .appt { position: absolute; left: 1.52in; right: 0.27in; top: 0.3in; bottom: 0.28in; display: flex; flex-direction: column; }
+	.appt h2 { font-family: 'EB Garamond', serif; font-style: italic; font-weight: 500; font-size: 11.5pt; color: var(--blue); margin: 0; line-height: 1; }
+	.appt .slots { margin-top: 2pt; }
+	.slot { height: 0.29in; border-bottom: 0.5pt solid var(--line); }
+	.door { margin-top: 8pt; font-size: 5.6pt; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; color: var(--muted); }
+	.door b { font-size: 8pt; letter-spacing: .12em; color: var(--blue); font-variant-numeric: tabular-nums; margin-left: 3pt; }
+	.appt .note { margin-top: auto; font-size: 5.7pt; line-height: 1.45; color: var(--muted); }
+	.appt .note strong { color: var(--blue); font-weight: 600; font-size: 6.4pt; letter-spacing: .03em; }
+
+	/* ---------- Review guides (screen only, ?guides) ---------- */
+	.guides .page::before, .guides .page::after { content: ""; position: absolute; pointer-events: none; z-index: 10; }
+	.guides .page::before { inset: var(--bleed); outline: 0.5pt dashed #d0021b; }
+	.guides .page::after { inset: calc(var(--bleed) + 0.18in); outline: 0.5pt dotted #2a9d8f; }
+	.preview { display: flex; flex-wrap: wrap; gap: 0.3in; padding: 0.3in; background: #e7e3dc; }
+	.preview .page { box-shadow: 0 2px 10px rgba(0,0,0,.18); }
+
+	/* ---------- Trim size (?trim): the card as it comes out of the cutter ---------- */
+	.trim .sheet { width: 3.5in; height: 2in; overflow: hidden; break-after: page; }
+	.trim .sheet:last-child { break-after: auto; }
+	.trim .sheet .page { margin: calc(-1 * var(--bleed)); break-after: auto; }
+</style>
+</head>
+<body>
+	<section class="page recto">
+		<div class="mark" id="mark"></div>
+		<div class="text">
+			<h1 class="name"><span class="swash" id="swash"></span>Julien Éclancher</h1>
+			<div class="role">Interne en ostéopathie (I.O.)</div>
+			<div class="focus">Ostéopathie générale,<br>maladies chroniques &amp; anxiété</div>
+			<div class="rule"></div>
+			<div class="address">Clinique Hakini<br>4255, rue Wellington, bureau 202<br>Verdun (Québec)&nbsp; H4G 1V9</div>
+			<div class="web">osteo-eclancher.ca</div>
+			<div class="mail">osteo-eclancher@proton.me</div>
+			<div class="foot">RITMA&nbsp;·&nbsp;11364 &nbsp;·&nbsp; <i>English spoken</i></div>
+		</div>
+	</section>
+
+	<section class="page verso">
+		<div class="band"></div>
+		<div class="qr" id="qr"></div>
+		<div class="qr-caption">
+			<div class="lead">Prendre<br>rendez-vous</div>
+			<div class="url">osteo-eclancher.ca/rdv</div>
+		</div>
+		<div class="appt">
+			<h2>Votre prochain rendez-vous</h2>
+			<div class="slots">
+				<div class="slot"></div>
+				<div class="slot"></div>
+			</div>
+			<div class="door">Code de la porte <b id="door-code"></b></div>
+			<div class="note">Pour déplacer un rendez-vous<br><strong>514 824 5854</strong></div>
+		</div>
+	</section>
+
+	<script src="../../tools/brand/brush.js"></script>
+	<script src="generated/card-data.js"></script>
+	<script>
+		const params = new URLSearchParams(location.search);
+		// A white ensō on the Crane blue, like the clan's white crane; dots in navy, accent in terracotta.
+		document.getElementById("mark").innerHTML = drawMark({ brush: "#FFFFFF", dots: "#23405E", accent: "#B9622F" });
+		document.getElementById("swash").innerHTML = drawSwash();
+		document.getElementById("qr").innerHTML = CARD_DATA.qrSvg;
+		// Kept out of the public repository: build.mjs reads it from card.local.json.
+		document.getElementById("door-code").textContent = CARD_DATA.doorCode;
+		if (params.has("guides")) document.body.classList.add("guides");
+		if (params.has("preview")) document.body.classList.add("preview");
+		if (params.has("trim")) {
+			document.body.classList.add("trim");
+			// Chrome shrinks the content to fit when the CSS page box is larger than the requested
+			// paper, so the bleed-sized @page rule must be overridden for the trim-size PDF.
+			document.head.insertAdjacentHTML("beforeend", "<style>@page { size: 3.5in 2in; margin: 0; }</style>");
+			for (const face of document.querySelectorAll(".page")) {
+				const sheet = document.createElement("div");
+				sheet.className = "sheet";
+				face.replaceWith(sheet);
+				sheet.append(face);
+			}
+		}
+	</script>
+</body>
+</html>
