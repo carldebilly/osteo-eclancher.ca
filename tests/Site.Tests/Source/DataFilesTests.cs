@@ -1,6 +1,5 @@
 using System.Text.RegularExpressions;
 using Xunit;
-using YamlDotNet.Serialization;
 using Site.Tests.Support;
 
 namespace Site.Tests.Source;
@@ -13,26 +12,9 @@ namespace Site.Tests.Source;
 /// </summary>
 public sealed class DataFilesTests
 {
-	private static readonly IDeserializer Yaml = new DeserializerBuilder().Build();
+	private static Dictionary<string, object?> Load(string fileName) => DataFile.Load(fileName);
 
-	private static Dictionary<string, object?> Load(string fileName)
-		=> Yaml.Deserialize<Dictionary<string, object?>>(
-			File.ReadAllText(Path.Combine(RepoPaths.Data, fileName))) ?? [];
-
-	private static object? Dig(object? node, params string[] path)
-	{
-		foreach (var key in path)
-		{
-			node = node switch
-			{
-				Dictionary<string, object?> typed => typed.GetValueOrDefault(key),
-				Dictionary<object, object?> loose => loose.GetValueOrDefault(key),
-				_ => null,
-			};
-		}
-
-		return node;
-	}
+	private static object? Dig(object? node, params string[] path) => DataFile.Dig(node, path);
 
 	[Fact(DisplayName = "The clinic address is complete and shaped like a real Québec address")]
 	public void Given_the_business_data_When_reading_the_address_Then_it_is_complete()

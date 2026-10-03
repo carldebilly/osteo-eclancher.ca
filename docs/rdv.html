@@ -1,0 +1,42 @@
+---
+layout: page
+lang: fr
+permalink: /rdv/
+noindex: true
+sitemap: false
+cta: false
+title: "Prise de rendez-vous"
+seo_title: "Prise de rendez-vous · osteo-eclancher.ca"
+description: "Redirection vers la prise de rendez-vous en ligne avec Julien Éclancher, ostéopathe à Verdun."
+eyebrow: "Rendez-vous"
+lead: "Vous êtes redirigé vers la prise de rendez-vous en ligne."
+---
+<!-- Target of the QR code printed on the business cards. The address is printed, so it can
+     never move; the destination comes from business.yml, so the cards follow the booking link
+     wherever it goes. Not indexed, not in the sitemap, not linked from the navigation. -->
+<p>Si rien ne se passe d’ici quelques secondes, utilisez ce lien&nbsp;:</p>
+
+<p>{% include cta-booking.html placement="qr" %}</p>
+
+<script>
+  /* The scan is reported first, then the visitor continues to booking. replace() keeps this
+     hop out of the history, so the back button returns to wherever the visitor came from.
+     The timeout covers a blocked or slow tag: nobody waits on analytics for more than a second.
+     Off the production host (local preview, mirrors) nothing is reported and the redirect is
+     immediate, matching the hostname guard in _includes/analytics.html. */
+  (function () {
+    var target = {{ site.data.business.booking.fr | jsonify }};
+    var gone = false;
+    function go() {
+      if (gone) return;
+      gone = true;
+      location.replace(target);
+    }
+    if (typeof gtag === 'function' && location.hostname === '{{ site.url | remove: "https://" }}') {
+      gtag('event', 'qr_scan', { event_callback: go, event_timeout: 1000 });
+      setTimeout(go, 1200);
+    } else {
+      go();
+    }
+  })();
+</script>

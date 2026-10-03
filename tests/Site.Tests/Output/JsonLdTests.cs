@@ -90,10 +90,10 @@ public sealed class JsonLdTests
 	}
 
 	[Theory(DisplayName = "Inner pages emit a breadcrumb trail back to their language's home page")]
-	[MemberData(nameof(SiteOutput.AllPageUrls), MemberType = typeof(SiteOutput))]
+	[MemberData(nameof(SiteOutput.IndexablePageUrls), MemberType = typeof(SiteOutput))]
 	public void Given_an_inner_page_When_reading_its_breadcrumb_Then_it_leads_home(string url)
 	{
-		if (url is "/" or "/en/" or "/404.html")
+		if (url is "/" or "/en/")
 		{
 			return;
 		}
