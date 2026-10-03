@@ -68,4 +68,42 @@ public sealed partial class BrandTests
 		Assert.True(File.Exists(path), $"{relativePath} was not built");
 		Assert.InRange(new FileInfo(path).Length, 1, budgetKilobytes * 1024);
 	}
+
+	[Theory(DisplayName = "The logo is published as PNG at stable addresses, for email signatures and profiles that cannot show SVG")]
+	[InlineData("assets/img/enso.png", 1024, 1024)]
+	[InlineData("assets/img/enso-white.png", 1024, 1024)]
+	[InlineData("assets/img/email-signature.png", 600, 160)]
+	[InlineData("assets/img/profile-picture.png", 1024, 1024)]
+	public void Given_the_logo_kit_When_reading_each_png_Then_it_exists_at_its_size(string relativePath, int width, int height)
+	{
+		var path = Path.Combine(SiteOutput.RequireDirectory(), relativePath.Replace('/', Path.DirectorySeparatorChar));
+
+		Assert.True(File.Exists(path), $"{relativePath} was not built");
+		Assert.Equal((width, height), PngSize(path));
+	}
+
+	[Theory(DisplayName = "Every icon the pages and the manifest declare exists at the size they announce")]
+	[InlineData("assets/icons/favicon-32.png", 32)]
+	[InlineData("assets/icons/apple-touch-icon.png", 180)]
+	[InlineData("assets/icons/icon-192.png", 192)]
+	[InlineData("assets/icons/icon-512.png", 512)]
+	public void Given_a_declared_icon_When_reading_it_Then_it_is_square_at_the_declared_size(string relativePath, int size)
+	{
+		var path = Path.Combine(SiteOutput.RequireDirectory(), relativePath.Replace('/', Path.DirectorySeparatorChar));
+
+		Assert.Equal((size, size), PngSize(path));
+	}
+
+	// A PNG stores its width and height as big-endian integers in the IHDR chunk, right after the
+	// 8-byte signature and the chunk's length and type: bytes 16-19 and 20-23.
+	private static (int Width, int Height) PngSize(string path)
+	{
+		Span<byte> header = stackalloc byte[24];
+		using var file = File.OpenRead(path);
+		file.ReadExactly(header);
+
+		return (
+			System.Buffers.Binary.BinaryPrimitives.ReadInt32BigEndian(header[16..20]),
+			System.Buffers.Binary.BinaryPrimitives.ReadInt32BigEndian(header[20..24]));
+	}
 }
