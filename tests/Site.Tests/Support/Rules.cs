@@ -97,8 +97,6 @@ internal static class Rules
 			"placeholder copy"),
 		(new Regex(@"cdn-cgi|__cf_email__", Options),
 			"leftover Cloudflare email obfuscation; it produced a broken 404 link on the live site"),
-		(new Regex(@"mailto:", Options),
-			"the email address was deliberately removed in favour of online booking"),
 	];
 
 	/// <summary>Every URL the site publishes, as the agreed contract between the two languages.</summary>

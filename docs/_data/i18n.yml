@@ -37,7 +37,7 @@ fr:
   contact:
     title: "Prendre rendez-vous"
     address: "Adresse"
-    phone: "Téléphone"
+    email: "Courriel"
     hours: "Horaires"
     by_appointment: "Sur rendez-vous"
     map: "Voir sur la carte"
@@ -92,7 +92,7 @@ en:
   contact:
     title: "Book an appointment"
     address: "Address"
-    phone: "Phone"
+    email: "Email"
     hours: "Hours"
     by_appointment: "By appointment"
     map: "View on the map"

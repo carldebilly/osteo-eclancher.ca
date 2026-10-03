@@ -37,13 +37,13 @@ La réservation est traitée par **GOrendezvous**, un service distinct. Lorsque 
 
 ## Le dossier de consultation
 
-Les renseignements de santé que vous me communiquez en séance, ainsi que mes notes cliniques, constituent votre dossier. Ils sont conservés de façon sécuritaire, ne servent qu’au suivi de votre situation, et ne sont communiqués à personne sans votre consentement écrit, sauf lorsque la loi l’exige. Le code de déontologie du RITMA impose le secret professionnel à ses membres.
+Les renseignements de santé que vous me communiquez en séance, ainsi que mes notes cliniques, constituent votre dossier. Ils sont conservés de façon sécuritaire, ne servent qu’au suivi de votre situation, et ne sont communiqués à personne sans votre consentement écrit, sauf lorsque la loi l’exige. Avec votre consentement écrit, votre dossier peut aussi être partagé avec les autres professionnels de la clinique. Le code de déontologie du RITMA impose le secret professionnel à ses membres.
 
 ## Vos droits
 
 En vertu de la Loi sur la protection des renseignements personnels dans le secteur privé, telle que modifiée par la Loi 25, vous pouvez demander l’accès aux renseignements que je détiens à votre sujet, leur rectification, ou leur retrait lorsque leur conservation n’est plus justifiée.
 
-Adressez votre demande par téléphone au 514 824 5854. Une réponse vous sera donnée dans les trente jours. En cas de désaccord, vous pouvez vous adresser à la Commission d’accès à l’information du Québec.
+Adressez votre demande par courriel à [{{ site.data.business.email }}](mailto:{{ site.data.business.email }}). Une réponse vous sera donnée dans les trente jours. En cas de désaccord, vous pouvez vous adresser à la Commission d’accès à l’information du Québec.
 
 ## Modifications
 

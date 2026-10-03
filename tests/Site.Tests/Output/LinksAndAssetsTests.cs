@@ -118,7 +118,7 @@ public sealed class LinksAndAssetsTests
 		}
 	}
 
-	[Theory(DisplayName = "No page still contains unrendered template syntax or the removed email markup")]
+	[Theory(DisplayName = "No page still contains unrendered template syntax or broken email obfuscation")]
 	[MemberData(nameof(SiteOutput.AllPageUrls), MemberType = typeof(SiteOutput))]
 	public void Given_a_built_page_When_scanning_its_html_Then_no_template_residue_remains(string url)
 	{
@@ -127,8 +127,26 @@ public sealed class LinksAndAssetsTests
 		Assert.DoesNotContain("{{", html, StringComparison.Ordinal);
 		Assert.DoesNotContain("{%", html, StringComparison.Ordinal);
 		Assert.DoesNotContain("cdn-cgi", html, StringComparison.Ordinal);
-		Assert.DoesNotContain("mailto:", html, StringComparison.Ordinal);
+		Assert.DoesNotContain("__cf_email__", html, StringComparison.Ordinal);
 	}
+
+	[Theory(DisplayName = "Every page provides a footer email link and all email links address the practitioner")]
+	[MemberData(nameof(SiteOutput.AllPageUrls), MemberType = typeof(SiteOutput))]
+	public void Given_a_built_page_When_reading_email_links_Then_they_address_the_practitioner(string url)
+	{
+		var document = SiteOutput.Parse(SiteOutput.FileFor(url));
+		var email = DataFile.Load("business.yml").GetValueOrDefault("email")?.ToString();
+
+		Assert.False(string.IsNullOrWhiteSpace(email));
+		Assert.Single(document.QuerySelectorAll("footer a[href^='mailto:']"));
+
+		foreach (var link in document.QuerySelectorAll("a[href^='mailto:']"))
+		{
+			Assert.Equal($"mailto:{email}", link.GetAttribute("href"));
+			Assert.Equal(email, link.TextContent.Trim());
+		}
+	}
+
 	[Theory(DisplayName = "Every page footer links to the Facebook page so visitors and crawlers can connect the two")]
 	[MemberData(nameof(SiteOutput.AllPageUrls), MemberType = typeof(SiteOutput))]
 	public void Given_a_built_page_When_reading_its_footer_Then_it_links_to_the_facebook_page(string url)
