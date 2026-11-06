@@ -52,6 +52,8 @@ L’ostéopathie ne remplace pas votre suivi médical, et elle ne me permet pas 
 
 ## Douleur qui dure
 
+La page [douleur chronique, mal de dos et de nuque](/maladies-chroniques/douleur-dos-nuque/) explique ce que nous pouvons rechercher ensemble et comment se déroule une séance.
+
 Lombalgie chronique, cervicalgies, douleurs qui se déplacent, séquelles d’un accident ancien.
 
 Ce qui occupe la séance, ce sont rarement les zones douloureuses elles-mêmes, mais les compensations : ce que le reste du corps a mis en place pour éviter la région sensible, et qui finit par coûter plus cher que la protection ne rapporte.

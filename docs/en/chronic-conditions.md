@@ -50,6 +50,8 @@ Osteopathy does not replace your medical care, and it does not allow me to make 
 
 ## Pain that lasts
 
+The page on [chronic pain, back pain and neck pain](/en/chronic-conditions/back-neck-pain/) explains what we can work towards together and how a session unfolds.
+
 Chronic low back pain, neck pain, pain that moves around, the aftermath of an old accident.
 
 What occupies the session is rarely the painful area itself but the compensations: what the rest of the body arranged in order to spare it, and which eventually costs more than the protection is worth.

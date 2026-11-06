@@ -108,7 +108,7 @@ internal static class Rules
 	// Resource pages also provide health guidance and must defer to medical care.
 	public static readonly IReadOnlySet<string> HealthPageRefs = new HashSet<string>(StringComparer.Ordinal)
 	{
-		"fibromyalgia", "chronic", "anxiety", "fibromyalgia-resources",
+		"fibromyalgia", "chronic", "anxiety", "fibromyalgia-resources", "chronic-pain",
 	};
 
 	/// <summary>Every URL the site publishes, as the agreed contract between the two languages.</summary>
@@ -118,6 +118,7 @@ internal static class Rules
 			["home"] = ("/", "/en/"),
 			["fibromyalgia"] = ("/maladies-chroniques/fibromyalgie/", "/en/chronic-conditions/fibromyalgia/"),
 			["anxiety"] = ("/anxiete-et-tensions/", "/en/anxiety-and-tension/"),
+			["chronic-pain"] = ("/maladies-chroniques/douleur-dos-nuque/", "/en/chronic-conditions/back-neck-pain/"),
 			["chronic"] = ("/maladies-chroniques/", "/en/chronic-conditions/"),
 			["fibromyalgia-resources"] = (
 				"/maladies-chroniques/fibromyalgie/ressources-montreal/",

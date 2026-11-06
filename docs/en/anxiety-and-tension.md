@@ -3,7 +3,7 @@ ref: anxiety
 permalink: /en/anxiety-and-tension/
 title: "Anxiety, tension and osteopathy"
 seo_title: "Anxiety and tension · Osteopathy appointments in Verdun"
-description: "Julien Éclancher, osteopathy intern in Verdun. Appointments focused on physical tension, with clear limits regarding anxiety and mental health care."
+description: "Clenched jaw, stiff neck, tight shoulders? Gentle osteopathy in Verdun, focused on physical tension and adapted to your pace."
 eyebrow: "Understanding an appointment"
 lead: "A clenched jaw, a stiff neck, tight shoulders? A session starts with listening, then agreeing together on movements and pace."
 date: 2026-11-05
@@ -17,13 +17,22 @@ Your jaw stays clenched, your neck feels stiff, your shoulders creep upwards. So
 
 If physical tension has you considering an appointment, we can take time to discuss it. I am an **osteopathy intern (I.O.)**, RITMA member 11364, and I see clients at Hakini in Verdun.
 
-## A setting where you stay in control
+
+{% include cta-booking.html placement="inline" %}
+
+## What can the session offer?
+
+A session is also time to pay attention to your body: your breathing, the areas that tighten without you noticing, and the movements that feel difficult. Together we choose what to focus on, such as your jaw, neck or shoulders.
+
+The aim is for you to leave feeling a little more at ease, with a few simple pointers for the week. We take stock of your experience after the session, without promising a result.
+
+## Can I ask you to slow down or stop?
 
 You do not have to arrive relaxed or know exactly how to describe what you feel. We start with what bothers you in everyday movements or positions, your current care and what helps you feel comfortable.
 
 Before each movement, I explain what I propose and ask for your consent. We agree on pressure, position and pace together. You can ask for a break, decline a movement or stop the session without having to justify yourself.
 
-## Before your first appointment
+## What if I feel nervous before the appointment?
 
 **What if touch worries me?** Tell me at the start. We take time to discuss it before any contact. You can change your mind during the session.
 
@@ -37,9 +46,8 @@ Before each movement, I explain what I propose and ask for your consent. We agre
 
 ## Appointments in Verdun
 
-Appointments last about an hour at Hakini, **4255 Wellington Street, suite 202**. Weekend appointments are often available; check the booking tool for current openings.
+Sessions are available in French or English. Appointments last about an hour at Hakini, **4255 Wellington Street, suite 202**. Weekend appointments are often available; check the booking tool for current openings.
 
-{% include cta-booking.html placement="inline" %}
 
 Read the [fees and insurance information](/en/fees-and-insurance/) before booking. I am an osteopathy intern; not every insurer reimburses this title. Check with yours. You can also read [about my background](/en/about/).
 
