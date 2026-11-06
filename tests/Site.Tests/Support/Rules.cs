@@ -37,6 +37,10 @@ internal static class Rules
 			"RITMA II.12 forbids making a medical diagnosis"),
 		(new Regex(@"(traite|traiter|traitement\s+de)\s+la\s+fibromyalgie", Options),
 			"the practice accompanies people; it does not treat the condition"),
+		(new Regex(@"\b(traite(r|nt)?|traitement\s+de)\s+l['’]anxi[eé]t[eé]\b", Options),
+			"the practice does not advertise treatment of anxiety"),
+		(new Regex(@"\b(treats?\s+anxiety|treatment\s+for\s+anxiety)\b", Options),
+			"English mirror of the anxiety-treatment rule"),
 		(new Regex(@"soigne(r|z)?\s+(la|votre)\s+(fibromyalgie|anxi[eé]t[eé]|maladie)", Options),
 			"RITMA II.11: care of a named condition is a medical claim"),
 		(new Regex(@"r[eé]sultats?\s+garanti", Options),
@@ -83,6 +87,8 @@ internal static class Rules
 		// The narrow no-break space before the question mark is French typography, enforced elsewhere.
 		"L’ostéopathie est-elle un traitement de la fibromyalgie ?",
 		"osteopathy is not a treatment for fibromyalgia",
+		"L’ostéopathie n’est pas un traitement de l’anxiété",
+		"Osteopathy is not a treatment for anxiety",
 		"Is osteopathy a treatment for fibromyalgia?",
 	];
 
@@ -99,12 +105,20 @@ internal static class Rules
 			"leftover Cloudflare email obfuscation; it produced a broken 404 link on the live site"),
 	];
 
+	// Resource pages also provide health guidance and must defer to medical care.
+	public static readonly IReadOnlySet<string> HealthPageRefs = new HashSet<string>(StringComparer.Ordinal)
+	{
+		"fibromyalgia", "chronic", "anxiety", "fibromyalgia-resources", "chronic-pain",
+	};
+
 	/// <summary>Every URL the site publishes, as the agreed contract between the two languages.</summary>
 	public static readonly IReadOnlyDictionary<string, (string Fr, string En)> ExpectedUrls =
 		new Dictionary<string, (string, string)>
 		{
 			["home"] = ("/", "/en/"),
 			["fibromyalgia"] = ("/maladies-chroniques/fibromyalgie/", "/en/chronic-conditions/fibromyalgia/"),
+			["anxiety"] = ("/anxiete-et-tensions/", "/en/anxiety-and-tension/"),
+			["chronic-pain"] = ("/maladies-chroniques/douleur-dos-nuque/", "/en/chronic-conditions/back-neck-pain/"),
 			["chronic"] = ("/maladies-chroniques/", "/en/chronic-conditions/"),
 			["fibromyalgia-resources"] = (
 				"/maladies-chroniques/fibromyalgie/ressources-montreal/",
@@ -162,6 +176,8 @@ internal static class Rules
 		"douleurquebec.ca",
 		"gerermadouleur.ca",
 		"publications.msss.gouv.qc.ca",
+		"www.quebec.ca",
+		"111.wales.nhs.uk",
 		// The professional order osteopaths are being integrated into
 		"www.ordredeschiropraticiens.ca",
 		// Sources the osteopathy page rests on: the digitised 1910 book and the studies it cites

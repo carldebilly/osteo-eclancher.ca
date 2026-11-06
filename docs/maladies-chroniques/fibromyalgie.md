@@ -3,91 +3,75 @@ ref: fibromyalgia
 permalink: /maladies-chroniques/fibromyalgie/
 parent_ref: chronic
 title: "Ostéopathie et fibromyalgie"
-seo_title: "Ostéopathe fibromyalgie à Verdun · Julien Éclancher"
-description: "Accompagnement ostéopathique des personnes vivant avec la fibromyalgie, à Verdun (Montréal). Séances douces, adaptées à l’hypersensibilité au toucher."
-eyebrow: "Motif de consultation"
-lead: "Quand le toucher fait mal, une séance d’ostéopathie ne peut pas ressembler à celle de quelqu’un d’autre. Voici comment je travaille avec les personnes qui vivent avec la fibromyalgie."
+seo_title: "Ostéopathie et fibromyalgie à Verdun · Julien Éclancher"
+description: "Séances d’ostéopathie douces à Verdun, adaptées à la sensibilité au toucher et à la fatigue. Découvrez le déroulement et réservez à votre rythme."
+eyebrow: "Comprendre la consultation"
+lead: "Quand le toucher est déjà douloureux, prendre rendez-vous peut demander de la confiance. Voici comment nous pouvons adapter la séance à ce que vous pouvez recevoir ce jour-là."
 date: 2026-09-06
-last_modified_at: 2026-09-07
+last_modified_at: 2026-11-05
 byline: true
-schema_condition:
-  name: "Fibromyalgie"
-  same_as:
-    - "https://fr.wikipedia.org/wiki/Fibromyalgie"
-faq:
-  - q: "Est-ce que la séance va faire mal ?"
-    a: >
-      L’objectif est qu’elle ne fasse pas mal. Le travail se fait dans votre zone de confort, et
-      vous m’arrêtez dès que quelque chose devient désagréable. Il arrive qu’une fatigue ou des
-      courbatures suivent la séance pendant vingt-quatre à quarante-huit heures, surtout la première
-      fois. Si cela vous est déjà arrivé ailleurs, dites-le-moi : je réduirai d’autant.
-  - q: "Je suis en poussée. Est-ce que je peux venir quand même ?"
-    a: >
-      Oui, et cela vaut la peine de me le dire avant : la séance sera plus légère.
-      Nous pouvons aussi décaler le rendez-vous, écrivez-moi.
-  - q: "Combien de séances faut-il prévoir ?"
-    a: >
-      Je ne peux pas vous promettre un nombre. Nous ferons le point après quelques séances, et si
-      rien n’a bougé pour vous, je vous le dirai plutôt que de vous faire revenir.
-  - q: "Est-ce que mon assurance rembourse ?"
-    a: >
-      Cela dépend de votre assureur et de son traitement du titre d’interne en ostéopathie. Les
-      questions à lui poser sont sur la page [tarifs et assurances](/tarifs-et-assurances/).
-  - q: "Recevez-vous en anglais ?"
-    a: >
-      Oui, les séances se déroulent en français ou en anglais, comme vous préférez.
 ---
 
 ## Ce que la fibromyalgie fait vivre
 
-La fibromyalgie associe des douleurs répandues qui durent depuis des mois, une fatigue que le repos ne corrige pas et un sommeil qui ne répare plus. S’y ajoutent souvent des difficultés de concentration et de mémoire dont personne ne parle mais qui pèsent autant que la douleur.
+Des douleurs étendues, une fatigue que le repos ne corrige pas toujours, un sommeil qui ne répare plus. À cela peuvent s’ajouter des difficultés de concentration et de mémoire, qui compliquent même les petites choses du quotidien. **La douleur n’est pas imaginée.**
 
-Le système nerveux devient trop réactif au signal douloureux : c’est ce qu’on appelle la sensibilisation centrale. Une pression ordinaire, la sangle d’un sac, une main posée un peu fermement, sont ressenties comme douloureuses. La douleur n’est pas imaginée. Son mécanisme est simplement différent de celui d’une entorse.
+Il y a aussi le chemin parcouru pour être entendu : passer d’un professionnel à l’autre, répéter son histoire, essayer plusieurs approches, parfois sans être cru. Cette errance thérapeutique peut laisser de la fatigue et de la méfiance. Si c’est votre expérience, cette méfiance est justifiée. Vous n’avez pas à me faire confiance d’emblée ; nous prenons le temps de parler de ce que vous souhaitez et de ce que vous ne voulez plus vivre.
 
-Une autre chose revient dans presque toutes les histoires qu’on me raconte : l’errance thérapeutique. Des années à passer d’un professionnel à l’autre, à répéter le même récit, à essayer une approche puis une suivante, souvent sans résultat durable et parfois sans être crue. Cette fatigue-là s’ajoute à la douleur, et elle explique la méfiance avec laquelle certaines personnes poussent ma porte. Elle est justifiée.
 
-Si vous cherchez d’abord de l’aide et non un praticien, la page [ressources pour la fibromyalgie à Montréal](/maladies-chroniques/fibromyalgie/ressources-montreal/) recense les associations, la ligne 811 et ce que le réseau public prévoit.
+Vous pouvez {% include cta-booking.html placement="inline" label="consulter les disponibilités" %} et choisir un moment qui vous convient.
 
-## Faut-il un diagnostic avant de consulter ?
+## Que peut-on rechercher ensemble ?
 
-Non. Beaucoup de personnes arrivent chez moi sans diagnostic, parfois après plusieurs années d’examens sans réponse, parfois avec un nom posé la semaine dernière.
+L’objectif de la séance est de vous apporter un peu de soulagement et plus d’aisance au quotidien : moins de tension dans la nuque et les épaules, une respiration plus ample, ou plus de confort pour porter un sac, tourner la tête en voiture ou trouver une position pour dormir. Nous choisissons les priorités qui comptent pour vous et faisons le point après chaque séance ; je ne promets pas de résultat.
 
-Le diagnostic relève de votre médecin, pas de moi. Je ne pose pas de diagnostic médical et je ne conteste pas celui qui a été posé. Si votre situation mérite un avis médical que vous n’avez pas encore, je vous le dirai et je vous orienterai.
+## Est-ce que la séance va faire mal ?
 
-## Pourquoi une approche douce, ici plus qu’ailleurs
+Si l’ostéopathie évoque pour vous des gestes brusques ou des craquements, il est compréhensible d’hésiter. Une séance mal vécue peut suffire à ne plus vouloir revenir. Vous pouvez me parler de cette appréhension avant tout contact. J’utilise très rarement les techniques qui provoquent un craquement. Si elles vous inquiètent, il est souvent possible de les éviter : nous discutons des autres gestes possibles, et vous pouvez toujours les refuser.
 
-L’ostéopathie qu’on voit à la télévision, avec des mobilisations sèches et des craquements, est exactement ce qu’il ne faut pas faire quand le toucher est déjà douloureux. Une technique trop appuyée réveille le système au lieu de l’apaiser, et la personne repart plus mal qu’elle n’est arrivée. Beaucoup ont déjà vécu cette séance-là, et c’est souvent pour cette raison qu’elles n’y sont jamais retournées.
+Dans ma pratique, le contact reste léger et le rythme est le vôtre. Chaque geste est expliqué avant d’être proposé, et votre accord compte à chaque étape. Vous pouvez refuser un geste ou demander l’arrêt à tout moment, sans avoir à vous justifier.
 
-Ma pratique va dans le sens inverse. Le contact reste léger, le rythme est le vôtre, et chaque geste est annoncé avant d’être posé. Vous pouvez demander l’arrêt à tout moment sans avoir à vous justifier.
+## Comment adaptons-nous la séance à votre sensibilité ?
+
+Nous commençons par parler de ce qui vous amène, de vos suivis en cours et de ce qui est confortable ou difficile pour vous. Une sensibilité au toucher, une fatigue importante ou une expérience précédente désagréable sont des éléments à me signaler.
+
+Nous cherchons d’abord une position tenable : sur le dos, sur le côté avec des coussins, ou assis si rester allongé est trop inconfortable. Les pauses font partie de la séance, pas de son échec.
+
+Le travail peut prendre la forme de pressions lentes, de contacts légers ou de mobilisations douces. Quand le toucher fait mal, je mets de côté les techniques articulaires directes et les gestes trop sollicitants. La pression et le rythme restent ajustables tout au long de la séance.
+
+Selon l’évaluation et votre accord, nous pouvons aborder les tensions de la nuque, des épaules ou du bassin, ainsi que la mobilité de la cage thoracique. Les gestes du quotidien que vous trouvez difficiles nous donnent des repères concrets pour en parler.
+
+**Prévenez-moi si vous êtes en poussée : nous adaptons la séance ou la reportons.**
+
+Les techniques manuelles sont choisies selon l’évaluation et votre tolérance du jour. Si la situation appelle un avis médical préalable, je vous oriente plutôt que d’entreprendre la séance.
+
+## Pourquoi ai-je choisi de m’intéresser à la fibromyalgie ?
+
+J’ai choisi la fibromyalgie comme sujet de mémoire à l’Institut d’enseignement de l’ostéopathie du Québec. Ce travail m’a amené à lire la recherche sur la douleur, le toucher et ce que vivent les personnes atteintes, et il guide ma façon d’adapter chaque séance.
+
+Mon parcours dans les arts m’a appris cette attention fine à ce qui change, que je retrouve dans le travail manuel. Ce que vous savez de votre propre corps est une information que je ne peux pas obtenir autrement.
+
+Je suis **interne en ostéopathie (I.O.)**, membre du RITMA sous le numéro 11364. Mon mémoire est encore en rédaction ; il s’agit d’un travail de formation, pas d’une spécialité médicale ni d’une preuve d’efficacité. Vous pouvez lire [mon parcours](/a-propos/) ou consulter les [ressources pour la fibromyalgie à Montréal](/maladies-chroniques/fibromyalgie/ressources-montreal/).
+
+## Que se passe-t-il après la séance ?
+
+À la fin, je vous laisse quelques repères pour la semaine, adaptés à votre énergie et aux gestes dont nous avons parlé.
+
+Une fatigue ou des courbatures peuvent survenir dans les **24 à 48 heures après la séance**. Cette possibilité est décrite dans les [informations de NHS Wales sur les effets après consultation](https://111.wales.nhs.uk/encyclopaedia/o/article/osteopathy/) ; elle n’est ni systématique ni un signe d’efficacité. Signalez-moi toute réaction. Si elle est importante, inhabituelle ou persistante, demandez un avis médical.
+
+Nous faisons le point sur votre expérience et sur la pertinence d’une suite. **Si rien n’a bougé pour vous, je vous le dirai plutôt que de vous faire revenir.** Vous restez libre de ne pas poursuivre. Le suivi médical et les décisions concernant votre traitement restent du ressort de votre équipe soignante.
+
+## Faut-il déjà avoir un diagnostic ?
+
+**Non, vous pouvez prendre rendez-vous sans diagnostic préalable.** Nous discutons de votre situation pour vérifier si une séance est appropriée ; un avis médical peut être nécessaire avant de commencer. L’évaluation d’une possible fibromyalgie relève d’un médecin. Une consultation en ostéopathie ne permet ni de confirmer cette maladie ni d’écarter une autre cause à vos symptômes. Des symptômes nouveaux, inhabituels ou qui s’aggravent méritent un avis médical.
 
 ## L’ostéopathie est-elle un traitement de la fibromyalgie ?
 
-Non. L’ostéopathie n’est pas un traitement de la fibromyalgie, et elle ne remplace pas votre suivi médical. Elle s’y ajoute, et c’est tout ce qu’elle prétend faire.
+**L’ostéopathie n’est pas un traitement de la fibromyalgie** et ne remplace pas votre suivi médical. Je ne pose pas de diagnostic médical et ne propose aucune modification de votre médication ou des soins prescrits. Aucun résultat ni nombre de séances n’est promis.
 
-Le travail manuel porte sur ce qui s’est installé autour de la douleur :
+## Consulter à Verdun
 
-- les zones de tension dans la nuque, les épaules, le bassin ;
-- la mobilité de la cage thoracique et du diaphragme, souvent restreinte quand la respiration se fait courte ;
-- le confort dans des gestes précis du quotidien, ceux que vous nommerez au début de la séance.
+Séances en français ou en anglais. Les rendez-vous durent environ une heure, au **4255, rue Wellington, bureau 202**, chez Hakini. Il y a souvent des disponibilités la fin de semaine ; consultez l’outil de réservation pour voir les créneaux ouverts.
 
-Ce que je ne fais pas : promettre une amélioration, fixer un nombre de séances à l’avance, ou vous demander d’arrêter quoi que ce soit de votre traitement en cours. Les décisions sur votre médication et sur votre prise en charge appartiennent à votre médecin.
 
-## Une séance quand tout est sensible
-
-Une séance adaptée commence par le choix d’une position tenable : sur le dos, sur le côté avec des coussins, assis si l’allongé est trop inconfortable. Les pauses font partie de la séance, pas de son échec.
-
-Concrètement, le travail passe surtout par les fascias, ces enveloppes de tissu qui relient muscles, articulations et organes. Les techniques de relâchement myofascial consistent en pressions lentes, étirements légers et tractions douces maintenues. J’y ajoute souvent un travail crânien et une séquence rythmée de mobilisations sur l’ensemble du corps, deux approches qui demandent peu au système.
-
-Ce que je réduis ou laisse de côté quand le toucher est douloureux : les techniques articulaires directes et le travail en énergie musculaire, qui demandent votre participation active et qui sollicitent davantage. Ils reviennent si et quand votre tolérance le permet.
-
-Le contact reste léger, et j’adapte ce que je fais à ce que vous pouvez recevoir ce jour-là plutôt qu’à un protocole. Le rendez-vous dure une heure comme les autres.
-
-À la fin, je vous laisse quelques repères pour la semaine, adaptés à votre niveau d’énergie plutôt qu’à un programme type.
-
-## Est-ce que vous connaissez bien la fibromyalgie ?
-
-La fibromyalgie est le sujet de mon mémoire de finissant, en cours de rédaction à l’Institut d’enseignement de l’ostéopathie du Québec. Ce travail n’est pas terminé, et je n’en tire aucune promesse de résultat.
-
-Ce sujet explique aussi le temps que je passe à écouter avant de poser les mains. Ce que les personnes décrivent de leur propre expérience est la matière la plus utile dont je dispose.
-
-Mon parcours est détaillé sur la page [à propos](/a-propos/), et les autres motifs de consultation sur la page [maladies chroniques](/maladies-chroniques/).
+Consultez les [tarifs et les conditions de remboursement](/tarifs-et-assurances/) avant de réserver. Mon titre est celui d’interne en ostéopathie ; tous les assureurs ne le remboursent pas. Vérifiez auprès du vôtre.

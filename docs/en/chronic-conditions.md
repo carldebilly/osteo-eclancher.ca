@@ -50,6 +50,8 @@ Osteopathy does not replace your medical care, and it does not allow me to make 
 
 ## Pain that lasts
 
+The page on [chronic pain, back pain and neck pain](/en/chronic-conditions/back-neck-pain/) explains what we can work towards together and how a session unfolds.
+
 Chronic low back pain, neck pain, pain that moves around, the aftermath of an old accident.
 
 What occupies the session is rarely the painful area itself but the compensations: what the rest of the body arranged in order to spare it, and which eventually costs more than the protection is worth.
@@ -82,13 +84,13 @@ Bloating, irregular transit, a sense of abdominal tightness, once medical causes
 
 What remains after that is worked through the diaphragm, the abdominal wall and the mobility of the viscera.
 
-## Anxiety and chronic stress {#anxiety}
+## Anxiety and physical tension {#anxiety}
 
-Prolonged anxiety leaves recognisable physical traces: high, shallow breathing, raised shoulders, a clenched jaw, a locked neck, light sleep. That tension in turn feeds the sense of alertness, and the loop closes.
+Sessions focus on physical tension and mobility, as appropriate following an assessment. They are not psychotherapy and do not replace psychological or medical care.
 
-That is the part I can act on: giving the rib cage and diaphragm back some range, releasing what has locked up, and making you aware of signals you no longer notice.
+For help with anxiety itself, speak with your family doctor or call **811, option 2 — Info-Social**, a free and confidential service. [Read about Info-Social](https://www.quebec.ca/en/health/finding-a-resource/info-social-811).
 
-I am neither a psychologist nor a physician, and osteopathy does not replace mental health care. If you have none and the need is there, I will encourage you to raise it with your family doctor. In Québec, the Info-Social line at 811 is available at any hour.
+The page on [anxiety, tension and osteopathy](/en/anxiety-and-tension/) explains how a session works and the limits of my practice.
 
 ## When to see a physician first
 

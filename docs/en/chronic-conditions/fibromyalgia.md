@@ -3,91 +3,75 @@ ref: fibromyalgia
 permalink: /en/chronic-conditions/fibromyalgia/
 parent_ref: chronic
 title: "Osteopathy and fibromyalgia"
-seo_title: "Fibromyalgia osteopath in Verdun · Julien Éclancher"
-description: "Osteopathic support for people living with fibromyalgia, in Verdun (Montréal). Gentle sessions adapted to sensitivity to touch, in English or French."
-eyebrow: "Reason for consulting"
-lead: "When touch itself hurts, an osteopathy session cannot look like anyone else’s. Here is how I work with people living with fibromyalgia."
+seo_title: "Osteopathy and fibromyalgia in Verdun · Julien Éclancher"
+description: "Gentle osteopathy sessions in Verdun, adapted to touch sensitivity and fatigue. Explore the approach and book at your own pace."
+eyebrow: "Understanding an appointment"
+lead: "When touch already hurts, booking an appointment can take trust. Here is how we can adapt a session to what feels manageable that day."
 date: 2026-09-06
-last_modified_at: 2026-09-07
+last_modified_at: 2026-11-05
 byline: true
-schema_condition:
-  name: "Fibromyalgia"
-  same_as:
-    - "https://en.wikipedia.org/wiki/Fibromyalgia"
-faq:
-  - q: "Will the session hurt?"
-    a: >
-      The aim is that it does not. Work stays inside your comfort zone, and you stop me the moment
-      something turns unpleasant. Some tiredness or soreness can follow for twenty-four to
-      forty-eight hours, especially the first time. If that has happened to you elsewhere, tell me
-      and I will do less.
-  - q: "I am in a flare. Can I still come?"
-    a: >
-      Yes, and it is worth telling me beforehand: the session will be lighter. We can
-      also move the appointment, just write to me.
-  - q: "How many sessions will I need?"
-    a: >
-      I cannot promise you a number. We will take stock after a few sessions, and if nothing has
-      shifted for you I will say so rather than have you keep coming back.
-  - q: "Will my insurance reimburse this?"
-    a: >
-      That depends on your insurer and on how it treats the osteopathy intern title. The questions
-      to ask are on the [fees and insurance](/en/fees-and-insurance/) page.
-  - q: "Do you practise in French?"
-    a: >
-      Yes. Sessions run in English or French, whichever you prefer.
 ---
 
-## What fibromyalgia is like
+## What living with fibromyalgia can feel like
 
-Fibromyalgia combines widespread pain that has lasted for months, fatigue that rest does not fix, and sleep that no longer restores. Trouble with concentration and memory often comes with it, and nobody warns you about that part although it weighs as much as the pain.
+Widespread pain, fatigue that rest does not always ease, sleep that leaves you unrefreshed. Difficulty concentrating or remembering things can make even small everyday tasks harder. **The pain is not imagined.**
 
-The nervous system becomes over-reactive to pain signals, something called central sensitisation. Ordinary pressure, a bag strap, a hand resting a little too firmly, register as painful. The pain is not imagined. Its mechanism is simply different from that of a sprained ankle.
+There is also the journey to being heard: going from one professional to another, repeating your story, trying different approaches, sometimes without being believed. That search for care can leave you exhausted and wary. If this has been your experience, that mistrust is justified. You do not have to trust me straight away; we take time to discuss what you want and what you do not want to go through again.
 
-Something else comes up in almost every history I hear: years spent moving from one professional to the next, repeating the same account, trying one approach and then the next, often with no lasting result and sometimes without being believed. That exhaustion adds itself to the pain, and it explains the wariness with which some people come through my door. It is warranted.
 
-If what you need first is help rather than a practitioner, the page on [fibromyalgia resources in Montréal](/en/chronic-conditions/fibromyalgia/montreal-resources/) lists the associations, the 811 line and what the public system provides.
+You can {% include cta-booking.html placement="inline" label="check availability" %} and choose a time that suits you.
 
-## Do I need a diagnosis before booking?
+## What can we work towards together?
 
-No. Many people arrive here without one, sometimes after years of tests with no answer, sometimes with a name given to them last week.
+The aim is a little relief and more ease in everyday movements: less tension in your neck and shoulders, more room to breathe, or greater comfort carrying a bag, turning your head in the car or finding a sleeping position. We choose the priorities that matter to you and take stock after each session; I do not promise a result.
 
-Diagnosis belongs to your physician, not to me. I make no medical diagnosis and I do not dispute one that has been made. If your situation calls for a medical opinion you have not had yet, I will say so and point you towards it.
+## Will the session hurt?
 
-## Why gentle matters more here
+If osteopathy brings sudden movements or cracking to mind, it is understandable to hesitate. A difficult session can be enough to put you off returning. You can tell me about that concern before any contact. I very rarely use techniques that produce a cracking sound. If they worry you, we can often avoid them: we discuss other possible approaches, and you can always decline these techniques.
 
-The osteopathy people picture, with brisk thrusts and cracking joints, is exactly what should not happen when touch already hurts. Too much pressure wakes the system up instead of settling it, and the person leaves worse than they arrived. Many have already had that session, and it is often the reason they never went back.
+In my practice, contact stays light and you set the pace. I explain each movement before proposing it, and your consent matters at every step. You can decline a movement or ask me to stop at any time, without having to justify yourself.
 
-My practice runs the other way. Contact stays light, the pace is yours, and every movement is announced before it happens. You can stop the session at any point without explaining yourself.
+## How do we adapt the session to you?
+
+We begin by discussing what brings you in, your current care, and what feels comfortable or difficult. Please tell me about sensitivity to touch, significant fatigue or a previous uncomfortable experience.
+
+We first find a position you can comfortably maintain: on your back, on your side with cushions, or seated if lying down is too uncomfortable. Breaks are part of the session, not a sign that it has failed.
+
+The work may involve slow pressure, light contact or gentle mobilisation. When touch hurts, I set aside direct joint techniques and movements that ask too much of you. Pressure and pace can be adjusted throughout the session.
+
+Depending on the assessment and your consent, we may work around tension in your neck, shoulders or pelvis, or on rib cage mobility. Everyday movements you find difficult give us concrete points to discuss.
+
+**Let me know if you are having a flare-up: we can adapt the session or postpone it.**
+
+Manual techniques are chosen according to the assessment and your tolerance that day. If your situation calls for medical advice first, I will refer you rather than begin the session.
+
+## Why did I choose to focus on fibromyalgia?
+
+I chose fibromyalgia as the subject of my graduating thesis at the Institut d’enseignement de l’ostéopathie du Québec. This work has led me to read research on pain, touch and the experiences of people with fibromyalgia, and it informs how I adapt each session.
+
+My background in the arts taught me to pay close attention to what changes, and that sensitivity carries into my manual work. What you know about your own body is information I cannot get any other way.
+
+I am an **osteopathy intern (I.O.)**, RITMA member 11364. My thesis is still in progress; it is part of my training, not a medical specialty or proof of effectiveness. Read [about my background](/en/about/) or explore [fibromyalgia resources in Montréal](/en/chronic-conditions/fibromyalgia/montreal-resources/).
+
+## What happens after the session?
+
+At the end, I leave you with a few practical pointers for the week, adapted to your energy and the movements we discussed.
+
+Fatigue or soreness may occur in the **24 to 48 hours after a session**. This possibility is described in [NHS Wales information on reactions after appointments](https://111.wales.nhs.uk/encyclopaedia/o/article/osteopathy/); it does not happen to everyone and is not a sign of effectiveness. Tell me about any reaction. Seek medical advice if it is significant, unusual or persistent.
+
+We discuss your experience and whether further appointments are appropriate. **If nothing has changed for you, I will say so rather than keep asking you to return.** You remain free not to continue. Medical care and treatment decisions remain with your healthcare team.
+
+## Do I need a diagnosis first?
+
+**No, you can book without a prior diagnosis.** We discuss your situation to check whether a session is appropriate; medical advice may be needed before we begin. Assessing possible fibromyalgia is a physician’s responsibility. An osteopathy appointment cannot confirm the condition or rule out another cause of your symptoms. New, unusual or worsening symptoms warrant medical advice.
 
 ## Is osteopathy a treatment for fibromyalgia?
 
-No. Osteopathy is not a treatment for fibromyalgia, and it does not replace your medical care. It is added to it, and that is all it claims to do.
+**Osteopathy is not a treatment for fibromyalgia** and does not replace your medical care. I make no medical diagnosis and propose no changes to your medication or prescribed care. I promise neither results nor a set number of sessions.
 
-Manual work addresses what has built up around the pain:
+## Appointments in Verdun
 
-- areas of tension in the neck, the shoulders, the pelvis;
-- the mobility of the rib cage and diaphragm, often restricted when breathing turns shallow;
-- comfort in specific everyday movements, the ones you name at the start of the session.
+Sessions are available in French or English. Appointments last about an hour at Hakini, **4255 Wellington Street, suite 202**. Weekend appointments are often available; check the booking tool for current openings.
 
-What I do not do: promise improvement, set a number of sessions in advance, or ask you to stop anything in your current treatment. Decisions about your medication and your care belong to your physician.
 
-## A session when everything is sensitive
-
-An adapted session starts with choosing a position you can hold: on your back, on your side with cushions, seated if lying down is too uncomfortable. Breaks are part of the session, not a sign it failed.
-
-Concretely, the work goes mostly through the fascia, the sheets of tissue that connect muscles, joints and organs. Myofascial release techniques mean slow pressure, light stretching and sustained gentle traction. I often add cranial work and a rhythmic sequence of whole-body mobilisation, two approaches that ask little of the system.
-
-What I reduce or leave aside when touch is painful: direct articular techniques and muscle energy work, which need your active participation and demand more of you. They come back if and when your tolerance allows.
-
-Contact stays light, and I adapt what I do to what you can take that day rather than to a protocol. The appointment runs an hour like any other.
-
-At the end, I leave you a few pointers for the week, matched to your energy rather than to a standard programme.
-
-## Do you actually know fibromyalgia?
-
-Fibromyalgia is the subject of my graduating thesis, currently being written at the Institut d’enseignement de l’ostéopathie du Québec. That work is not finished, and I draw no promise of results from it.
-
-The subject also explains the time I spend listening before I put my hands anywhere. What people describe of their own experience is the most useful material I have.
-
-My background is set out on the [about](/en/about/) page, and the other reasons for consulting on the [chronic conditions](/en/chronic-conditions/) page.
+Read the [fees and insurance information](/en/fees-and-insurance/) before booking. I am an osteopathy intern; not every insurer reimburses this title. Check with yours.
