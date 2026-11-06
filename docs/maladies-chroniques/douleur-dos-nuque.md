@@ -34,7 +34,7 @@ Selon l’évaluation et votre accord, le travail peut concerner le dos, la nuqu
 
 ## Faut-il des craquements ?
 
-Vous n’avez pas à accepter une technique qui vous inquiète. Dites-moi vos appréhensions : nous discutons des gestes possibles avant de commencer et privilégions une approche adaptée à votre confort. Votre consentement reste nécessaire pendant toute la séance.
+J’utilise très rarement les techniques qui provoquent un craquement, et il est souvent possible de les éviter si elles vous inquiètent. Vous n’avez pas à accepter une technique qui vous fait peur. Dites-moi vos appréhensions : nous discutons des gestes possibles avant de commencer et privilégions une approche adaptée à votre confort. Votre consentement reste nécessaire pendant toute la séance.
 
 ## Avec quoi repart-on ?
 

@@ -34,7 +34,7 @@ Depending on the assessment and your consent, we may work around your back, neck
 
 ## Does it have to involve cracking?
 
-You do not have to accept a technique that worries you. Tell me about your concerns: we discuss possible movements before starting and favour an approach suited to your comfort. Your consent remains necessary throughout the session.
+I very rarely use techniques that produce a cracking sound, and we can often avoid them if they worry you. You do not have to accept a technique that makes you uncomfortable. Tell me about your concerns: we discuss possible movements before starting and favour an approach suited to your comfort. Your consent remains necessary throughout the session.
 
 ## What do you leave with?
 

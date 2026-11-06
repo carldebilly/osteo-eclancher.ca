@@ -27,7 +27,7 @@ L’objectif de la séance est de vous apporter un peu de soulagement et plus d�
 
 ## Est-ce que la séance va faire mal ?
 
-Si l’ostéopathie évoque pour vous des gestes brusques ou des craquements, il est compréhensible d’hésiter. Une séance mal vécue peut suffire à ne plus vouloir revenir. Vous pouvez me parler de cette appréhension avant tout contact.
+Si l’ostéopathie évoque pour vous des gestes brusques ou des craquements, il est compréhensible d’hésiter. Une séance mal vécue peut suffire à ne plus vouloir revenir. Vous pouvez me parler de cette appréhension avant tout contact. J’utilise très rarement les techniques qui provoquent un craquement. Si elles vous inquiètent, il est souvent possible de les éviter : nous discutons des autres gestes possibles, et vous pouvez toujours les refuser.
 
 Dans ma pratique, le contact reste léger et le rythme est le vôtre. Chaque geste est expliqué avant d’être proposé, et votre accord compte à chaque étape. Vous pouvez refuser un geste ou demander l’arrêt à tout moment, sans avoir à vous justifier.
 

@@ -27,7 +27,7 @@ The aim is a little relief and more ease in everyday movements: less tension in 
 
 ## Will the session hurt?
 
-If osteopathy brings sudden movements or cracking to mind, it is understandable to hesitate. A difficult session can be enough to put you off returning. You can tell me about that concern before any contact.
+If osteopathy brings sudden movements or cracking to mind, it is understandable to hesitate. A difficult session can be enough to put you off returning. You can tell me about that concern before any contact. I very rarely use techniques that produce a cracking sound. If they worry you, we can often avoid them: we discuss other possible approaches, and you can always decline these techniques.
 
 In my practice, contact stays light and you set the pace. I explain each movement before proposing it, and your consent matters at every step. You can decline a movement or ask me to stop at any time, without having to justify yourself.
 
