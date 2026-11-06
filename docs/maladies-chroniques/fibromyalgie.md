@@ -6,11 +6,23 @@ title: "Ostéopathie et fibromyalgie"
 seo_title: "Ostéopathie et fibromyalgie à Verdun · Julien Éclancher"
 description: "Julien Éclancher, interne en ostéopathie à Verdun. Déroulement des séances, adaptation au toucher et limites de la pratique en présence de fibromyalgie."
 eyebrow: "Comprendre la consultation"
-lead: "Vous vivez avec la fibromyalgie et vous vous renseignez sur une consultation en ostéopathie ? Voici le déroulement proposé et les limites de ma pratique."
+lead: "Quand le toucher est déjà douloureux, prendre rendez-vous peut demander de la confiance. Voici comment nous pouvons adapter la séance à ce que vous pouvez recevoir ce jour-là."
 date: 2026-09-06
 last_modified_at: 2026-11-05
 byline: true
 ---
+
+## Ce que la fibromyalgie fait vivre
+
+Des douleurs étendues, une fatigue que le repos ne corrige pas toujours, un sommeil qui ne répare plus. À cela peuvent s’ajouter des difficultés de concentration et de mémoire, qui compliquent même les petites choses du quotidien. **La douleur n’est pas imaginée.**
+
+Il y a aussi le chemin parcouru pour être entendu : passer d’un professionnel à l’autre, répéter son histoire, essayer plusieurs approches, parfois sans être cru. Cette errance thérapeutique peut laisser de la fatigue et de la méfiance. Si c’est votre expérience, cette méfiance est justifiée. Vous n’avez pas à me faire confiance d’emblée ; nous prenons le temps de parler de ce que vous souhaitez et de ce que vous ne voulez plus vivre.
+
+## Pourquoi une approche douce
+
+Si l’ostéopathie évoque pour vous des gestes brusques ou des craquements, il est compréhensible d’hésiter. Une séance mal vécue peut suffire à ne plus vouloir revenir. Vous pouvez me parler de cette appréhension avant tout contact.
+
+Dans ma pratique, le contact reste léger et le rythme est le vôtre. Chaque geste est expliqué avant d’être proposé, et votre accord compte à chaque étape. Vous pouvez refuser un geste ou demander l’arrêt à tout moment, sans avoir à vous justifier.
 
 ## L’ostéopathie est-elle un traitement de la fibromyalgie ?
 
@@ -30,7 +42,13 @@ Consultez les [tarifs et les conditions de remboursement](/tarifs-et-assurances/
 
 Nous commençons par parler de ce qui vous amène, de vos suivis en cours et de ce qui est confortable ou difficile pour vous. Une sensibilité au toucher, une fatigue importante ou une expérience précédente désagréable sont des éléments à me signaler.
 
-Je vous explique les gestes proposés et vous demande votre accord. La position, la pression et le rythme sont ajustés avec vous. Des pauses sont possibles et vous pouvez refuser un geste ou interrompre la séance à tout moment.
+Nous cherchons d’abord une position tenable : sur le dos, sur le côté avec des coussins, ou assis si rester allongé est trop inconfortable. Les pauses font partie de la séance, pas de son échec.
+
+Le travail peut prendre la forme de pressions lentes, de contacts légers ou de mobilisations douces. Quand le toucher fait mal, je mets de côté les techniques articulaires directes et les gestes trop sollicitants. La pression et le rythme restent ajustables tout au long de la séance.
+
+Selon l’évaluation et votre accord, nous pouvons aborder les tensions de la nuque, des épaules ou du bassin, ainsi que la mobilité de la cage thoracique. Les gestes du quotidien que vous trouvez difficiles nous donnent des repères concrets pour en parler.
+
+**Prévenez-moi si vous êtes en poussée : nous adaptons la séance ou la reportons.**
 
 Les techniques manuelles sont choisies selon l’évaluation et votre tolérance du jour. Si la situation appelle un avis médical préalable, je vous oriente plutôt que d’entreprendre la séance.
 
@@ -48,4 +66,4 @@ Vous pouvez lire [mon parcours](/a-propos/) ou consulter les [ressources pour la
 
 Une fatigue ou des courbatures peuvent survenir dans les **24 à 48 heures après la séance**. Cette possibilité est décrite dans les [informations de NHS Wales sur les effets après consultation](https://111.wales.nhs.uk/encyclopaedia/o/article/osteopathy/) ; elle n’est ni systématique ni un signe d’efficacité. Signalez-moi toute réaction. Si elle est importante, inhabituelle ou persistante, demandez un avis médical.
 
-Nous faisons le point sur votre expérience et sur la pertinence d’une suite. Vous restez libre de ne pas poursuivre. Le suivi médical et les décisions concernant votre traitement restent du ressort de votre équipe soignante.
+Nous faisons le point sur votre expérience et sur la pertinence d’une suite. **Si rien n’a bougé pour vous, je vous le dirai plutôt que de vous faire revenir.** Vous restez libre de ne pas poursuivre. Le suivi médical et les décisions concernant votre traitement restent du ressort de votre équipe soignante.
