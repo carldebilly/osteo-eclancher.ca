@@ -82,13 +82,11 @@ Bloating, irregular transit, a sense of abdominal tightness, once medical causes
 
 What remains after that is worked through the diaphragm, the abdominal wall and the mobility of the viscera.
 
-## Anxiety and chronic stress {#anxiety}
+## Anxiety and physical tension {#anxiety}
 
-Prolonged anxiety leaves recognisable physical traces: high, shallow breathing, raised shoulders, a clenched jaw, a locked neck, light sleep. That tension in turn feeds the sense of alertness, and the loop closes.
+Sessions focus on physical tension and mobility, as appropriate following an assessment. They are not psychotherapy and do not replace psychological or medical care.
 
-That is the part I can act on: giving the rib cage and diaphragm back some range, releasing what has locked up, and making you aware of signals you no longer notice.
-
-I am neither a psychologist nor a physician, and osteopathy does not replace mental health care. If you have none and the need is there, I will encourage you to raise it with your family doctor. In Québec, the Info-Social line at 811 is available at any hour.
+The page on [anxiety, tension and osteopathy](/en/anxiety-and-tension/) explains how a session works and the limits of my practice.
 
 ## When to see a physician first
 

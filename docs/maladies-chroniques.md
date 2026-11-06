@@ -84,13 +84,11 @@ Ballonnements, transit irrégulier, sensation de tension abdominale, une fois qu
 
 Ce qui reste ensuite se travaille par le diaphragme, la paroi abdominale et la mobilité des viscères.
 
-## Anxiété et stress chronique {#anxiete}
+## Anxiété et tensions physiques {#anxiete}
 
-L’anxiété prolongée laisse des traces physiques bien identifiables : respiration haute et courte, épaules remontées, mâchoire serrée, nuque bloquée, sommeil léger. Ces tensions entretiennent à leur tour la sensation d’alerte, et la boucle se referme.
+La consultation porte sur les tensions physiques et la mobilité, selon l’évaluation. Elle ne constitue pas une psychothérapie et ne remplace pas un suivi psychologique ou médical.
 
-C’est sur cette partie-là que je peux agir : redonner de l’amplitude à la cage thoracique et au diaphragme, relâcher ce qui s’est verrouillé, et vous rendre attentif à des signaux que vous ne remarquez plus.
-
-Je ne suis ni psychologue ni médecin, et l’ostéopathie ne remplace pas un suivi en santé mentale. Si vous n’en avez pas et que le besoin s’en fait sentir, je vous encouragerai à en parler à votre médecin de famille. Au Québec, la ligne Info-Social 811 est accessible en tout temps.
+La page [anxiété, tensions et ostéopathie](/anxiete-et-tensions/) explique le déroulement d’une séance et les limites de ma pratique.
 
 ## Quand consulter d’abord un médecin
 

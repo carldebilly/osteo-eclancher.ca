@@ -105,6 +105,7 @@ internal static class Rules
 		{
 			["home"] = ("/", "/en/"),
 			["fibromyalgia"] = ("/maladies-chroniques/fibromyalgie/", "/en/chronic-conditions/fibromyalgia/"),
+			["anxiety"] = ("/anxiete-et-tensions/", "/en/anxiety-and-tension/"),
 			["chronic"] = ("/maladies-chroniques/", "/en/chronic-conditions/"),
 			["fibromyalgia-resources"] = (
 				"/maladies-chroniques/fibromyalgie/ressources-montreal/",

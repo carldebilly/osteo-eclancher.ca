@@ -83,13 +83,13 @@ public sealed class DeontologyLintTests
 		Assert.Empty(found);
 	}
 
-	[Fact(DisplayName = "Both health pages say in writing that osteopathy adds to medical care rather than replacing it")]
+	[Fact(DisplayName = "All health pages say in writing that osteopathy adds to medical care rather than replacing it")]
 	public void Given_the_health_pages_When_reading_their_body_Then_each_defers_to_medical_care()
 	{
 		var problems = new List<string>();
 
 		foreach (var page in SourcePage.All()
-			.Where(static page => page.Ref is "fibromyalgia" or "chronic"))
+			.Where(static page => page.Ref is "fibromyalgia" or "chronic" or "anxiety"))
 		{
 			var text = page.Body;
 
