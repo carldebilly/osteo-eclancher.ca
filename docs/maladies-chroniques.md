@@ -88,6 +88,8 @@ Ce qui reste ensuite se travaille par le diaphragme, la paroi abdominale et la m
 
 La consultation porte sur les tensions physiques et la mobilité, selon l’évaluation. Elle ne constitue pas une psychothérapie et ne remplace pas un suivi psychologique ou médical.
 
+Pour de l’aide concernant l’anxiété elle-même, parlez-en à votre médecin de famille ou appelez le **811, option 2 — Info-Social**, un service gratuit et confidentiel. [Consulter les renseignements sur Info-Social](https://www.quebec.ca/sante/trouver-une-ressource/info-social-811).
+
 La page [anxiété, tensions et ostéopathie](/anxiete-et-tensions/) explique le déroulement d’une séance et les limites de ma pratique.
 
 ## Quand consulter d’abord un médecin

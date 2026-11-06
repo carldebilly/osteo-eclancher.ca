@@ -86,6 +86,8 @@ What remains after that is worked through the diaphragm, the abdominal wall and 
 
 Sessions focus on physical tension and mobility, as appropriate following an assessment. They are not psychotherapy and do not replace psychological or medical care.
 
+For help with anxiety itself, speak with your family doctor or call **811, option 2 — Info-Social**, a free and confidential service. [Read about Info-Social](https://www.quebec.ca/en/health/finding-a-resource/info-social-811).
+
 The page on [anxiety, tension and osteopathy](/en/anxiety-and-tension/) explains how a session works and the limits of my practice.
 
 ## When to see a physician first

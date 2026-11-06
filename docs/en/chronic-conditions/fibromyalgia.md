@@ -14,15 +14,15 @@ byline: true
 
 ## Is osteopathy a treatment for fibromyalgia?
 
-I am an **osteopathy intern (I.O.)**, RITMA member 11364. I see clients at Hakini in Verdun. Sessions focus on your comfort during manual work, tension and mobility, as appropriate following an assessment.
+I am an **osteopathy intern (I.O.)**, RITMA member 11364. I see clients at Hakini in Verdun. Sessions focus on physical tension and mobility, as appropriate following an assessment. I adapt the manual work to your comfort.
 
 **Osteopathy is not a treatment for fibromyalgia** and does not replace your medical care. I make no medical diagnosis and propose no changes to your medication or prescribed care. I promise neither results nor a set number of sessions.
 
 ## Appointments in Verdun
 
-Appointments last about an hour. Saturday and Sunday morning sessions are offered subject to the availability shown online, at Hakini, **4255 Wellington Street, suite 202**.
+Appointments last about an hour at Hakini, **4255 Wellington Street, suite 202**. Weekend appointments are often available; check the booking tool for current openings.
 
-{% include cta-booking.html placement="hero" %}
+{% include cta-booking.html placement="inline" %}
 
 Read the [fees and insurance information](/en/fees-and-insurance/) before booking. I am an osteopathy intern; not every insurer reimburses this title. Check with yours.
 
@@ -36,7 +36,7 @@ Manual techniques are chosen according to the assessment and your tolerance that
 
 ## Do I need a diagnosis first?
 
-Assessing possible fibromyalgia is a physician’s responsibility. An osteopathy appointment cannot confirm the condition or rule out another cause of your symptoms. New, unusual or worsening symptoms warrant medical advice.
+**No, you can book without a prior diagnosis.** We discuss your situation to check whether a session is appropriate; medical advice may be needed before we begin. Assessing possible fibromyalgia is a physician’s responsibility. An osteopathy appointment cannot confirm the condition or rule out another cause of your symptoms. New, unusual or worsening symptoms warrant medical advice.
 
 ## Why this subject interests me
 
@@ -45,5 +45,7 @@ Fibromyalgia is the subject of my graduating thesis, currently being written at 
 Read [about my background](/en/about/) or explore [fibromyalgia resources in Montréal](/en/chronic-conditions/fibromyalgia/montreal-resources/).
 
 ## After a first session
+
+Fatigue or soreness may occur in the **24 to 48 hours after a session**. This possibility is described in [NHS Wales information on reactions after appointments](https://111.wales.nhs.uk/encyclopaedia/o/article/osteopathy/); it does not happen to everyone and is not a sign of effectiveness. Tell me about any reaction. Seek medical advice if it is significant, unusual or persistent.
 
 We discuss your experience and whether further appointments are appropriate. You remain free not to continue. Medical care and treatment decisions remain with your healthcare team.

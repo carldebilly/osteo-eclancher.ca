@@ -14,7 +14,7 @@ public sealed class AnalyticsTests
 {
 	private static readonly IReadOnlySet<string> KnownPlacements = new HashSet<string>(StringComparer.Ordinal)
 	{
-		"nav", "hero", "contact", "band", "qr",
+		"nav", "hero", "inline", "contact", "band", "qr",
 	};
 
 	private static string InlineScripts(string url)

@@ -20,9 +20,9 @@ Je suis **interne en ostéopathie (I.O.)**, membre du RITMA sous le numéro 1136
 
 ## Consulter à Verdun
 
-Les rendez-vous durent environ une heure. Des consultations sont proposées le samedi et le dimanche matin, selon les disponibilités affichées en ligne, au **4255, rue Wellington, bureau 202**, chez Hakini.
+Les rendez-vous durent environ une heure, au **4255, rue Wellington, bureau 202**, chez Hakini. Il y a souvent des disponibilités la fin de semaine ; consultez l’outil de réservation pour voir les créneaux ouverts.
 
-{% include cta-booking.html placement="hero" %}
+{% include cta-booking.html placement="inline" %}
 
 Consultez les [tarifs et les conditions de remboursement](/tarifs-et-assurances/) avant de réserver. Mon titre est celui d’interne en ostéopathie ; tous les assureurs ne le remboursent pas. Vérifiez auprès du vôtre.
 
@@ -36,7 +36,7 @@ Les techniques manuelles sont choisies selon l’évaluation et votre tolérance
 
 ## Faut-il déjà avoir un diagnostic ?
 
-L’évaluation d’une possible fibromyalgie relève d’un médecin. Une consultation en ostéopathie ne permet ni de confirmer cette maladie ni d’écarter une autre cause à vos symptômes. Des symptômes nouveaux, inhabituels ou qui s’aggravent méritent un avis médical.
+**Non, vous pouvez prendre rendez-vous sans diagnostic préalable.** Nous discutons de votre situation pour vérifier si une séance est appropriée ; un avis médical peut être nécessaire avant de commencer. L’évaluation d’une possible fibromyalgie relève d’un médecin. Une consultation en ostéopathie ne permet ni de confirmer cette maladie ni d’écarter une autre cause à vos symptômes. Des symptômes nouveaux, inhabituels ou qui s’aggravent méritent un avis médical.
 
 ## Pourquoi ce sujet m’intéresse
 
@@ -45,5 +45,7 @@ La fibromyalgie est le sujet de mon mémoire de finissant, en cours de rédactio
 Vous pouvez lire [mon parcours](/a-propos/) ou consulter les [ressources pour la fibromyalgie à Montréal](/maladies-chroniques/fibromyalgie/ressources-montreal/).
 
 ## Et après une première séance ?
+
+Une fatigue ou des courbatures peuvent survenir dans les **24 à 48 heures après la séance**. Cette possibilité est décrite dans les [informations de NHS Wales sur les effets après consultation](https://111.wales.nhs.uk/encyclopaedia/o/article/osteopathy/) ; elle n’est ni systématique ni un signe d’efficacité. Signalez-moi toute réaction. Si elle est importante, inhabituelle ou persistante, demandez un avis médical.
 
 Nous faisons le point sur votre expérience et sur la pertinence d’une suite. Vous restez libre de ne pas poursuivre. Le suivi médical et les décisions concernant votre traitement restent du ressort de votre équipe soignante.

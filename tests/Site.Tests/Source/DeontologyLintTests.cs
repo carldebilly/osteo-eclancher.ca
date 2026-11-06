@@ -47,6 +47,29 @@ public sealed class DeontologyLintTests
 		return text;
 	}
 
+	[Theory]
+	[InlineData("Je traite l’anxiété.")]
+	[InlineData("Je traite l'anxiété.")]
+	[InlineData("Traiter l’anxiété")]
+	[InlineData("Un traitement de l'anxiété")]
+	[InlineData("Un traitement de l’anxiété")]
+	[InlineData("We treat anxiety.")]
+	[InlineData("Osteopathy treats anxiety.")]
+	[InlineData("A treatment for anxiety")]
+	public void Given_an_anxiety_treatment_claim_When_scanning_Then_it_is_rejected(string text)
+	{
+		Assert.Contains(Rules.ForbiddenClaims, rule => rule.Pattern.IsMatch(WithoutAllowedDisclaimers(text)));
+	}
+
+	[Theory]
+	[InlineData("L’ostéopathie n’est pas un traitement de l’anxiété.")]
+	[InlineData("Osteopathy is not a treatment for anxiety.")]
+	public void Given_an_anxiety_disclaimer_When_followed_by_a_claim_Then_only_the_disclaimer_is_exempt(string disclaimer)
+	{
+		Assert.DoesNotContain(Rules.ForbiddenClaims, rule => rule.Pattern.IsMatch(WithoutAllowedDisclaimers(disclaimer)));
+		Assert.Contains(Rules.ForbiddenClaims, rule => rule.Pattern.IsMatch(WithoutAllowedDisclaimers(disclaimer + " Osteopathy treats anxiety.")));
+	}
+
 	[Theory(DisplayName = "No source file promises recovery, claims a diagnosis or guarantees a result")]
 	[MemberData(nameof(AllTextFiles))]
 	public void Given_a_source_file_When_scanning_for_forbidden_claims_Then_none_is_present(string relativePath)
@@ -89,7 +112,7 @@ public sealed class DeontologyLintTests
 		var problems = new List<string>();
 
 		foreach (var page in SourcePage.All()
-			.Where(static page => page.Ref is "fibromyalgia" or "chronic" or "anxiety"))
+			.Where(static page => page.Ref is not null && Rules.HealthPageRefs.Contains(page.Ref)))
 		{
 			var text = page.Body;
 

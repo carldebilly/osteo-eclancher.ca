@@ -5,40 +5,46 @@ title: "Anxiété, tensions et ostéopathie"
 seo_title: "Anxiété et tensions · Consultation en ostéopathie à Verdun"
 description: "Julien Éclancher, interne en ostéopathie à Verdun. Une consultation centrée sur les tensions physiques, avec des limites claires face à l’anxiété."
 eyebrow: "Comprendre la consultation"
-lead: "Vous vous renseignez sur l’ostéopathie dans un contexte d’anxiété ? Ma pratique se limite au travail manuel sur les tensions physiques et la mobilité."
+lead: "Mâchoire serrée, nuque raide, épaules tendues ? Une séance commence par vous écouter, puis par convenir ensemble des gestes et du rythme."
 date: 2026-11-05
 last_modified_at: 2026-11-05
 byline: true
 ---
 
-## Ce que je propose, et ses limites
+## Quand les tensions prennent de la place
 
-Je suis **interne en ostéopathie (I.O.)**, membre du RITMA sous le numéro 11364. Je reçois à la clinique Hakini, à Verdun. La consultation porte sur les tensions physiques que vous souhaitez aborder et sur votre mobilité, selon ce que permet l’évaluation.
+La mâchoire reste serrée, la nuque est raide, les épaules remontent sans qu’on s’en rende compte. Certaines personnes qui vivent de l’anxiété décrivent aussi une respiration courte ou un sommeil difficile. Ces sensations peuvent avoir plusieurs causes ; elles ne suffisent pas à identifier un trouble anxieux.
 
-**Je ne propose pas de traitement de l’anxiété.** Une séance d’ostéopathie n’est pas une psychothérapie et ne remplace pas votre suivi psychologique ou médical. Je ne pose pas de diagnostic médical et ne propose aucune modification de votre médication ou des soins prescrits. Aucun résultat ni nombre de séances n’est promis.
+Si des tensions physiques vous amènent à envisager une consultation, nous pouvons prendre le temps de les aborder. Je suis **interne en ostéopathie (I.O.)**, membre du RITMA sous le numéro 11364, et je reçois chez Hakini, à Verdun.
+
+## Un cadre où vous gardez la main
+
+Vous n’avez pas à arriver détendu ni à savoir expliquer parfaitement ce que vous ressentez. Nous commençons par ce qui vous gêne dans les gestes ou les positions du quotidien, vos suivis en cours et ce qui vous met à l’aise.
+
+Avant chaque geste, je vous explique ce que je propose et vous demande votre accord. La pression, la position et le rythme se décident avec vous. Vous pouvez demander une pause, refuser un geste ou arrêter la séance, sans avoir à vous justifier.
+
+## Avant le premier rendez-vous
+
+**Et si le toucher m’inquiète ?** Dites-le-moi dès le début. Nous prenons le temps d’en parler avant tout contact. Votre accord peut changer en cours de séance.
+
+**Faut-il raconter tout ce que je vis ?** Vous pouvez dire qu’un sujet est difficile à aborder. Je vous explique les renseignements de santé nécessaires pour décider si le travail manuel convient, sans vous demander de raconter toute votre histoire personnelle.
+
+**Et si je n’arrive pas à me relâcher ?** Il n’y a pas de performance à réussir. Nous pouvons changer de position, ralentir ou interrompre la séance.
+
+## Les limites de ma pratique
+
+**L’ostéopathie n’est pas un traitement de l’anxiété.** La séance porte sur les tensions physiques et la mobilité, selon l’évaluation ; elle n’est pas une psychothérapie et ne remplace pas votre suivi psychologique ou médical. Je ne pose pas de diagnostic médical et ne propose aucune modification de votre médication ou des soins prescrits. Aucun résultat ni nombre de séances n’est promis.
 
 ## Consulter à Verdun
 
-Les rendez-vous durent environ une heure. Des consultations sont proposées le samedi et le dimanche matin, selon les disponibilités affichées en ligne, au **4255, rue Wellington, bureau 202**, chez Hakini.
+Les rendez-vous durent environ une heure, au **4255, rue Wellington, bureau 202**, chez Hakini. Il y a souvent des disponibilités la fin de semaine ; consultez l’outil de réservation pour voir les créneaux ouverts.
 
-{% include cta-booking.html placement="hero" %}
+{% include cta-booking.html placement="inline" %}
 
-Consultez les [tarifs et les conditions de remboursement](/tarifs-et-assurances/) avant de réserver. Mon titre est celui d’interne en ostéopathie ; tous les assureurs ne le remboursent pas. Vérifiez auprès du vôtre.
+Consultez les [tarifs et les conditions de remboursement](/tarifs-et-assurances/) avant de réserver. Mon titre est celui d’interne en ostéopathie ; tous les assureurs ne le remboursent pas. Vérifiez auprès du vôtre. Vous pouvez aussi lire [mon parcours](/a-propos/).
 
-## Une séance expliquée à chaque étape
+## Une démarche pour l’anxiété elle-même
 
-Nous commençons par parler des tensions qui vous amènent, par exemple dans la nuque, les épaules ou la mâchoire, et de vos suivis en cours. Cet échange sert à préparer le travail manuel ; il ne constitue pas une évaluation psychologique.
+Si l’anxiété dure, s’intensifie ou gêne votre quotidien, parlez-en à votre médecin de famille. Si vous ne savez pas par où commencer, appelez le **811, option 2 — Info-Social** : un professionnel en intervention psychosociale peut vous écouter, évaluer votre besoin et vous orienter. Ce service est gratuit et confidentiel. [En savoir plus sur Info-Social 811](https://www.quebec.ca/sante/trouver-une-ressource/info-social-811).
 
-Je vous explique les gestes proposés et vous demande votre accord. La position, la pression et le rythme sont ajustés avec vous. Des pauses sont possibles et vous pouvez refuser un geste ou interrompre la séance à tout moment.
-
-Les techniques manuelles sont choisies selon l’évaluation et votre tolérance du jour. Je ne présente pas une tension corporelle comme une preuve d’anxiété, ni le travail manuel comme un moyen de résoudre un trouble anxieux.
-
-## Quelle place pour votre suivi habituel ?
-
-Si votre demande concerne principalement l’anxiété, son diagnostic ou sa prise en charge, adressez-vous à un professionnel de santé habilité. La consultation en ostéopathie ne doit pas retarder cette démarche. Des symptômes nouveaux, inhabituels ou qui s’aggravent méritent un avis médical.
-
-Vous pouvez lire [mon parcours et mon titre](/a-propos/).
-
-## Et après une première séance ?
-
-Nous faisons le point sur votre expérience et sur la pertinence d’une suite. Vous restez libre de ne pas poursuivre. Les décisions concernant votre suivi en santé mentale restent du ressort des professionnels qui vous accompagnent.
+Des symptômes nouveaux, inhabituels ou qui s’aggravent méritent un avis médical. La page du gouvernement du Québec sur les [troubles anxieux](https://www.quebec.ca/sante/sante-mentale/s-informer-sur-sante-mentale-et-troubles-mentaux/mieux-comprendre-troubles-mentaux/troubles-anxieux) explique aussi quand demander de l’aide.

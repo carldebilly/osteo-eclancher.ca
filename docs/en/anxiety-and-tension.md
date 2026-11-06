@@ -5,40 +5,46 @@ title: "Anxiety, tension and osteopathy"
 seo_title: "Anxiety and tension · Osteopathy appointments in Verdun"
 description: "Julien Éclancher, osteopathy intern in Verdun. Appointments focused on physical tension, with clear limits regarding anxiety and mental health care."
 eyebrow: "Understanding an appointment"
-lead: "Considering osteopathy in the context of anxiety? My practice is limited to manual work on physical tension and mobility."
+lead: "A clenched jaw, a stiff neck, tight shoulders? A session starts with listening, then agreeing together on movements and pace."
 date: 2026-11-05
 last_modified_at: 2026-11-05
 byline: true
 ---
 
-## What I offer, and its limits
+## When tension takes up space
 
-I am an **osteopathy intern (I.O.)**, RITMA member 11364. I see clients at Hakini in Verdun. Sessions focus on the physical tension you wish to discuss and your mobility, as appropriate following an assessment.
+Your jaw stays clenched, your neck feels stiff, your shoulders creep upwards. Some people living with anxiety also describe shallow breathing or difficulty sleeping. These sensations can have several causes; they do not establish an anxiety disorder.
 
-**I do not offer treatment for anxiety.** An osteopathy session is not psychotherapy and does not replace your psychological or medical care. I make no medical diagnosis and propose no changes to your medication or prescribed care. I promise neither results nor a set number of sessions.
+If physical tension has you considering an appointment, we can take time to discuss it. I am an **osteopathy intern (I.O.)**, RITMA member 11364, and I see clients at Hakini in Verdun.
+
+## A setting where you stay in control
+
+You do not have to arrive relaxed or know exactly how to describe what you feel. We start with what bothers you in everyday movements or positions, your current care and what helps you feel comfortable.
+
+Before each movement, I explain what I propose and ask for your consent. We agree on pressure, position and pace together. You can ask for a break, decline a movement or stop the session without having to justify yourself.
+
+## Before your first appointment
+
+**What if touch worries me?** Tell me at the start. We take time to discuss it before any contact. You can change your mind during the session.
+
+**Do I have to share everything I am going through?** You can say that a subject is difficult to discuss. I explain what health information I need to decide whether manual work is appropriate, without asking for your entire personal history.
+
+**What if I cannot relax?** There is nothing you have to achieve. We can change position, slow down or stop the session.
+
+## The limits of my practice
+
+**Osteopathy is not a treatment for anxiety.** Sessions focus on physical tension and mobility, as appropriate following an assessment; they are not psychotherapy and this approach does not replace your psychological or medical care. I make no medical diagnosis and propose no changes to your medication or prescribed care. I promise neither results nor a set number of sessions.
 
 ## Appointments in Verdun
 
-Appointments last about an hour. Saturday and Sunday morning sessions are offered subject to the availability shown online, at Hakini, **4255 Wellington Street, suite 202**.
+Appointments last about an hour at Hakini, **4255 Wellington Street, suite 202**. Weekend appointments are often available; check the booking tool for current openings.
 
-{% include cta-booking.html placement="hero" %}
+{% include cta-booking.html placement="inline" %}
 
-Read the [fees and insurance information](/en/fees-and-insurance/) before booking. I am an osteopathy intern; not every insurer reimburses this title. Check with yours.
+Read the [fees and insurance information](/en/fees-and-insurance/) before booking. I am an osteopathy intern; not every insurer reimburses this title. Check with yours. You can also read [about my background](/en/about/).
 
-## A session explained at each step
+## Getting help with anxiety itself
 
-We begin by discussing the tension that brings you in, for example in your neck, shoulders or jaw, and your current care. This conversation prepares the manual work; it is not a psychological assessment.
+If anxiety persists, becomes more intense or disrupts daily life, speak with your family doctor. If you are unsure where to start, call **811, option 2 — Info-Social**: a psychosocial intervention professional can listen, assess your needs and guide you towards appropriate services. The service is free and confidential. [Learn about Info-Social 811](https://www.quebec.ca/en/health/finding-a-resource/info-social-811).
 
-I explain the proposed movements and ask for your consent. We adjust position, pressure and pace together. Breaks are possible, and you can decline a movement or stop the session at any time.
-
-Manual techniques are chosen according to the assessment and your tolerance that day. I do not present physical tension as evidence of anxiety or manual work as a way to resolve an anxiety disorder.
-
-## Where does your usual care fit?
-
-If your main concern is anxiety, its diagnosis or its management, contact an appropriately qualified health professional. An osteopathy appointment should not delay that step. New, unusual or worsening symptoms warrant medical advice.
-
-Read [about my background and title](/en/about/).
-
-## After a first session
-
-We discuss your experience and whether further appointments are appropriate. You remain free not to continue. Decisions about mental health care remain with the professionals supporting you.
+New, unusual or worsening symptoms warrant medical advice. The Québec government’s page on [anxiety disorders](https://www.quebec.ca/en/health/mental-health/learn-about-mental-health-and-mental-illnesses/best-understanding-mental-illnesses/anxiety-disorders) also explains when to seek help.
