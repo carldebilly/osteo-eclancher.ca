@@ -18,7 +18,7 @@ Your jaw stays clenched, your neck feels stiff, your shoulders creep upwards. So
 If physical tension has you considering an appointment, we can take time to discuss it. I am an **osteopathy intern (I.O.)**, RITMA member 11364, and I see clients at Hakini in Verdun.
 
 
-{% include cta-booking.html placement="inline" %}
+You can {% include cta-booking.html placement="inline" label="check availability" %} and choose a time that suits you.
 
 ## What can the session offer?
 

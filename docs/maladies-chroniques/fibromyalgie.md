@@ -19,7 +19,7 @@ Des douleurs étendues, une fatigue que le repos ne corrige pas toujours, un som
 Il y a aussi le chemin parcouru pour être entendu : passer d’un professionnel à l’autre, répéter son histoire, essayer plusieurs approches, parfois sans être cru. Cette errance thérapeutique peut laisser de la fatigue et de la méfiance. Si c’est votre expérience, cette méfiance est justifiée. Vous n’avez pas à me faire confiance d’emblée ; nous prenons le temps de parler de ce que vous souhaitez et de ce que vous ne voulez plus vivre.
 
 
-{% include cta-booking.html placement="inline" %}
+Vous pouvez {% include cta-booking.html placement="inline" label="consulter les disponibilités" %} et choisir un moment qui vous convient.
 
 ## Que peut-on rechercher ensemble ?
 

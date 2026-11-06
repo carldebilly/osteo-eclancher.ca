@@ -18,7 +18,7 @@ A back that becomes uncomfortable after sitting for a while, a stiff neck when d
 
 You can come with a simple goal: to address a particular movement, a position that is hard to hold or tension that is on your mind. I am an **osteopathy intern (I.O.)**, RITMA member 11364, and I see clients at Hakini in Verdun.
 
-{% include cta-booking.html placement="inline" %}
+You can {% include cta-booking.html placement="inline" label="check availability" %} and choose a time that suits you.
 
 ## What can we work towards together?
 

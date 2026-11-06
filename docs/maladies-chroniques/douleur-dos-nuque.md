@@ -18,7 +18,7 @@ Un dos qui devient inconfortable après un moment assis, une nuque raide en cond
 
 Vous pouvez venir avec un objectif simple : aborder un geste précis, une position difficile à tenir ou une tension qui vous occupe. Je suis **interne en ostéopathie (I.O.)**, membre du RITMA sous le numéro 11364, et je reçois chez Hakini, à Verdun.
 
-{% include cta-booking.html placement="inline" %}
+Vous pouvez {% include cta-booking.html placement="inline" label="consulter les disponibilités" %} et choisir un moment qui vous convient.
 
 ## Que peut-on rechercher ensemble ?
 

@@ -19,7 +19,7 @@ Widespread pain, fatigue that rest does not always ease, sleep that leaves you u
 There is also the journey to being heard: going from one professional to another, repeating your story, trying different approaches, sometimes without being believed. That search for care can leave you exhausted and wary. If this has been your experience, that mistrust is justified. You do not have to trust me straight away; we take time to discuss what you want and what you do not want to go through again.
 
 
-{% include cta-booking.html placement="inline" %}
+You can {% include cta-booking.html placement="inline" label="check availability" %} and choose a time that suits you.
 
 ## What can we work towards together?
 

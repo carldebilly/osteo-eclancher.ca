@@ -18,7 +18,7 @@ La mâchoire reste serrée, la nuque est raide, les épaules remontent sans qu�
 Si des tensions physiques vous amènent à envisager une consultation, nous pouvons prendre le temps de les aborder. Je suis **interne en ostéopathie (I.O.)**, membre du RITMA sous le numéro 11364, et je reçois chez Hakini, à Verdun.
 
 
-{% include cta-booking.html placement="inline" %}
+Vous pouvez {% include cta-booking.html placement="inline" label="consulter les disponibilités" %} et choisir un moment qui vous convient.
 
 ## Qu’est-ce que la séance peut vous apporter ?
 
